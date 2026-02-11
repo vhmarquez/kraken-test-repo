@@ -1,16 +1,12 @@
-# List files or directories that should be ignored when pushing to an org
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
 
-# Static resources
-**/staticresources/*.resource
-**/staticresources/*.resource-meta.xml
+package.xml
 
-# LWC Jest tests
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
 **/__tests__/**
-
-# Standard git ignore files
-.git/
-.gitignore
-
-# SFDX temporary files
-.sfdx/
-.localdevserver/

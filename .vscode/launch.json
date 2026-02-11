@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "logFile": "${command:AskForLogFileName}",
+      "name": "Launch Apex Replay Debugger",
+      "request": "launch",
+      "stopOnEntry": true,
+      "trace": true,
+      "type": "apex-replay"
+    }
+  ],
+  "version": "0.2.0"
+}
