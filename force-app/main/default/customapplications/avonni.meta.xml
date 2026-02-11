@@ -1,0 +1,38 @@
+{
+  "actionOverrides": [],
+  "brand": {
+    "footerColor": null,
+    "headerColor": "#0070D2",
+    "logo": null,
+    "logoVersion": null,
+    "shouldOverrideOrgTheme": false
+  },
+  "consoleConfig": null,
+  "defaultLandingTab": null,
+  "description": null,
+  "formFactors": [
+    "Small",
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": false,
+  "isNavPersonalizationDisabled": false,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": "avonni",
+  "logo": null,
+  "navType": "Standard",
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": null,
+  "subscriberTabs": [],
+  "tabSetType": null,
+  "tabs": [
+    "Home",
+    "KrakenDataTableConfig__c"
+  ],
+  "uiType": "Lightning",
+  "urls": null,
+  "utilityBar": "avonni_UtilityBar",
+  "workspaceConfig": null
+}

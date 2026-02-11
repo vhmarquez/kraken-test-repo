@@ -1,0 +1,12 @@
+{
+  "creationAgeInSeconds": null,
+  "description": "Member criteria matches members who haven't  posted or commented",
+  "lastChatterActivityAgeInSeconds": -1,
+  "masterLabel": "Members Without Contributions",
+  "profiles": [],
+  "urls": null,
+  "userTypes": [
+    "Partner",
+    "Customer"
+  ]
+}

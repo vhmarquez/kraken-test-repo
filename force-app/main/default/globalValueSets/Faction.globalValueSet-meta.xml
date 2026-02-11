@@ -1,0 +1,26 @@
+{
+  "customValue": [
+    {
+      "color": null,
+      "default": false,
+      "description": null,
+      "isActive": null,
+      "label": "Horde",
+      "urls": null,
+      "valueName": "Horde"
+    },
+    {
+      "color": null,
+      "default": false,
+      "description": null,
+      "isActive": null,
+      "label": "Alliance",
+      "urls": null,
+      "valueName": "Alliance"
+    }
+  ],
+  "description": null,
+  "masterLabel": "Faction",
+  "sorted": false,
+  "urls": null
+}

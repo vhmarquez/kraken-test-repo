@@ -1,0 +1,32 @@
+{
+  "action": "Review",
+  "actionLimit": null,
+  "active": false,
+  "description": "Community moderators review the first post or comment from new members",
+  "entitiesAndFields": [
+    {
+      "entityName": "FeedItem",
+      "fieldName": null,
+      "keywordList": null
+    },
+    {
+      "entityName": "FeedComment",
+      "fieldName": null,
+      "keywordList": null
+    },
+    {
+      "entityName": "FeedPollChoice",
+      "fieldName": null,
+      "keywordList": null
+    }
+  ],
+  "masterLabel": "Review the first post or comment made by a new member",
+  "notifyLimit": null,
+  "timePeriod": null,
+  "type": "Content",
+  "urls": null,
+  "userCriteria": [
+    "Portfolio.Members_without_contribution"
+  ],
+  "userMessage": "You can't use %BLOCKED_KEYWORD% or other inappropriate words in this community. Review your content and try again."
+}

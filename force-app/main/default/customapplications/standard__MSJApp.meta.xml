@@ -1,0 +1,52 @@
+{
+  "actionOverrides": [],
+  "brand": null,
+  "consoleConfig": null,
+  "defaultLandingTab": null,
+  "description": null,
+  "formFactors": [
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": false,
+  "isNavPersonalizationDisabled": false,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": "MSJ App",
+  "logo": null,
+  "navType": "Console",
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": null,
+  "subscriberTabs": [],
+  "tabSetType": null,
+  "tabs": [
+    "standard-JourneyHome",
+    "standard-SalesforceJourney",
+    "standard-JourneyMap",
+    "KrakenDataTableConfig__c"
+  ],
+  "uiType": "Lightning",
+  "urls": null,
+  "utilityBar": null,
+  "workspaceConfig": {
+    "mappings": [
+      {
+        "fieldName": null,
+        "tab": "KrakenDataTableConfig__c"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-JourneyHome"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-JourneyMap"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-SalesforceJourney"
+      }
+    ]
+  }
+}

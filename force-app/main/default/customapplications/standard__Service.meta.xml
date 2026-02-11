@@ -1,0 +1,38 @@
+{
+  "actionOverrides": [],
+  "brand": null,
+  "consoleConfig": null,
+  "defaultLandingTab": "standard-home",
+  "description": null,
+  "formFactors": [
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": false,
+  "isNavPersonalizationDisabled": false,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": null,
+  "logo": null,
+  "navType": null,
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": null,
+  "subscriberTabs": null,
+  "tabSetType": null,
+  "tabs": [
+    "standard-Chatter",
+    "standard-Account",
+    "standard-Contact",
+    "standard-Case",
+    "standard-Solution",
+    "standard-report",
+    "standard-Dashboard",
+    "KrakenDataTableConfig__c",
+    "Knowledge__kav"
+  ],
+  "uiType": null,
+  "urls": null,
+  "utilityBar": null,
+  "workspaceConfig": null
+}

@@ -1,0 +1,47 @@
+{
+  "actionOverrides": [],
+  "brand": null,
+  "consoleConfig": null,
+  "defaultLandingTab": null,
+  "description": null,
+  "formFactors": [
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": false,
+  "isNavPersonalizationDisabled": false,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": "Subscription Management",
+  "logo": null,
+  "navType": "Console",
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": null,
+  "subscriberTabs": [],
+  "tabSetType": null,
+  "tabs": [
+    "standard-Product2",
+    "standard-Pricebook2",
+    "KrakenDataTableConfig__c"
+  ],
+  "uiType": "Lightning",
+  "urls": null,
+  "utilityBar": "RevenueCloudConsole_UtilityBar",
+  "workspaceConfig": {
+    "mappings": [
+      {
+        "fieldName": null,
+        "tab": "KrakenDataTableConfig__c"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Pricebook2"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Product2"
+      }
+    ]
+  }
+}

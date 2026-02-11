@@ -1,0 +1,47 @@
+{
+  "actionOverrides": [],
+  "brand": {
+    "footerColor": null,
+    "headerColor": "#E1D13C",
+    "logo": "svgviewerpngoutput_1",
+    "logoVersion": 1,
+    "shouldOverrideOrgTheme": true
+  },
+  "consoleConfig": null,
+  "defaultLandingTab": null,
+  "description": "App to help guild leadership manage their World of Warcraft Guild",
+  "formFactors": [
+    "Small",
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": false,
+  "isNavPersonalizationDisabled": true,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": "WoW Guild Manager",
+  "logo": null,
+  "navType": "Standard",
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": null,
+  "subscriberTabs": [],
+  "tabSetType": null,
+  "tabs": [
+    "standard-Lead",
+    "standard-Opportunity",
+    "standard-Contact",
+    "Class__c",
+    "Specialization__c",
+    "Realm__c",
+    "Race__c",
+    "Character_Model__c",
+    "Guild_Applicant__c",
+    "Guild_Member__c",
+    "KrakenDataTableConfig__c"
+  ],
+  "uiType": "Lightning",
+  "urls": null,
+  "utilityBar": "WoW_Guild_Manager_UtilityBar",
+  "workspaceConfig": null
+}

@@ -1,0 +1,1385 @@
+{
+  "description": null,
+  "events": [],
+  "flexiPageRegions": [
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "actionNames",
+                "type": null,
+                "value": null,
+                "valueList": {
+                  "valueListItems": [
+                    {
+                      "value": "Global.NewTask",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Global.NewNote",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Edit",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Delete",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "FeedItem.ContentPost",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "FeedItem.TextPost",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Global.LogACall",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Global.NewCase",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Global.NewEvent",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "FeedItem.LinkPost",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "FeedItem.PollPost",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "FeedItem.QuestionPost",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Submit",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Clone",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "XClean",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Share",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "ChangeRecordType",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "ChangeOwnerOne",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "Convert",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "CallHighlightAction",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "SmsHighlightAction",
+                      "visibilityRule": null
+                    },
+                    {
+                      "value": "EmailHighlightAction",
+                      "visibilityRule": null
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "collapsed",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "enableActionsConfiguration",
+                "type": null,
+                "value": "true",
+                "valueList": null
+              },
+              {
+                "name": "enableActionsInNative",
+                "type": null,
+                "value": "true",
+                "valueList": null
+              },
+              {
+                "name": "hideChatterActions",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "numVisibleActions",
+                "type": null,
+                "value": "4",
+                "valueList": null
+              }
+            ],
+            "componentName": "force:highlightsPanel",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "force_highlightsPanel",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "header",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "hideUpdateButton",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "variant",
+                "type": null,
+                "value": "linear",
+                "valueList": null
+              }
+            ],
+            "componentName": "runtime_sales_lead:pathAssistant",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "runtime_sales_lead_pathAssistant",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "subheader",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "required"
+              }
+            ],
+            "fieldItem": "Record.Name",
+            "identifier": "RecordNameField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Faction__c",
+            "identifier": "RecordFaction_cField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Incident__c",
+            "identifier": "RecordIncident_cField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Incident_Reason__c",
+            "identifier": "RecordIncident_Reason_cField",
+            "visibilityRule": {
+              "booleanFilter": null,
+              "criteria": [
+                {
+                  "leftValue": "{!Record.Incident__c}",
+                  "operator": "EQUAL",
+                  "rightValue": "true"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "mode": null,
+      "name": "Facet-721f9c12-780b-4272-8369-1f1693257b60",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Phone",
+            "identifier": "RecordPhoneField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.MobilePhone",
+            "identifier": "RecordMobilePhoneField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Email",
+            "identifier": "RecordEmailField",
+            "visibilityRule": null
+          }
+        }
+      ],
+      "mode": null,
+      "name": "Facet-9131dbce-2bfe-4ebe-904a-1b9aea2b14aa",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-721f9c12-780b-4272-8369-1f1693257b60",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-9131dbce-2bfe-4ebe-904a-1b9aea2b14aa",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column2",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-a404f9fb-5360-42bc-a8ba-caba693a1e97",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Class__c",
+            "identifier": "RecordClass_cField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Main_Spec__c",
+            "identifier": "RecordMain_Spec_cField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Item_Level__c",
+            "identifier": "RecordItem_Level_cField",
+            "visibilityRule": null
+          }
+        }
+      ],
+      "mode": null,
+      "name": "Facet-5965f4ea-08f5-41d2-bad9-7dfdd65f0834",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.Level__c",
+            "identifier": "RecordLevel_cField",
+            "visibilityRule": null
+          }
+        }
+      ],
+      "mode": null,
+      "name": "Facet-e8e78e52-4528-49c0-8b47-332ec69a1c7d",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-5965f4ea-08f5-41d2-bad9-7dfdd65f0834",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column3",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-e8e78e52-4528-49c0-8b47-332ec69a1c7d",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column4",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-c77efb8d-3a30-4c4b-9606-6d09e6946827",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "required"
+              }
+            ],
+            "fieldItem": "Record.Status",
+            "identifier": "RecordStatusField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "none"
+              }
+            ],
+            "fieldItem": "Record.LeadSource",
+            "identifier": "RecordLeadSourceField",
+            "visibilityRule": null
+          }
+        }
+      ],
+      "mode": null,
+      "name": "Facet-aa830b63-a8c2-4990-b4e4-a6957cc7c25b",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "required"
+              }
+            ],
+            "fieldItem": "Record.Company",
+            "identifier": "RecordCompanyField",
+            "visibilityRule": null
+          }
+        },
+        {
+          "componentInstance": null,
+          "fieldInstance": {
+            "fieldInstanceProperties": [
+              {
+                "name": "uiBehavior",
+                "value": "readonly"
+              }
+            ],
+            "fieldItem": "Record.OwnerId",
+            "identifier": "RecordOwnerIdField",
+            "visibilityRule": null
+          }
+        }
+      ],
+      "mode": null,
+      "name": "Facet-33d62f8f-625e-4cf6-a93b-3d0c59209246",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-aa830b63-a8c2-4990-b4e4-a6957cc7c25b",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column5",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-33d62f8f-625e-4cf6-a93b-3d0c59209246",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column6",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-f7697556-ac07-4198-9546-854831364989",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "Facet-217d7e4e-abac-494f-89f5-44651d55a564",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "Facet-a8a2172e-cffe-4136-91f4-ddf4728ff2d2",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-217d7e4e-abac-494f-89f5-44651d55a564",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column7",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-a8a2172e-cffe-4136-91f4-ddf4728ff2d2",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column8",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-c86e1794-e4fe-4b56-8636-e6b3fd6f6e81",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "Facet-64b0e8ac-5734-4d99-a0e8-65ae437750bd",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "Facet-ef3f9dfc-b8af-4d9f-a5b2-f0f5205a9aec",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-64b0e8ac-5734-4d99-a0e8-65ae437750bd",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column9",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-ef3f9dfc-b8af-4d9f-a5b2-f0f5205a9aec",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column10",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-8b142591-f997-4beb-aa78-adb45516a5cb",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "Facet-6e4f51e0-96e9-4cde-b8f7-54f051cc293a",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "Facet-e2f1be1a-d0d0-463b-9567-e58fca15f390",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-6e4f51e0-96e9-4cde-b8f7-54f051cc293a",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column11",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-e2f1be1a-d0d0-463b-9567-e58fca15f390",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column12",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-7caeed22-47f9-490f-a26c-1d9a2e15bbb3",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "Facet-840d6168-89bc-4a96-a6b0-815cdd3786c1",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-840d6168-89bc-4a96-a6b0-815cdd3786c1",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:column",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_column13",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-1179563b-acf7-4776-9346-a328e92fa1cc",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "columns",
+                "type": null,
+                "value": "Facet-a404f9fb-5360-42bc-a8ba-caba693a1e97",
+                "valueList": null
+              },
+              {
+                "name": "horizontalAlignment",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "label",
+                "type": null,
+                "value": "@@@SFDCLead_InformationSFDC@@@",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:fieldSection",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_fieldSection",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "columns",
+                "type": null,
+                "value": "Facet-c77efb8d-3a30-4c4b-9606-6d09e6946827",
+                "valueList": null
+              },
+              {
+                "name": "horizontalAlignment",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "label",
+                "type": null,
+                "value": "Character Summary",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:fieldSection",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_fieldSection2",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "columns",
+                "type": null,
+                "value": "Facet-f7697556-ac07-4198-9546-854831364989",
+                "valueList": null
+              },
+              {
+                "name": "horizontalAlignment",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "label",
+                "type": null,
+                "value": "Source Information",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:fieldSection",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_fieldSection3",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "columns",
+                "type": null,
+                "value": "Facet-c86e1794-e4fe-4b56-8636-e6b3fd6f6e81",
+                "valueList": null
+              },
+              {
+                "name": "horizontalAlignment",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "label",
+                "type": null,
+                "value": "@@@SFDCAddress_InformationSFDC@@@",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:fieldSection",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_fieldSection4",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "columns",
+                "type": null,
+                "value": "Facet-8b142591-f997-4beb-aa78-adb45516a5cb",
+                "valueList": null
+              },
+              {
+                "name": "horizontalAlignment",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "label",
+                "type": null,
+                "value": "@@@SFDCAdditional_InformationSFDC@@@",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:fieldSection",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_fieldSection5",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "columns",
+                "type": null,
+                "value": "Facet-7caeed22-47f9-490f-a26c-1d9a2e15bbb3",
+                "valueList": null
+              },
+              {
+                "name": "horizontalAlignment",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "label",
+                "type": null,
+                "value": "@@@SFDCSystem_InformationSFDC@@@",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:fieldSection",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_fieldSection6",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "columns",
+                "type": null,
+                "value": "Facet-1179563b-acf7-4776-9346-a328e92fa1cc",
+                "valueList": null
+              },
+              {
+                "name": "horizontalAlignment",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "label",
+                "type": null,
+                "value": "@@@SFDCDescription_InformationSFDC@@@",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:fieldSection",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_fieldSection7",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [],
+            "componentName": "force:recordDetailPanelMobile",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "force_recordDetailPanelMobile",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "detailTabContent",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "showLegacyActivityComposer",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              }
+            ],
+            "componentName": "runtime_sales_activities:activityPanel",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "runtime_sales_activities_activityPanel",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "activityTabContent",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "active",
+                "type": null,
+                "value": "true",
+                "valueList": null
+              },
+              {
+                "name": "body",
+                "type": null,
+                "value": "detailTabContent",
+                "valueList": null
+              },
+              {
+                "name": "title",
+                "type": null,
+                "value": "Standard.Tab.detail",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:tab",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "detailTab",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "active",
+                "type": null,
+                "value": "false",
+                "valueList": null
+              },
+              {
+                "name": "body",
+                "type": null,
+                "value": "activityTabContent",
+                "valueList": null
+              },
+              {
+                "name": "title",
+                "type": null,
+                "value": "Standard.Tab.activity",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:tab",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "activityTab",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "tabs",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "tabs",
+                "type": null,
+                "value": "tabs",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:tabset",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_tabset",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "main",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "displayOption",
+                "type": null,
+                "value": "BOTH",
+                "valueList": null
+              }
+            ],
+            "componentName": "runtime_sales_merge:mergeCandidatesPreviewCard",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "runtime_sales_merge_mergeCandidatesPreviewCard",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "relatedListComponentOverride",
+                "type": null,
+                "value": "NONE",
+                "valueList": null
+              },
+              {
+                "name": "rowsToDisplay",
+                "type": null,
+                "value": "10",
+                "valueList": null
+              },
+              {
+                "name": "showActionBar",
+                "type": null,
+                "value": "true",
+                "valueList": null
+              }
+            ],
+            "componentName": "force:relatedListContainer",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "force_relatedListContainer",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "relatedListTabContent",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [],
+            "componentName": "forceChatter:recordFeedContainer",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "forceChatter_recordFeedContainer",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "Facet-b531fd98-6083-467e-8c4a-6f7c30c02fd6",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "active",
+                "type": null,
+                "value": "true",
+                "valueList": null
+              },
+              {
+                "name": "body",
+                "type": null,
+                "value": "relatedListTabContent",
+                "valueList": null
+              },
+              {
+                "name": "title",
+                "type": null,
+                "value": "Standard.Tab.relatedLists",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:tab",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "relatedListTab",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "body",
+                "type": null,
+                "value": "Facet-b531fd98-6083-467e-8c4a-6f7c30c02fd6",
+                "valueList": null
+              },
+              {
+                "name": "title",
+                "type": null,
+                "value": "Standard.Tab.collaborate",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:tab",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_tab",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "sidebartabs",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Facet"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [
+              {
+                "name": "tabs",
+                "type": null,
+                "value": "sidebartabs",
+                "valueList": null
+              }
+            ],
+            "componentName": "flexipage:tabset",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "flexipage_sidebar_tabset",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": "Replace",
+      "name": "sidebar",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    }
+  ],
+  "masterLabel": "Lead Record Page",
+  "parentFlexiPage": "runtime_sales_lead__Lead_rec_L",
+  "platformActionlist": null,
+  "quickActionList": null,
+  "sobjectType": "Lead",
+  "template": {
+    "componentType": null,
+    "flexipageDataSources": null,
+    "identifier": null,
+    "name": "flexipage:recordHomeWithSubheaderTemplateDesktop",
+    "properties": [
+      {
+        "name": "saveOptions",
+        "type": null,
+        "value": "[{\"name\":\"UseDefaultAssignmentRule\",\"value\":\"SHOW_CHECKBOX_WITH_DEFAULT_OFF\"}]",
+        "valueList": null
+      }
+    ],
+    "schemaProperties": []
+  },
+  "type": "RecordPage",
+  "urls": null
+}

@@ -1,0 +1,32 @@
+{
+  "action": "FreezeAndNotify",
+  "actionLimit": 10,
+  "active": false,
+  "description": "Freezes members who post or comment more frequently than is allowed",
+  "entitiesAndFields": [
+    {
+      "entityName": "FeedItem",
+      "fieldName": null,
+      "keywordList": null
+    },
+    {
+      "entityName": "FeedComment",
+      "fieldName": null,
+      "keywordList": null
+    },
+    {
+      "entityName": "FeedPollChoice",
+      "fieldName": null,
+      "keywordList": null
+    }
+  ],
+  "masterLabel": "Freeze members whose posts or comments exceed the allowed rate",
+  "notifyLimit": null,
+  "timePeriod": "Short",
+  "type": "Rate",
+  "urls": null,
+  "userCriteria": [
+    "Portfolio.Partner_and_Customer_members"
+  ],
+  "userMessage": null
+}

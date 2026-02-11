@@ -1,0 +1,12 @@
+{
+  "creationAgeInSeconds": null,
+  "description": "Member criteria matches customer and partner member",
+  "lastChatterActivityAgeInSeconds": null,
+  "masterLabel": "Customer and Partner Members",
+  "profiles": [],
+  "urls": null,
+  "userTypes": [
+    "Partner",
+    "Customer"
+  ]
+}

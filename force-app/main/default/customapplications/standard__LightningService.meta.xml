@@ -1,0 +1,88 @@
+{
+  "actionOverrides": [],
+  "brand": null,
+  "consoleConfig": null,
+  "defaultLandingTab": null,
+  "description": null,
+  "formFactors": [
+    "Small",
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": false,
+  "isNavPersonalizationDisabled": false,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": "Service Console",
+  "logo": null,
+  "navType": "Console",
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": "service",
+  "subscriberTabs": [],
+  "tabSetType": null,
+  "tabs": [
+    "standard-Case",
+    "standard-Contact",
+    "standard-Account",
+    "standard-report",
+    "standard-Dashboard",
+    "standard-home",
+    "standard-Incident",
+    "standard-Problem",
+    "standard-ChangeRequest",
+    "KrakenDataTableConfig__c",
+    "Knowledge__kav"
+  ],
+  "uiType": "Lightning",
+  "urls": null,
+  "utilityBar": "LightningService_UtilityBar",
+  "workspaceConfig": {
+    "mappings": [
+      {
+        "fieldName": null,
+        "tab": "Knowledge__kav"
+      },
+      {
+        "fieldName": null,
+        "tab": "KrakenDataTableConfig__c"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Account"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Case"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-ChangeRequest"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Contact"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Dashboard"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Incident"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-Problem"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-home"
+      },
+      {
+        "fieldName": null,
+        "tab": "standard-report"
+      }
+    ]
+  }
+}

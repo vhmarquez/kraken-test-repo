@@ -1,6 +1,7 @@
 {
   "actionCalls": [
     {
+      "actionCallPaths": [],
       "actionName": "WoWCharacter",
       "actionType": "apex",
       "connector": {
@@ -10,15 +11,20 @@
       },
       "dataTypeMappings": [
         {
+          "apexClass": null,
           "processMetadataValues": [],
           "typeName": "U__output",
-          "typeValue": "Guild_Applicant__c"
+          "typeValue": "Guild_Applicant__c",
+          "valueMappingKey": null,
+          "valueMappingTarget": null,
+          "valueMappingTransformType": null
         }
       ],
       "description": null,
       "elementSubtype": null,
       "faultConnector": null,
       "flowTransactionModel": "CurrentTransaction",
+      "group": null,
       "inputParameters": [
         {
           "name": "args",
@@ -26,31 +32,43 @@
           "value": {
             "apexValue": null,
             "booleanValue": null,
+            "collectionElements": null,
+            "complexValue": null,
+            "complexValueType": null,
             "dateTimeValue": null,
             "dateValue": null,
             "elementReference": "Realm_and_Character",
             "formulaDataType": null,
             "formulaExpression": null,
+            "inputConfiguratorMode": null,
             "numberValue": null,
             "setupReference": null,
             "setupReferenceType": null,
             "sobjectValue": null,
-            "stringValue": null
+            "stringValue": null,
+            "timeValue": null,
+            "transform": null,
+            "transformValueReference": null
           }
         }
       ],
+      "isWaitUntilCompleted": null,
       "label": "Create WoW Character",
       "locationX": 314,
       "locationY": 384,
       "name": "Create_WoW_Character",
       "nameSegment": "WoWCharacter",
+      "offset": 0,
+      "offsetUnit": null,
       "outputConfigParams": [],
       "outputParameters": [],
       "processMetadataValues": [],
       "storeOutputAutomatically": true,
-      "versionSegment": null
+      "timeoutConnector": null,
+      "versionString": null
     },
     {
+      "actionCallPaths": [],
       "actionName": "NewTask",
       "actionType": "quickAction",
       "connector": null,
@@ -59,6 +77,7 @@
       "elementSubtype": null,
       "faultConnector": null,
       "flowTransactionModel": "CurrentTransaction",
+      "group": null,
       "inputParameters": [
         {
           "name": "contextId",
@@ -66,16 +85,23 @@
           "value": {
             "apexValue": null,
             "booleanValue": null,
+            "collectionElements": null,
+            "complexValue": null,
+            "complexValueType": null,
             "dateTimeValue": null,
             "dateValue": null,
             "elementReference": "$Record.Id",
             "formulaDataType": null,
             "formulaExpression": null,
+            "inputConfiguratorMode": null,
             "numberValue": null,
             "setupReference": null,
             "setupReferenceType": null,
             "sobjectValue": null,
-            "stringValue": null
+            "stringValue": null,
+            "timeValue": null,
+            "transform": null,
+            "transformValueReference": null
           }
         },
         {
@@ -84,16 +110,23 @@
           "value": {
             "apexValue": null,
             "booleanValue": null,
+            "collectionElements": null,
+            "complexValue": null,
+            "complexValueType": null,
             "dateTimeValue": null,
             "dateValue": null,
             "elementReference": null,
             "formulaDataType": null,
             "formulaExpression": null,
+            "inputConfiguratorMode": null,
             "numberValue": null,
             "setupReference": null,
             "setupReferenceType": null,
             "sobjectValue": null,
-            "stringValue": "Reach out to the Applicant in-game, introduce yourself and let them know their application is under review."
+            "stringValue": "Reach out to the Applicant in-game, introduce yourself and let them know their application is under review.",
+            "timeValue": null,
+            "transform": null,
+            "transformValueReference": null
           }
         },
         {
@@ -102,33 +135,45 @@
           "value": {
             "apexValue": null,
             "booleanValue": null,
+            "collectionElements": null,
+            "complexValue": null,
+            "complexValueType": null,
             "dateTimeValue": null,
             "dateValue": null,
             "elementReference": "$User.Id",
             "formulaDataType": null,
             "formulaExpression": null,
+            "inputConfiguratorMode": null,
             "numberValue": null,
             "setupReference": null,
             "setupReferenceType": null,
             "sobjectValue": null,
-            "stringValue": null
+            "stringValue": null,
+            "timeValue": null,
+            "transform": null,
+            "transformValueReference": null
           }
         }
       ],
+      "isWaitUntilCompleted": null,
       "label": "Reach out to applicant",
       "locationX": 50,
       "locationY": 276,
       "name": "Reach_out_to_applicant",
       "nameSegment": "NewTask",
+      "offset": 0,
+      "offsetUnit": null,
       "outputConfigParams": [],
       "outputParameters": [],
       "processMetadataValues": [],
       "storeOutputAutomatically": null,
-      "versionSegment": null
+      "timeoutConnector": null,
+      "versionString": null
     }
   ],
   "apexPluginCalls": [],
   "apiVersion": 62.0,
+  "areMetricsLoggedToDataCloud": false,
   "assignments": [
     {
       "assignmentItems": [
@@ -139,16 +184,23 @@
           "value": {
             "apexValue": null,
             "booleanValue": null,
+            "collectionElements": null,
+            "complexValue": null,
+            "complexValueType": null,
             "dateTimeValue": null,
             "dateValue": null,
             "elementReference": "$Record.Realm__r.Realm_Slug__c",
             "formulaDataType": null,
             "formulaExpression": null,
+            "inputConfiguratorMode": null,
             "numberValue": null,
             "setupReference": null,
             "setupReferenceType": null,
             "sobjectValue": null,
-            "stringValue": null
+            "stringValue": null,
+            "timeValue": null,
+            "transform": null,
+            "transformValueReference": null
           }
         },
         {
@@ -158,16 +210,23 @@
           "value": {
             "apexValue": null,
             "booleanValue": null,
+            "collectionElements": null,
+            "complexValue": null,
+            "complexValueType": null,
             "dateTimeValue": null,
             "dateValue": null,
             "elementReference": "$Record.Name",
             "formulaDataType": null,
             "formulaExpression": null,
+            "inputConfiguratorMode": null,
             "numberValue": null,
             "setupReference": null,
             "setupReferenceType": null,
             "sobjectValue": null,
-            "stringValue": null
+            "stringValue": null,
+            "timeValue": null,
+            "transform": null,
+            "transformValueReference": null
           }
         },
         {
@@ -177,16 +236,23 @@
           "value": {
             "apexValue": null,
             "booleanValue": null,
+            "collectionElements": null,
+            "complexValue": null,
+            "complexValueType": null,
             "dateTimeValue": null,
             "dateValue": null,
             "elementReference": "$Record.Id",
             "formulaDataType": null,
             "formulaExpression": null,
+            "inputConfiguratorMode": null,
             "numberValue": null,
             "setupReference": null,
             "setupReferenceType": null,
             "sobjectValue": null,
-            "stringValue": null
+            "stringValue": null,
+            "timeValue": null,
+            "transform": null,
+            "transformValueReference": null
           }
         }
       ],
@@ -197,6 +263,7 @@
       },
       "description": null,
       "elementSubtype": null,
+      "group": null,
       "label": "Create Character Arguments",
       "locationX": 314,
       "locationY": 276,
@@ -208,6 +275,8 @@
   "collectionProcessors": [],
   "constants": [],
   "customErrors": [],
+  "customProperties": [],
+  "dataSpace": null,
   "decisions": [],
   "description": null,
   "dynamicChoiceSets": [],
@@ -215,7 +284,9 @@
     "Default"
   ],
   "exitRules": [],
+  "experiments": [],
   "formulas": [],
+  "groups": [],
   "interviewLabel": "After Create - Update Guild Applicant with WoW API Data {!$Flow.CurrentDateTime}",
   "isAdditionalPermissionRequiredToRun": null,
   "isOverridable": null,
@@ -231,16 +302,23 @@
       "value": {
         "apexValue": null,
         "booleanValue": null,
+        "collectionElements": null,
+        "complexValue": null,
+        "complexValueType": null,
         "dateTimeValue": null,
         "dateValue": null,
         "elementReference": null,
         "formulaDataType": null,
         "formulaExpression": null,
+        "inputConfiguratorMode": null,
         "numberValue": null,
         "setupReference": null,
         "setupReferenceType": null,
         "sobjectValue": null,
-        "stringValue": "LightningFlowBuilder"
+        "stringValue": "LightningFlowBuilder",
+        "timeValue": null,
+        "transform": null,
+        "transformValueReference": null
       }
     },
     {
@@ -248,16 +326,23 @@
       "value": {
         "apexValue": null,
         "booleanValue": null,
+        "collectionElements": null,
+        "complexValue": null,
+        "complexValueType": null,
         "dateTimeValue": null,
         "dateValue": null,
         "elementReference": null,
         "formulaDataType": null,
         "formulaExpression": null,
+        "inputConfiguratorMode": null,
         "numberValue": null,
         "setupReference": null,
         "setupReferenceType": null,
         "sobjectValue": null,
-        "stringValue": "AUTO_LAYOUT_CANVAS"
+        "stringValue": "AUTO_LAYOUT_CANVAS",
+        "timeValue": null,
+        "transform": null,
+        "transformValueReference": null
       }
     },
     {
@@ -265,16 +350,23 @@
       "value": {
         "apexValue": null,
         "booleanValue": null,
+        "collectionElements": null,
+        "complexValue": null,
+        "complexValueType": null,
         "dateTimeValue": null,
         "dateValue": null,
         "elementReference": null,
         "formulaDataType": null,
         "formulaExpression": null,
+        "inputConfiguratorMode": null,
         "numberValue": null,
         "setupReference": null,
         "setupReferenceType": null,
         "sobjectValue": null,
-        "stringValue": "LightningFlowBuilder"
+        "stringValue": "LightningFlowBuilder",
+        "timeValue": null,
+        "transform": null,
+        "transformValueReference": null
       }
     }
   ],
@@ -291,6 +383,7 @@
       "faultConnector": null,
       "filterLogic": null,
       "filters": [],
+      "group": null,
       "inputAssignments": [],
       "inputReference": "Create_WoW_Character",
       "label": "Update Guild Applicant",
@@ -305,16 +398,24 @@
   "screens": [],
   "sourceTemplate": null,
   "start": {
+    "activation": null,
     "capabilityTypes": [],
+    "conditionLogic": null,
+    "conditions": [],
     "connector": {
       "isGoTo": null,
       "processMetadataValues": [],
       "targetReference": "Reach_out_to_applicant"
     },
+    "dataGraph": null,
+    "dataTypeMappings": [],
     "description": null,
     "doesRequireRecordChangedToMeetCriteria": null,
     "elementSubtype": null,
     "entryType": null,
+    "eventName": null,
+    "eventType": null,
+    "fanOutAction": null,
     "filterFormula": null,
     "filterLogic": "and",
     "filters": [
@@ -325,16 +426,23 @@
         "value": {
           "apexValue": null,
           "booleanValue": false,
+          "collectionElements": null,
+          "complexValue": null,
+          "complexValueType": null,
           "dateTimeValue": null,
           "dateValue": null,
           "elementReference": null,
           "formulaDataType": null,
           "formulaExpression": null,
+          "inputConfiguratorMode": null,
           "numberValue": null,
           "setupReference": null,
           "setupReferenceType": null,
           "sobjectValue": null,
-          "stringValue": null
+          "stringValue": null,
+          "timeValue": null,
+          "transform": null,
+          "transformValueReference": null
         }
       },
       {
@@ -344,21 +452,30 @@
         "value": {
           "apexValue": null,
           "booleanValue": false,
+          "collectionElements": null,
+          "complexValue": null,
+          "complexValueType": null,
           "dateTimeValue": null,
           "dateValue": null,
           "elementReference": null,
           "formulaDataType": null,
           "formulaExpression": null,
+          "inputConfiguratorMode": null,
           "numberValue": null,
           "setupReference": null,
           "setupReferenceType": null,
           "sobjectValue": null,
-          "stringValue": null
+          "stringValue": null,
+          "timeValue": null,
+          "transform": null,
+          "transformValueReference": null
         }
       }
     ],
     "flowRunAsUser": null,
     "form": null,
+    "group": null,
+    "inputs": [],
     "label": null,
     "locationX": 56,
     "locationY": 0,
@@ -389,7 +506,10 @@
       }
     ],
     "segment": null,
-    "triggerType": "RecordAfterSave"
+    "triggerType": "RecordAfterSave",
+    "triggeringDataGraph": null,
+    "triggeringDataModelObjectPath": null,
+    "versionString": null
   },
   "startElementReference": null,
   "status": "Active",

@@ -1,0 +1,37 @@
+{
+  "actionOverrides": [],
+  "brand": {
+    "footerColor": null,
+    "headerColor": "#19A149",
+    "logo": null,
+    "logoVersion": null,
+    "shouldOverrideOrgTheme": true
+  },
+  "consoleConfig": null,
+  "defaultLandingTab": null,
+  "description": null,
+  "formFactors": [
+    "Small",
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": true,
+  "isNavPersonalizationDisabled": true,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": "Kraken",
+  "logo": null,
+  "navType": "Standard",
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": null,
+  "subscriberTabs": [],
+  "tabSetType": null,
+  "tabs": [
+    "Data_Table_Configuration"
+  ],
+  "uiType": "Lightning",
+  "urls": null,
+  "utilityBar": "Kraken_UtilityBar",
+  "workspaceConfig": null
+}

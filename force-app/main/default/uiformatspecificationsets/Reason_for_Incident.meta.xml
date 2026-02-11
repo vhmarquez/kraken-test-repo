@@ -1,0 +1,24 @@
+{
+  "field": "Lead.Incident_Reason__c",
+  "formatType": "ICON",
+  "masterLabel": "Reason for Incident",
+  "sobjectType": "Lead",
+  "uiFormatSpecifications": [
+    {
+      "formatProperties": "{\"icon\":\"question_mark\",\"iconColor\":\"gray\"}",
+      "formatType": "ICON",
+      "order": 1,
+      "visibilityRule": {
+        "booleanFilter": null,
+        "criteria": [
+          {
+            "leftValue": "{!Record.Incident__c}",
+            "operator": "EQUAL",
+            "rightValue": "true"
+          }
+        ]
+      }
+    }
+  ],
+  "urls": null
+}

@@ -1,0 +1,53 @@
+{
+  "description": "The default utility bar for the Subscription Management application.",
+  "events": [],
+  "flexiPageRegions": [
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [],
+            "componentName": "console:history",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "console_history",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        },
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [],
+            "componentName": "notes:utilityBarNoteList",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "notes_utilityBarNoteList",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "utilityItems",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    }
+  ],
+  "masterLabel": "Subscription Management App Utility Bar",
+  "parentFlexiPage": null,
+  "platformActionlist": null,
+  "quickActionList": null,
+  "sobjectType": null,
+  "template": {
+    "componentType": null,
+    "flexipageDataSources": null,
+    "identifier": null,
+    "name": "one:utilityBarTemplateDesktop",
+    "properties": [],
+    "schemaProperties": []
+  },
+  "type": "UtilityBar",
+  "urls": null
+}

@@ -1,0 +1,31 @@
+{
+  "actionOverrides": [],
+  "brand": null,
+  "consoleConfig": null,
+  "defaultLandingTab": null,
+  "description": null,
+  "formFactors": [
+    "Large"
+  ],
+  "isNavAutoTempTabsDisabled": false,
+  "isNavPersonalizationDisabled": false,
+  "isNavTabPersistenceDisabled": false,
+  "isOmniPinnedViewEnabled": false,
+  "isServiceCloudConsole": null,
+  "label": "Data Manager",
+  "logo": null,
+  "navType": "Standard",
+  "preferences": null,
+  "profileActionOverrides": [],
+  "setupExperience": null,
+  "subscriberTabs": [],
+  "tabSetType": null,
+  "tabs": [
+    "standard-AnalyticsDataManager",
+    "KrakenDataTableConfig__c"
+  ],
+  "uiType": "Lightning",
+  "urls": null,
+  "utilityBar": null,
+  "workspaceConfig": null
+}

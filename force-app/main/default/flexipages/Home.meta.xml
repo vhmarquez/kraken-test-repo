@@ -1,0 +1,48 @@
+{
+  "description": null,
+  "events": [],
+  "flexiPageRegions": [
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "region1",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "region2",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    },
+    {
+      "appendable": null,
+      "itemInstances": [],
+      "mode": null,
+      "name": "region3",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    }
+  ],
+  "masterLabel": "Home",
+  "parentFlexiPage": null,
+  "platformActionlist": null,
+  "quickActionList": null,
+  "sobjectType": null,
+  "template": {
+    "componentType": null,
+    "flexipageDataSources": null,
+    "identifier": null,
+    "name": "flexipage:appHomeTemplateHeaderTwoColumnsLeftSidebar",
+    "properties": null,
+    "schemaProperties": null
+  },
+  "type": "AppPage",
+  "urls": null
+}

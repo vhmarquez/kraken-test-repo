@@ -1,0 +1,7 @@
+{
+  "enrichedFields": [],
+  "eventChannel": "sf_devops_Data__chn",
+  "filterExpression": null,
+  "selectedEntity": "sf_devops__Pipeline_Stage__ChangeEvent",
+  "urls": null
+}

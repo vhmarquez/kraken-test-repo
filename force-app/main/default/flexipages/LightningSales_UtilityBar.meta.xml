@@ -1,0 +1,42 @@
+{
+  "description": "The default utility bar for the Sales application.",
+  "events": [],
+  "flexiPageRegions": [
+    {
+      "appendable": null,
+      "itemInstances": [
+        {
+          "componentInstance": {
+            "componentInstanceProperties": [],
+            "componentName": "runtime_sales_todo_list:unifiedToDoListAuraWrapper",
+            "componentType": null,
+            "flexipageDataSources": null,
+            "identifier": "runtime_sales_todo_list_unifiedToDoListAuraWrapper",
+            "visibilityRule": null
+          },
+          "fieldInstance": null
+        }
+      ],
+      "mode": null,
+      "name": "utilityItems",
+      "prependable": null,
+      "replaceable": null,
+      "type": "Region"
+    }
+  ],
+  "masterLabel": "Sales App Utility Bar",
+  "parentFlexiPage": null,
+  "platformActionlist": null,
+  "quickActionList": null,
+  "sobjectType": null,
+  "template": {
+    "componentType": null,
+    "flexipageDataSources": null,
+    "identifier": null,
+    "name": "one:utilityBarTemplateDesktop",
+    "properties": [],
+    "schemaProperties": []
+  },
+  "type": "UtilityBar",
+  "urls": null
+}

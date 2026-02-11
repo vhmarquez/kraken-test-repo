@@ -1,0 +1,11 @@
+{
+  "creationAgeInSeconds": null,
+  "description": "Member criteria matches customer members",
+  "lastChatterActivityAgeInSeconds": null,
+  "masterLabel": "Customer Members",
+  "profiles": [],
+  "urls": null,
+  "userTypes": [
+    "Customer"
+  ]
+}
