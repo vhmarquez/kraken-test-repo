@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Email to new customers",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Sales: New Customer Email",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Welcome to the GenWatt Community",
+  "textOnly": null,
+  "type": "text",
+  "uiType": "Aloha",
+  "urls": null
+}

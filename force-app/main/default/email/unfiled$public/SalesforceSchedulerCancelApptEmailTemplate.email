@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Email Template to confirm canceling of a service appointment.",
+  "encodingKey": "ISO-8859-1",
+  "letterhead": null,
+  "name": "Canceled Service Appointment Confirmation Email",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Your service appointment is canceled",
+  "textOnly": null,
+  "type": "custom",
+  "uiType": "Aloha",
+  "urls": null
+}

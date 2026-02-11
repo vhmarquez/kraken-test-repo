@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Email template for confirmation of an appointment when appointments are scheduled using appointment types with third party video applications.",
+  "encodingKey": "ISO-8859-1",
+  "letterhead": null,
+  "name": "Appointment for Unauthenticated User using Appointment Types - For third party.",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "{!Organization.Name}:Appointment Confirmation.",
+  "textOnly": null,
+  "type": "custom",
+  "uiType": "Aloha",
+  "urls": null
+}

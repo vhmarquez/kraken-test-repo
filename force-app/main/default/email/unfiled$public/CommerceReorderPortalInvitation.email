@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Invite a contact to a Commerce Reorder Portal.",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Commerce Reorder Portal: Invitation",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Welcome to {!Community_Name}",
+  "textOnly": "<html>\n            Dear {!Receiving_User.FirstName},\n            <p>\n            Check out this reorder portal for a simpler way to place repeat orders with {!Organization.Name}. You can view your past orders, modify quantities, place new orders, and view order statuses.\n            </p>\n            <p>\n            Click the link for access: <a href={!Community_URL}>{!Community_Name}</a>\n            </p>\n            Regards,<br>\n            {!Sending_User.Name}\n            </html>",
+  "type": "custom",
+  "uiType": "Aloha",
+  "urls": null
+}

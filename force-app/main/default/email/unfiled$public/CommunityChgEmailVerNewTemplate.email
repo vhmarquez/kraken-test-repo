@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Email that users receive on their new email when their email is changed",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Experience Cloud: New Email - Change Email Verification",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Finish changing your {!Community_Name} account’s email address",
+  "textOnly": null,
+  "type": "text",
+  "uiType": "Aloha",
+  "urls": null
+}

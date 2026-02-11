@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Sample email template that can be sent to your Self-Service customers to notify them a public comment has been added to their case.",
+  "encodingKey": "ISO-8859-1",
+  "letterhead": null,
+  "name": "SUPPORT:  Self-Service New Comment Notification (SAMPLE)",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Your case {!Case.CaseNumber} has been updated",
+  "textOnly": null,
+  "type": "text",
+  "uiType": "Aloha",
+  "urls": null
+}

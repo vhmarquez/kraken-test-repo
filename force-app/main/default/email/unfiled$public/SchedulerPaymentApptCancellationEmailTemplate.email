@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Email Template to confirm the cancellation of a paid service appointment.",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Scheduler Payments: Service Appointment Cancellation Email",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Appointment canceled!",
+  "textOnly": null,
+  "type": "custom",
+  "uiType": "Aloha",
+  "urls": null
+}

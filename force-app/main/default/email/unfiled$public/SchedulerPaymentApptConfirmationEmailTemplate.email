@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": false,
+  "description": "Email Template to confirm scheduling of a paid service appointment.",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Scheduler Payments: Service Appointment Confirmation Email",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Appointment scheduled",
+  "textOnly": null,
+  "type": "custom",
+  "uiType": "Aloha",
+  "urls": null
+}

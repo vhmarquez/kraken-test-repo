@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Case reassignment email to new case owner on escalation",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Support: Escalated Case Reassignment",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "ESCALATED CASE {!Case.CaseNumber}",
+  "textOnly": null,
+  "type": "text",
+  "uiType": "Aloha",
+  "urls": null
+}

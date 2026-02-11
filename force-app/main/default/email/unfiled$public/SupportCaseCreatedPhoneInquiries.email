@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Notification to customer about case created through phone call",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Support: Case Created (Phone Inquiries)",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Your Genwatt case number {!Case.CaseNumber} has been recorded",
+  "textOnly": null,
+  "type": "text",
+  "uiType": "Aloha",
+  "urls": null
+}

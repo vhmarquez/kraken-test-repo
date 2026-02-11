@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Notification that user has been added to a site.",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Experience Cloud: New Member Welcome Email",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Welcome to {!Community_Name}",
+  "textOnly": null,
+  "type": "text",
+  "uiType": "Aloha",
+  "urls": null
+}

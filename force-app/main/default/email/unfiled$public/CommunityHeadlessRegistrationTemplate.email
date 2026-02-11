@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Email that users receive with their one-time password during the headless registration flow",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Experience Cloud: One-Time Password Email for Headless Registration Verification",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Verify your identity in {!Community.Name}",
+  "textOnly": null,
+  "type": "text",
+  "uiType": "Aloha",
+  "urls": null
+}

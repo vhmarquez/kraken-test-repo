@@ -1,0 +1,19 @@
+{
+  "apiVersion": null,
+  "attachedDocuments": [],
+  "attachments": [],
+  "available": true,
+  "description": "Email Template to remind customers to pay for their service appointment.",
+  "encodingKey": "UTF-8",
+  "letterhead": null,
+  "name": "Scheduler Payments: Payment Reminder for Service Appointment Email",
+  "packageVersions": [],
+  "pageDevName": null,
+  "relatedEntityType": null,
+  "style": "none",
+  "subject": "Complete your payment",
+  "textOnly": null,
+  "type": "custom",
+  "uiType": "Aloha",
+  "urls": null
+}
