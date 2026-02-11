@@ -1,0 +1,14 @@
+# SFDX
+.sfdx/
+.sf/
+.localdevserver/
+
+# Node
+node_modules/
+npm-debug.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store

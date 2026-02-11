@@ -1,0 +1,15 @@
+{
+  "edition": "Developer",
+  "features": [
+    "EnableSetPasswordInApi"
+  ],
+  "orgName": "DevVM",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileComponentsSettings": {
+      "enableS1ModulesMessaging": true
+    }
+  }
+}

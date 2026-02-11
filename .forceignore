@@ -1,0 +1,16 @@
+# List files or directories that should be ignored when pushing to an org
+
+# Static resources
+**/staticresources/*.resource
+**/staticresources/*.resource-meta.xml
+
+# LWC Jest tests
+**/__tests__/**
+
+# Standard git ignore files
+.git/
+.gitignore
+
+# SFDX temporary files
+.sfdx/
+.localdevserver/
