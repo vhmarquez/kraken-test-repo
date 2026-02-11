@@ -1,861 +1,359 @@
-{
-  "customButtons": null,
-  "customConsoleComponents": null,
-  "emailDefault": false,
-  "excludeButtons": null,
-  "feedLayout": {
-    "autocollapsePublisher": true,
-    "compactFeed": true,
-    "feedFilterPosition": "LeftFixed",
-    "feedFilters": [
-      {
-        "feedFilterName": null,
-        "feedFilterType": "AllUpdates",
-        "feedItemType": null
-      },
-      {
-        "feedFilterName": null,
-        "feedFilterType": "FeedItemType",
-        "feedItemType": "CALL_LOG_POST"
-      },
-      {
-        "feedFilterName": null,
-        "feedFilterType": "FeedItemType",
-        "feedItemType": "TEXT_POST"
-      },
-      {
-        "feedFilterName": null,
-        "feedFilterType": "FeedItemType",
-        "feedItemType": "CHANGE_CASE_STATUS_POST"
-      },
-      {
-        "feedFilterName": null,
-        "feedFilterType": "FeedItemType",
-        "feedItemType": "ACTIVITY_EVENT"
-      }
-    ],
-    "fullWidthFeed": true,
-    "hideSidebar": true,
-    "highlightExternalFeedItems": false,
-    "leftComponents": null,
-    "rightComponents": [
-      {
-        "componentType": "HelpAndToolLinks",
-        "height": null,
-        "page": null
-      },
-      {
-        "componentType": "Following",
-        "height": null,
-        "page": null
-      },
-      {
-        "componentType": "Followers",
-        "height": null,
-        "page": null
-      },
-      {
-        "componentType": "Topics",
-        "height": null,
-        "page": null
-      },
-      {
-        "componentType": "CustomLinks",
-        "height": null,
-        "page": null
-      },
-      {
-        "componentType": "CustomButtons",
-        "height": null,
-        "page": null
-      }
-    ],
-    "useInlineFiltersInConsole": false
-  },
-  "headers": [
-    "PersonalTagging",
-    "PublicTagging"
-  ],
-  "layoutSections": [
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Case Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "OwnerId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CaseNumber",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ContactId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "AccountId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Product__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Type",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Status",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Priority",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ContactPhone",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ContactEmail",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Origin",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Reason",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsTopToBottom"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Web Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "SuppliedEmail",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "SuppliedName",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CreatedDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "SuppliedCompany",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "SuppliedPhone",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ClosedDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsTopToBottom"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Additional Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "EngineeringReqNumber__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "SLAViolation__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PotentialLiability__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "System Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CreatedById",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "LastModifiedById",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsTopToBottom"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Description Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Subject",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Description",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Comments",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "OneColumn"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": false,
-      "label": null,
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": null,
-              "canvas": null,
-              "component": null,
-              "customLink": "UpsellCrosssellOpportunity",
-              "emptySpace": null,
-              "field": null,
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [],
-          "reserved": null
-        },
-        {
-          "layoutItems": [],
-          "reserved": null
-        }
-      ],
-      "style": "CustomLinks"
-    }
-  ],
-  "miniLayout": null,
-  "multilineLayoutFields": null,
-  "platformActionList": null,
-  "quickActionList": {
-    "quickActionListItems": [
-      {
-        "quickActionName": "FeedItem.TextPost"
-      },
-      {
-        "quickActionName": "Case.LogACall"
-      },
-      {
-        "quickActionName": "Case.CaseComment"
-      },
-      {
-        "quickActionName": "Case.ChangeStatus"
-      },
-      {
-        "quickActionName": "FeedItem.ContentPost"
-      },
-      {
-        "quickActionName": "FeedItem.LinkPost"
-      },
-      {
-        "quickActionName": "FeedItem.PollPost"
-      }
-    ]
-  },
-  "relatedContent": {
-    "relatedContentItems": [
-      {
-        "layoutItem": {
-          "analyticsCloudComponent": null,
-          "behavior": "Readonly",
-          "canvas": null,
-          "component": null,
-          "customLink": null,
-          "emptySpace": null,
-          "field": "ContactId",
-          "height": null,
-          "page": null,
-          "reportChartComponent": null,
-          "scontrol": null,
-          "showLabel": null,
-          "showScrollbars": null,
-          "width": null
-        }
-      },
-      {
-        "layoutItem": {
-          "analyticsCloudComponent": null,
-          "behavior": "Readonly",
-          "canvas": null,
-          "component": null,
-          "customLink": null,
-          "emptySpace": null,
-          "field": "AccountId",
-          "height": null,
-          "page": null,
-          "reportChartComponent": null,
-          "scontrol": null,
-          "showLabel": null,
-          "showScrollbars": null,
-          "width": null
-        }
-      }
-    ]
-  },
-  "relatedLists": [
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [
-        "SOLUTION.ISSUE",
-        "SOLUTION.SOLUTION_NUMBER",
-        "SOLUTION.STATUS",
-        "CORE.USERS.ALIAS"
-      ],
-      "quickActions": [],
-      "relatedList": "RelatedSolutionList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [
-        "TASK.SUBJECT",
-        "TASK.WHO_NAME",
-        "ACTIVITY.TASK",
-        "TASK.DUE_DATE",
-        "TASK.STATUS",
-        "TASK.PRIORITY",
-        "CORE.USERS.FULL_NAME"
-      ],
-      "quickActions": [],
-      "relatedList": "RelatedActivityList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [
-        "TASK.SUBJECT",
-        "TASK.WHO_NAME",
-        "ACTIVITY.TASK",
-        "TASK.DUE_DATE",
-        "CORE.USERS.FULL_NAME",
-        "TASK.LAST_UPDATE"
-      ],
-      "quickActions": [],
-      "relatedList": "RelatedHistoryList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [],
-      "quickActions": [],
-      "relatedList": "RelatedCommentsList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [],
-      "quickActions": [],
-      "relatedList": "RelatedAttachmentList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [],
-      "quickActions": [],
-      "relatedList": "RelatedEntityHistoryList",
-      "sortField": null,
-      "sortOrder": null
-    }
-  ],
-  "relatedObjects": [
-    "ContactId",
-    "AccountId"
-  ],
-  "runAssignmentRulesDefault": false,
-  "showEmailCheckbox": true,
-  "showHighlightsPanel": true,
-  "showInteractionLogPanel": false,
-  "showKnowledgeComponent": true,
-  "showRunAssignmentRulesCheckbox": true,
-  "showSolutionSection": null,
-  "showSubmitAndAttachButton": true,
-  "summaryLayout": {
-    "masterLabel": "00h1a0000012AHJ",
-    "sizeX": 3,
-    "sizeY": 4,
-    "sizeZ": null,
-    "summaryLayoutItems": [
-      {
-        "customLink": null,
-        "field": "ContactId",
-        "posX": 0,
-        "posY": 0,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "AccountId",
-        "posX": 0,
-        "posY": 1,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "ContactPhone",
-        "posX": 0,
-        "posY": 2,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "CaseNumber",
-        "posX": 1,
-        "posY": 0,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "CreatedDate",
-        "posX": 1,
-        "posY": 1,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "Subject",
-        "posX": 1,
-        "posY": 2,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "Description",
-        "posX": 1,
-        "posY": 3,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "Status",
-        "posX": 2,
-        "posY": 0,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "Priority",
-        "posX": 2,
-        "posY": 1,
-        "posZ": null
-      },
-      {
-        "customLink": null,
-        "field": "OwnerId",
-        "posX": 2,
-        "posY": 2,
-        "posZ": null
-      }
-    ],
-    "summaryLayoutStyle": "CaseInteraction"
-  },
-  "urls": null
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <emailDefault>false</emailDefault>
+    <feedLayout>
+        <autocollapsePublisher>true</autocollapsePublisher>
+        <compactFeed>true</compactFeed>
+        <feedFilterPosition>LeftFixed</feedFilterPosition>
+        <feedFilters>
+            <feedFilterType>AllUpdates</feedFilterType>
+        </feedFilters>
+        <feedFilters>
+            <feedFilterType>FeedItemType</feedFilterType>
+            <feedItemType>CallLogPost</feedItemType>
+        </feedFilters>
+        <feedFilters>
+            <feedFilterType>FeedItemType</feedFilterType>
+            <feedItemType>TextPost</feedItemType>
+        </feedFilters>
+        <feedFilters>
+            <feedFilterType>FeedItemType</feedFilterType>
+            <feedItemType>ChangeStatusPost</feedItemType>
+        </feedFilters>
+        <feedFilters>
+            <feedFilterType>FeedItemType</feedFilterType>
+            <feedItemType>ActivityEvent</feedItemType>
+        </feedFilters>
+        <fullWidthFeed>true</fullWidthFeed>
+        <hideSidebar>true</hideSidebar>
+        <highlightExternalFeedItems>false</highlightExternalFeedItems>
+        <rightComponents>
+            <componentType>HelpAndToolLinks</componentType>
+        </rightComponents>
+        <rightComponents>
+            <componentType>Following</componentType>
+        </rightComponents>
+        <rightComponents>
+            <componentType>Followers</componentType>
+        </rightComponents>
+        <rightComponents>
+            <componentType>Topics</componentType>
+        </rightComponents>
+        <rightComponents>
+            <componentType>CustomLinks</componentType>
+        </rightComponents>
+        <rightComponents>
+            <componentType>CustomButtons</componentType>
+        </rightComponents>
+        <useInlineFiltersInConsole>false</useInlineFiltersInConsole>
+    </feedLayout>
+    <headers>PersonalTagging</headers>
+    <headers>PublicTagging</headers>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Case Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OwnerId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CaseNumber</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ContactId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>AccountId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Product__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Type</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Status</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Priority</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ContactPhone</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ContactEmail</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Origin</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Reason</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Web Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SuppliedEmail</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SuppliedName</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CreatedDate</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SuppliedCompany</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SuppliedPhone</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ClosedDate</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Additional Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>EngineeringReqNumber__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SLAViolation__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PotentialLiability__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>System Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CreatedById</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>LastModifiedById</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Description Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Subject</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Comments</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>OneColumn</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+        <layoutColumns>
+            <layoutItems>
+                <customLink>UpsellCrosssellOpportunity</customLink>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns/>
+        <layoutColumns/>
+        <style>CustomLinks</style>
+    </layoutSections>
+    <quickActionList>
+        <quickActionListItems>
+            <quickActionName>FeedItem.TextPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Case.LogACall</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Case.CaseComment</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Case.ChangeStatus</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.ContentPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.LinkPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.PollPost</quickActionName>
+        </quickActionListItems>
+    </quickActionList>
+    <relatedContent>
+        <relatedContentItems>
+            <layoutItem>
+                <behavior>Readonly</behavior>
+                <field>ContactId</field>
+            </layoutItem>
+        </relatedContentItems>
+        <relatedContentItems>
+            <layoutItem>
+                <behavior>Readonly</behavior>
+                <field>AccountId</field>
+            </layoutItem>
+        </relatedContentItems>
+    </relatedContent>
+    <relatedLists>
+        <fields>SOLUTION.ISSUE</fields>
+        <fields>SOLUTION.SOLUTION_NUMBER</fields>
+        <fields>SOLUTION.STATUS</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <relatedList>RelatedSolutionList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHO_NAME</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>TASK.STATUS</fields>
+        <fields>TASK.PRIORITY</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <relatedList>RelatedActivityList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHO_NAME</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <fields>TASK.LAST_UPDATE</fields>
+        <relatedList>RelatedHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedCommentsList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedAttachmentList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedEntityHistoryList</relatedList>
+    </relatedLists>
+    <relatedObjects>ContactId</relatedObjects>
+    <relatedObjects>AccountId</relatedObjects>
+    <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
+    <showEmailCheckbox>true</showEmailCheckbox>
+    <showHighlightsPanel>true</showHighlightsPanel>
+    <showInteractionLogPanel>false</showInteractionLogPanel>
+    <showKnowledgeComponent>true</showKnowledgeComponent>
+    <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>true</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h1a0000012AHJ</masterLabel>
+        <sizeX>3</sizeX>
+        <sizeY>4</sizeY>
+        <summaryLayoutItems>
+            <field>ContactId</field>
+            <posX>0</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>AccountId</field>
+            <posX>0</posX>
+            <posY>1</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>ContactPhone</field>
+            <posX>0</posX>
+            <posY>2</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>CaseNumber</field>
+            <posX>1</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>CreatedDate</field>
+            <posX>1</posX>
+            <posY>1</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>Subject</field>
+            <posX>1</posX>
+            <posY>2</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>Description</field>
+            <posX>1</posX>
+            <posY>3</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>Status</field>
+            <posX>2</posX>
+            <posY>0</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>Priority</field>
+            <posX>2</posX>
+            <posY>1</posY>
+        </summaryLayoutItems>
+        <summaryLayoutItems>
+            <field>OwnerId</field>
+            <posX>2</posX>
+            <posY>2</posY>
+        </summaryLayoutItems>
+        <summaryLayoutStyle>CaseInteraction</summaryLayoutStyle>
+    </summaryLayout>
+</Layout>

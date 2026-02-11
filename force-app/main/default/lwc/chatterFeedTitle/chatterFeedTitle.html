@@ -1,0 +1,18 @@
+<template>
+    <div class="slds-box slds-box_x-small slds-m-bottom_small">
+        <lightning-layout>
+            <lightning-layout-item size="2">
+                <lightning-avatar 
+                    src={feedItem.CreatedBy.SmallPhotoUrl} 
+                    fallback-icon-name="standard:user" 
+                    alternative-text="User avatar">
+                </lightning-avatar>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="10">
+                <p class="slds-text-title_bold">{feedItem.CreatedBy.Name}</p>
+                <lightning-relative-date-time value={feedItem.CreatedDate}></lightning-relative-date-time>
+                <lightning-formatted-rich-text value={feedItem.Body}></lightning-formatted-rich-text>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

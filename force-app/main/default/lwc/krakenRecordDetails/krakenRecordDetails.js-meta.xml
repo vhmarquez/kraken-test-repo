@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Kraken Record Details</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="recordId" type="String" label="Record ID" default="{!recordId}"/>
+            <property name="objectApiName" type="String" label="Object API Name" default="{!objectApiName}"/>
+            
+            <!-- Field Styling -->
+            <property name="labelFontSize" type="String" label="Field Styling: Label Font Size" description="Ex: 12px, 0.8rem"/>
+            <property name="labelColor" type="Color" label="Field Styling: Label Color" description="Ex: #333333, black"/>
+            <property name="valueFontSize" type="String" label="Field Styling: Value Font Size" description="Ex: 14px, 1rem"/>
+            <property name="valueColor" type="Color" label="Field Styling: Value Color" description="Ex: #000000, darkblue"/>
+            
+            <!-- Section Header Styling -->
+            <property name="sectionHeaderFontSize" type="String" label="Section Header: Font Size" description="Ex: 16px, 1.2rem"/>
+            <property name="sectionHeaderColor" type="Color" label="Section Header: Text Color" description="Ex: #000000, black"/>
+            <property name="sectionHeaderBackgroundColor" type="Color" label="Section Header: Background Color" description="Ex: #ffffff, white"/>
+            <property name="sectionHeaderPaddingTop" type="String" label="Section Header: Padding Top" description="Ex: 0.5rem"/>
+            <property name="sectionHeaderPaddingRight" type="String" label="Section Header: Padding Right" description="Ex: 0.5rem"/>
+            <property name="sectionHeaderPaddingBottom" type="String" label="Section Header: Padding Bottom" description="Ex: 0.5rem"/>
+            <property name="sectionHeaderPaddingLeft" type="String" label="Section Header: Padding Left" description="Ex: 0.5rem"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

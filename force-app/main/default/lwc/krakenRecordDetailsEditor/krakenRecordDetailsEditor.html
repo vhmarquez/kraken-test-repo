@@ -1,0 +1,40 @@
+<template>
+    <lightning-accordion allow-multiple-sections-open active-section-name="fieldStyling">
+        <!-- Field Styling Section -->
+        <lightning-accordion-section name="fieldStyling" label="Field Styling">
+            <div class="slds-p-around_x-small">
+                <lightning-input label="Label Font Size" value={labelFontSize} name="labelFontSize" onchange={handleChange} class="slds-m-bottom_small"></lightning-input>
+                <lightning-input type="color" label="Label Color" value={labelColor} name="labelColor" onchange={handleChange} class="slds-m-bottom_small"></lightning-input>
+                <lightning-input label="Value Font Size" value={valueFontSize} name="valueFontSize" onchange={handleChange} class="slds-m-bottom_small"></lightning-input>
+                <lightning-input type="color" label="Value Color" value={valueColor} name="valueColor" onchange={handleChange} class="slds-m-bottom_small"></lightning-input>
+            </div>
+        </lightning-accordion-section>
+
+        <!-- Section Header Styling Section -->
+        <lightning-accordion-section name="headerStyling" label="Section Header Styling">
+            <div class="slds-p-around_x-small">
+                <lightning-input label="Font Size" value={sectionHeaderFontSize} name="sectionHeaderFontSize" onchange={handleChange} class="slds-m-bottom_small"></lightning-input>
+                <lightning-input type="color" label="Text Color" value={sectionHeaderColor} name="sectionHeaderColor" onchange={handleChange} class="slds-m-bottom_small"></lightning-input>
+                <lightning-input type="color" label="Background Color" value={sectionHeaderBackgroundColor} name="sectionHeaderBackgroundColor" onchange={handleChange} class="slds-m-bottom_small"></lightning-input>
+                
+                <h3 class="slds-text-title_caps slds-m-top_medium slds-m-bottom_x-small">Padding</h3>
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col">
+                        <lightning-input label="Top" value={sectionHeaderPaddingTop} name="sectionHeaderPaddingTop" onchange={handleChange}></lightning-input>
+                    </div>
+                    <div class="slds-col">
+                        <lightning-input label="Right" value={sectionHeaderPaddingRight} name="sectionHeaderPaddingRight" onchange={handleChange}></lightning-input>
+                    </div>
+                </div>
+                <div class="slds-grid slds-gutters slds-m-top_small">
+                    <div class="slds-col">
+                        <lightning-input label="Bottom" value={sectionHeaderPaddingBottom} name="sectionHeaderPaddingBottom" onchange={handleChange}></lightning-input>
+                    </div>
+                    <div class="slds-col">
+                        <lightning-input label="Left" value={sectionHeaderPaddingLeft} name="sectionHeaderPaddingLeft" onchange={handleChange}></lightning-input>
+                    </div>
+                </div>
+            </div>
+        </lightning-accordion-section>
+    </lightning-accordion>
+</template>

@@ -1,0 +1,242 @@
+<template>
+  <lightning-card title="Knowledge Article" icon-name="standard:knowledge">
+    <!-- Loading State -->
+    <template if:true={isLoading}>
+      <div class="slds-p-around_large slds-text-align_center">
+        <lightning-spinner
+          alternative-text="Loading knowledge article..."
+          size="medium"
+        ></lightning-spinner>
+        <p class="slds-m-top_medium slds-text-body_regular">
+          Loading article details...
+        </p>
+      </div>
+    </template>
+
+    <!-- Error State -->
+    <template if:true={error}>
+      <div class="slds-p-around_large">
+        <lightning-alert variant="error" title="Error Loading Article">
+          {error}
+        </lightning-alert>
+        <button
+          class="slds-button slds-button_brand slds-m-top_medium"
+          onclick={handleRetry}
+        >
+          Try Again
+        </button>
+      </div>
+    </template>
+
+    <!-- Empty State -->
+    <template if:true={isEmpty}>
+      <div class="slds-p-around_x-large slds-text-align_center">
+        <div class="slds-m-bottom_medium">
+          <lightning-icon
+            icon-name="standard:knowledge"
+            size="large"
+            class="slds-text-color_weak"
+          ></lightning-icon>
+        </div>
+        <h3 class="slds-text-heading_medium slds-m-bottom_small">
+          No Article Found
+        </h3>
+        <p class="slds-text-body_regular slds-text-color_weak">
+          The knowledge article could not be loaded.
+        </p>
+      </div>
+    </template>
+
+    <!-- Article Content -->
+    <template if:false={isLoading}>
+      <template if:false={error}>
+        <template if:false={isEmpty}>
+          <div class="article-container">
+            <!-- Article Header -->
+            <div class="slds-box slds-m-bottom_large">
+              <div class="slds-grid slds-grid_vertical-align-start">
+                <div class="slds-col slds-size_1-of-1">
+                  <h1 class="slds-text-heading_large slds-m-bottom_small">
+                    {articleData.Title}
+                  </h1>
+
+                  <!-- Status Badge -->
+                  <div class="slds-grid slds-grid_vertical-align-center slds-wrap slds-gutters_x-small">
+                    <div class="slds-col slds-no-flex">
+                      <span
+                        class={statusBadgeClass}
+                        title="Article Status"
+                      >
+                        {articleData.PublishStatus}
+                      </span>
+                    </div>
+
+                    <!-- View Count -->
+                    <template if:true={articleData.ViewCount}>
+                      <div class="slds-col slds-no-flex">
+                        <lightning-icon
+                          icon-name="utility:eye"
+                          size="x-small"
+                          class="slds-m-right_x-small"
+                        ></lightning-icon>
+                        <span class="slds-text-body_small">
+                          {articleData.ViewCount} views
+                        </span>
+                      </div>
+                    </template>
+
+                    <!-- Category -->
+                    <template if:true={articleData.CategoryName}>
+                      <div class="slds-col slds-no-flex">
+                        <lightning-icon
+                          icon-name="utility:folder"
+                          size="x-small"
+                          class="slds-m-right_x-small"
+                        ></lightning-icon>
+                        <span class="slds-text-body_small">
+                          {articleData.CategoryName}
+                        </span>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Metadata -->
+              <div class="slds-grid slds-wrap slds-gutters_medium slds-m-top_large slds-border_top slds-p-top_medium">
+                <template if:true={articleData.CreatedDate}>
+                  <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                    <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_x-small">
+                      Created
+                    </p>
+                    <p class="slds-text-body_regular">
+                      {createdDateFormatted}
+                    </p>
+                  </div>
+                </template>
+
+                <template if:true={articleData.LastModifiedDate}>
+                  <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                    <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_x-small">
+                      Last Updated
+                    </p>
+                    <p class="slds-text-body_regular">
+                      {lastModifiedDateFormatted}
+                    </p>
+                  </div>
+                </template>
+
+                <template if:true={articleData.CreatedBy}>
+                  <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                    <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_x-small">
+                      Author
+                    </p>
+                    <p class="slds-text-body_regular">
+                      {articleData.CreatedBy.Name}
+                    </p>
+                  </div>
+                </template>
+
+                <template if:true={articleData.RecordType}>
+                  <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+                    <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_x-small">
+                      Type
+                    </p>
+                    <p class="slds-text-body_regular">
+                      {articleData.RecordType.Name}
+                    </p>
+                  </div>
+                </template>
+              </div>
+            </div>
+
+            <!-- Article Body -->
+            <template if:true={articleData.Summary}>
+              <div class="slds-box slds-m-bottom_large">
+                <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                  Summary
+                </h2>
+                <p class="slds-text-body_regular">
+                  {articleData.Summary}
+                </p>
+              </div>
+            </template>
+
+            <!-- Main Content (Rich Text) -->
+            <template if:true={articleData.ArticleBody}>
+              <div class="slds-box slds-m-bottom_large rich-content-container">
+                <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                  Content
+                </h2>
+                <div
+                  class="slds-text-body_regular rich-text-content"
+                  lwc:dom="manual"
+                  lwc:ref="richTextContent"
+                ></div>
+              </div>
+            </template>
+
+            <!-- Dynamic Fields by Record Type -->
+            <template if:true={hasAdditionalFields}>
+              <div class="slds-box slds-m-bottom_large">
+                <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                  Additional Information
+                </h2>
+                <div class="slds-grid slds-wrap slds-gutters_medium">
+                  <template for:each={additionalFields} for:item="field">
+                    <div
+                      key={field.apiName}
+                      class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2"
+                    >
+                      <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_x-small">
+                        {field.label}
+                      </p>
+                      <p class="slds-text-body_regular">
+                        <template if:true={field.isUrl}>
+                          <a
+                            href={field.value}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="slds-text-link"
+                          >
+                            {field.displayValue}
+                          </a>
+                        </template>
+                        <template if:false={field.isUrl}>
+                          {field.displayValue}
+                        </template>
+                      </p>
+                    </div>
+                  </template>
+                </div>
+              </div>
+            </template>
+
+            <!-- Related Articles -->
+            <template if:true={hasRelatedArticles}>
+              <div class="slds-box">
+                <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                  Related Articles
+                </h2>
+                <ul class="slds-list_unstyled">
+                  <template for:each={relatedArticles} for:item="article">
+                    <li key={article.Id} class="slds-m-bottom_small">
+                      <a
+                        href="#"
+                        class="slds-text-link"
+                        data-id={article.Id}
+                        onclick={handleRelatedArticleClick}
+                      >
+                        {article.Title}
+                      </a>
+                    </li>
+                  </template>
+                </ul>
+              </div>
+            </template>
+          </div>
+        </template>
+      </template>
+    </template>
+  </lightning-card>
+</template>

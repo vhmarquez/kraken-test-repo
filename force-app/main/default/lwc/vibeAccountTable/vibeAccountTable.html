@@ -1,0 +1,58 @@
+<template>
+    <lightning-card title="Accounts" icon-name="standard:account">
+        <div class="slds-p-horizontal_small slds-p-vertical_x-small">
+            <lightning-datatable key-field="Id"
+                                 data={rows}
+                                 columns={columns}
+                                 sorted-by={sortBy}
+                                 sorted-direction={sortDirection}
+                                 onsort={handleSort}
+                                 hide-checkbox-column
+                                 show-row-number-column>
+            </lightning-datatable>
+        </div>
+
+        <template if:true={loading}>
+            <div class="slds-is-relative" style="min-height:2rem">
+                <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+            </div>
+        </template>
+
+        <div class="slds-p-horizontal_small slds-p-vertical_small">
+            <div class="slds-grid slds-grid_align-spread slds-wrap slds-var-m-top_x-small">
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-text-body_small slds-p-vertical_x-small">
+                    <span>Showing {rangeStart}–{rangeEnd} of {totalRecords}</span>
+                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-3 slds-text-align_right">
+                    <lightning-button-group>
+                        <lightning-button label="First"
+                                          onclick={handleFirst}
+                                          title="First page"
+                                          disabled={isFirstPage}
+                                          icon-name="utility:jump_to_left"
+                                          icon-position="left"></lightning-button>
+                        <lightning-button label="Previous"
+                                          onclick={handlePrevious}
+                                          title="Previous page"
+                                          disabled={isFirstPage}
+                                          icon-name="utility:chevronleft"
+                                          icon-position="left"></lightning-button>
+                        <lightning-button label="Next"
+                                          onclick={handleNext}
+                                          title="Next page"
+                                          disabled={isLastPage}
+                                          icon-name="utility:chevronright"
+                                          icon-position="right"></lightning-button>
+                        <lightning-button label="Last"
+                                          onclick={handleLast}
+                                          title="Last page"
+                                          disabled={isLastPage}
+                                          icon-name="utility:jump_to_right"
+                                          icon-position="right"></lightning-button>
+                    </lightning-button-group>
+                    <span class="slds-m-left_small slds-text-body_small">Page {pageNumber} of {totalPages}</span>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

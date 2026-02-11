@@ -1,0 +1,25 @@
+.slds-card {
+    background-color: var(--slds-c-card-background-color, var(--slds-g-color-neutral-base-0, #ffffff));
+    border-radius: var(--slds-c-card-border-radius, var(--slds-g-radius-medium, 0.25rem));
+    box-shadow: var(--slds-c-card-box-shadow, var(--slds-g-shadow-small, 0 2px 2px 0 rgba(0, 0, 0, .1)));
+    padding: var(--slds-c-card-padding, var(--slds-g-padding-medium, 0));
+}
+
+.slds-card__body {
+    padding: var(--slds-c-card-body-padding, var(--slds-g-padding-medium, 1rem));
+    margin: var(--slds-c-card-margin, var(--slds-g-margin-medium, 0));
+}
+
+.slds-accordion__list-item {
+    border-top: 0;
+}
+
+.kraken-label {
+    font-size: var(--kraken-label-font-size, 0.75rem);
+    color: var(--kraken-label-color, var(--slds-g-color-neutral-base-50, #4d4d4d));
+}
+
+.kraken-value {
+    font-size: var(--kraken-value-font-size, 0.8125rem);
+    color: var(--kraken-value-color, var(--slds-g-color-neutral-base-30, #353535));
+}

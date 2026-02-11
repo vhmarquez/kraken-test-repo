@@ -1,12 +1,12 @@
 {
-  "name": "DevVM",
-  "namespace": "",
   "packageDirectories": [
     {
-      "default": true,
-      "path": "force-app"
+      "path": "force-app",
+      "default": true
     }
   ],
+  "name": "kraken-test-repo",
+  "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "65.0"
+  "sourceApiVersion": "64.0"
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#E1D13C</headerColor>
+        <logo>svgviewerpngoutput_1</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>App to help guild leadership manage their World of Warcraft Guild</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>WoW Guild Manager</label>
+    <navType>Standard</navType>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Class__c</tabs>
+    <tabs>Specialization__c</tabs>
+    <tabs>Realm__c</tabs>
+    <tabs>Race__c</tabs>
+    <tabs>Character_Model__c</tabs>
+    <tabs>Guild_Applicant__c</tabs>
+    <tabs>Guild_Member__c</tabs>
+    <tabs>KrakenDataTableConfig__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>WoW_Guild_Manager_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,9 @@
+.config-table-container lightning-datatable {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.config-table-container {
+    padding: 0;
+}

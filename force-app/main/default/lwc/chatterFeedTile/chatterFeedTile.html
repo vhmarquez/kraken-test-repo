@@ -1,0 +1,76 @@
+<template>
+    <article class="slds-comment slds-media slds-media_center">
+        <div class="slds-media__figure">
+            <lightning-avatar 
+                src={defaultAvatar} 
+                fallback-icon-name="standard:user" 
+                alternative-text="User avatar">
+            </lightning-avatar>
+        </div>
+        <div class="slds-media__body">
+            <header class="slds-comment__header slds-grid slds-grid_align-spread slds-m-bottom_x-small">
+                <p class="slds-text-title_bold">{feedItem.CreatedBy.Name}</p>
+                <lightning-relative-date-time value={feedItem.CreatedDate}></lightning-relative-date-time>
+            </header>
+            <div class="slds-comment__content">
+                <lightning-formatted-rich-text value={feedItem.Body}></lightning-formatted-rich-text>
+            </div>
+            <footer class="slds-comment__footer slds-grid slds-grid_align-spread slds-m-top_small">
+                <lightning-button-icon 
+                    icon-name={likeIcon} 
+                    alternative-text="Like" 
+                    title="Like this comment" 
+                    onclick={toggleLike}>
+                </lightning-button-icon>
+                <span>{feedItem.likeCount} Likes</span>
+                <lightning-button 
+                    label="Reply" 
+                    variant="neutral" 
+                    onclick={handleReplyClick}>
+                </lightning-button>
+            </footer>
+            <!-- Nested Replies -->
+            <template if:true={feedItem.replies}>
+                <ul class="slds-feed__list slds-m-left_medium">
+                    <template for:each={feedItem.replies} for:item="reply">
+                        <li key={reply.Id} class="slds-feed__item slds-comment__child">
+                            <c-chatter-feed-tile 
+                                feed-item={reply}
+                                current-user-photo-url={currentUserPhotoUrl}
+                                onreply={handleReply}
+                                onlike={handleLike}>
+                            </c-chatter-feed-tile>
+                        </li>
+                    </template>
+                </ul>
+            </template>
+            <!-- Reply Editor -->
+            <template if:true={showReplyEditor}>
+                <div class="slds-comment slds-media slds-media_center slds-m-top_small">
+                    <div class="slds-media__figure">
+                        <lightning-avatar 
+                            src={currentUserPhotoUrl} 
+                            fallback-icon-name="standard:user">
+                        </lightning-avatar>
+                    </div>
+                    <div class="slds-media__body">
+                        <lightning-input-rich-text 
+                            value={replyBody} 
+                            placeholder="Reply or @mention..." 
+                            onchange={handleReplyBodyChange}
+                            formats={formats}>
+                        </lightning-input-rich-text>
+                        <div class="slds-clearfix slds-m-top_small">
+                            <lightning-button 
+                                class="slds-float_right" 
+                                label="Post Reply" 
+                                variant="brand" 
+                                onclick={postReply}>
+                            </lightning-button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </article>
+</template>

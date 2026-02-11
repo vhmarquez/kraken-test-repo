@@ -1,781 +1,250 @@
-{
-  "actionCalls": [
-    {
-      "actionCallPaths": [],
-      "actionName": "NewTask",
-      "actionType": "quickAction",
-      "connector": null,
-      "dataTypeMappings": [],
-      "description": null,
-      "elementSubtype": null,
-      "faultConnector": null,
-      "flowTransactionModel": "CurrentTransaction",
-      "group": null,
-      "inputParameters": [
-        {
-          "name": "contextId",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "Create_Character.Id",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "name": "Subject",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": null,
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": "Reach out to the Applicant in-game, introduce yourself and let them know their application is under review.",
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "name": "OwnerId",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$User.Id",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        }
-      ],
-      "isWaitUntilCompleted": null,
-      "label": "Applicant - Reach Out",
-      "locationX": 314,
-      "locationY": 492,
-      "name": "Applicant_Reach_Out",
-      "nameSegment": "NewTask",
-      "offset": 0,
-      "offsetUnit": null,
-      "outputConfigParams": [],
-      "outputParameters": [],
-      "processMetadataValues": [],
-      "storeOutputAutomatically": null,
-      "timeoutConnector": null,
-      "versionString": null
-    },
-    {
-      "actionCallPaths": [],
-      "actionName": "WoWCharacter",
-      "actionType": "apex",
-      "connector": {
-        "isGoTo": null,
-        "processMetadataValues": [],
-        "targetReference": "Update_Guild_Applicant"
-      },
-      "dataTypeMappings": [
-        {
-          "apexClass": null,
-          "processMetadataValues": [],
-          "typeName": "U__output",
-          "typeValue": "Guild_Applicant__c",
-          "valueMappingKey": null,
-          "valueMappingTarget": null,
-          "valueMappingTransformType": null
-        }
-      ],
-      "description": null,
-      "elementSubtype": null,
-      "faultConnector": null,
-      "flowTransactionModel": "CurrentTransaction",
-      "group": null,
-      "inputParameters": [
-        {
-          "name": "args",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "Realm_and_Character",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        }
-      ],
-      "isWaitUntilCompleted": null,
-      "label": "Create Character",
-      "locationX": 578,
-      "locationY": 384,
-      "name": "Create_Character",
-      "nameSegment": "WoWCharacter",
-      "offset": 0,
-      "offsetUnit": null,
-      "outputConfigParams": [],
-      "outputParameters": [],
-      "processMetadataValues": [],
-      "storeOutputAutomatically": true,
-      "timeoutConnector": null,
-      "versionString": null
-    }
-  ],
-  "apexPluginCalls": [],
-  "apiVersion": 62.0,
-  "areMetricsLoggedToDataCloud": false,
-  "assignments": [
-    {
-      "assignmentItems": [
-        {
-          "assignToReference": "Realm_and_Character",
-          "operator": "Add",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Realm__r.Realm_Slug__c",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "assignToReference": "Realm_and_Character",
-          "operator": "Add",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Name",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "assignToReference": "Realm_and_Character",
-          "operator": "Add",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Id",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        }
-      ],
-      "connector": {
-        "isGoTo": null,
-        "processMetadataValues": [],
-        "targetReference": "Create_Character"
-      },
-      "description": null,
-      "elementSubtype": null,
-      "group": null,
-      "label": "Character Arguments",
-      "locationX": 578,
-      "locationY": 276,
-      "name": "Character_Arguments",
-      "processMetadataValues": []
-    }
-  ],
-  "choices": [],
-  "collectionProcessors": [],
-  "constants": [],
-  "customErrors": [
-    {
-      "connector": null,
-      "customErrorMessages": [
-        {
-          "errorMessage": "Applicant already exists.",
-          "fieldSelection": null,
-          "isFieldError": false,
-          "processMetadataValues": []
-        }
-      ],
-      "description": null,
-      "elementSubtype": null,
-      "group": null,
-      "label": "Duplicate Applicant Found",
-      "locationX": 50,
-      "locationY": 492,
-      "name": "Duplicate_Applicant_Found",
-      "processMetadataValues": []
-    }
-  ],
-  "customProperties": [],
-  "dataSpace": null,
-  "decisions": [
-    {
-      "attributes": null,
-      "defaultConnector": {
-        "isGoTo": null,
-        "processMetadataValues": [],
-        "targetReference": "Applicant_Reach_Out"
-      },
-      "defaultConnectorLabel": "Default Outcome",
-      "description": null,
-      "elementSubtype": null,
-      "group": null,
-      "label": "Check",
-      "locationX": 182,
-      "locationY": 384,
-      "name": "Check",
-      "processMetadataValues": [],
-      "rules": [
-        {
-          "attributes": null,
-          "conditionLogic": "and",
-          "conditions": [
-            {
-              "aggregationOperator": null,
-              "conditionLogic": null,
-              "conditionType": null,
-              "conditions": [],
-              "leftValueReference": "$Record.Name",
-              "operator": "EqualTo",
-              "processMetadataValues": [],
-              "rightValue": {
-                "apexValue": null,
-                "booleanValue": null,
-                "collectionElements": null,
-                "complexValue": null,
-                "complexValueType": null,
-                "dateTimeValue": null,
-                "dateValue": null,
-                "elementReference": "Check_for_Matching_Records.Name",
-                "formulaDataType": null,
-                "formulaExpression": null,
-                "inputConfiguratorMode": null,
-                "numberValue": null,
-                "setupReference": null,
-                "setupReferenceType": null,
-                "sobjectValue": null,
-                "stringValue": null,
-                "timeValue": null,
-                "transform": null,
-                "transformValueReference": null
-              }
-            },
-            {
-              "aggregationOperator": null,
-              "conditionLogic": null,
-              "conditionType": null,
-              "conditions": [],
-              "leftValueReference": "$Record.Realm__c",
-              "operator": "EqualTo",
-              "processMetadataValues": [],
-              "rightValue": {
-                "apexValue": null,
-                "booleanValue": null,
-                "collectionElements": null,
-                "complexValue": null,
-                "complexValueType": null,
-                "dateTimeValue": null,
-                "dateValue": null,
-                "elementReference": "Check_for_Matching_Records.Realm__c",
-                "formulaDataType": null,
-                "formulaExpression": null,
-                "inputConfiguratorMode": null,
-                "numberValue": null,
-                "setupReference": null,
-                "setupReferenceType": null,
-                "sobjectValue": null,
-                "stringValue": null,
-                "timeValue": null,
-                "transform": null,
-                "transformValueReference": null
-              }
-            }
-          ],
-          "connector": {
-            "isGoTo": null,
-            "processMetadataValues": [],
-            "targetReference": "Duplicate_Applicant_Found"
-          },
-          "description": null,
-          "doesRequireRecordChangedToMeetCriteria": null,
-          "label": "Duplicates",
-          "name": "Duplicates",
-          "processMetadataValues": []
-        }
-      ]
-    }
-  ],
-  "description": null,
-  "dynamicChoiceSets": [],
-  "environments": [
-    "Default"
-  ],
-  "exitRules": [],
-  "experiments": [],
-  "formulas": [],
-  "groups": [],
-  "interviewLabel": "Create Guild Applicant {!$Flow.CurrentDateTime}",
-  "isAdditionalPermissionRequiredToRun": null,
-  "isOverridable": null,
-  "isTemplate": null,
-  "label": "Create Guild Applicant",
-  "loops": [],
-  "migratedFromWorkflowRuleName": null,
-  "orchestratedStages": [],
-  "overriddenFlow": null,
-  "processMetadataValues": [
-    {
-      "name": "BuilderType",
-      "value": {
-        "apexValue": null,
-        "booleanValue": null,
-        "collectionElements": null,
-        "complexValue": null,
-        "complexValueType": null,
-        "dateTimeValue": null,
-        "dateValue": null,
-        "elementReference": null,
-        "formulaDataType": null,
-        "formulaExpression": null,
-        "inputConfiguratorMode": null,
-        "numberValue": null,
-        "setupReference": null,
-        "setupReferenceType": null,
-        "sobjectValue": null,
-        "stringValue": "LightningFlowBuilder",
-        "timeValue": null,
-        "transform": null,
-        "transformValueReference": null
-      }
-    },
-    {
-      "name": "CanvasMode",
-      "value": {
-        "apexValue": null,
-        "booleanValue": null,
-        "collectionElements": null,
-        "complexValue": null,
-        "complexValueType": null,
-        "dateTimeValue": null,
-        "dateValue": null,
-        "elementReference": null,
-        "formulaDataType": null,
-        "formulaExpression": null,
-        "inputConfiguratorMode": null,
-        "numberValue": null,
-        "setupReference": null,
-        "setupReferenceType": null,
-        "sobjectValue": null,
-        "stringValue": "AUTO_LAYOUT_CANVAS",
-        "timeValue": null,
-        "transform": null,
-        "transformValueReference": null
-      }
-    },
-    {
-      "name": "OriginBuilderType",
-      "value": {
-        "apexValue": null,
-        "booleanValue": null,
-        "collectionElements": null,
-        "complexValue": null,
-        "complexValueType": null,
-        "dateTimeValue": null,
-        "dateValue": null,
-        "elementReference": null,
-        "formulaDataType": null,
-        "formulaExpression": null,
-        "inputConfiguratorMode": null,
-        "numberValue": null,
-        "setupReference": null,
-        "setupReferenceType": null,
-        "sobjectValue": null,
-        "stringValue": "LightningFlowBuilder",
-        "timeValue": null,
-        "transform": null,
-        "transformValueReference": null
-      }
-    }
-  ],
-  "processType": "AutoLaunchedFlow",
-  "recordCreates": [
-    {
-      "assignRecordIdToReference": null,
-      "connector": null,
-      "description": null,
-      "doesUpsert": true,
-      "doesUpsertAllOrNone": null,
-      "elementSubtype": null,
-      "faultConnector": null,
-      "filterLogic": null,
-      "filters": [],
-      "group": null,
-      "inputAssignments": [],
-      "inputReference": "Create_Character",
-      "label": "Update Guild Applicant",
-      "locationX": 578,
-      "locationY": 492,
-      "name": "Update_Guild_Applicant",
-      "object": null,
-      "operationMultMatchingRecords": null,
-      "operationOneMatchingRecord": null,
-      "operationZeroMatchingRecords": null,
-      "processMetadataValues": [],
-      "storeOutputAutomatically": null,
-      "upsertExternalIdField": null,
-      "upsertStandardIdField": null
-    }
-  ],
-  "recordDeletes": [],
-  "recordLookups": [
-    {
-      "assignNullValuesIfNoRecordsFound": false,
-      "connector": {
-        "isGoTo": null,
-        "processMetadataValues": [],
-        "targetReference": "Check"
-      },
-      "description": null,
-      "elementSubtype": null,
-      "faultConnector": null,
-      "filterLogic": "and",
-      "filters": [
-        {
-          "field": "Name",
-          "operator": "EqualTo",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Name",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "field": "Realm__c",
-          "operator": "EqualTo",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Realm__c",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        }
-      ],
-      "getFirstRecordOnly": true,
-      "group": null,
-      "label": "Check for Matching Records",
-      "limit": null,
-      "locationX": 182,
-      "locationY": 276,
-      "name": "Check_for_Matching_Records",
-      "object": "Guild_Applicant__c",
-      "outputAssignments": [],
-      "outputReference": null,
-      "processMetadataValues": [],
-      "queriedFields": null,
-      "relatedRecords": null,
-      "sortField": "SystemModstamp",
-      "sortOrder": "Desc",
-      "storeOutputAutomatically": true
-    }
-  ],
-  "recordRollbacks": [],
-  "recordUpdates": [],
-  "runInMode": null,
-  "screens": [],
-  "sourceTemplate": null,
-  "start": {
-    "activation": null,
-    "capabilityTypes": [],
-    "conditionLogic": null,
-    "conditions": [],
-    "connector": {
-      "isGoTo": null,
-      "processMetadataValues": [],
-      "targetReference": "Check_for_Matching_Records"
-    },
-    "dataGraph": null,
-    "dataTypeMappings": [],
-    "description": null,
-    "doesRequireRecordChangedToMeetCriteria": null,
-    "elementSubtype": null,
-    "entryType": null,
-    "eventName": null,
-    "eventType": null,
-    "fanOutAction": null,
-    "filterFormula": null,
-    "filterLogic": "and",
-    "filters": [
-      {
-        "field": "Name",
-        "operator": "IsNull",
-        "processMetadataValues": [],
-        "value": {
-          "apexValue": null,
-          "booleanValue": false,
-          "collectionElements": null,
-          "complexValue": null,
-          "complexValueType": null,
-          "dateTimeValue": null,
-          "dateValue": null,
-          "elementReference": null,
-          "formulaDataType": null,
-          "formulaExpression": null,
-          "inputConfiguratorMode": null,
-          "numberValue": null,
-          "setupReference": null,
-          "setupReferenceType": null,
-          "sobjectValue": null,
-          "stringValue": null,
-          "timeValue": null,
-          "transform": null,
-          "transformValueReference": null
-        }
-      },
-      {
-        "field": "Realm__c",
-        "operator": "IsNull",
-        "processMetadataValues": [],
-        "value": {
-          "apexValue": null,
-          "booleanValue": false,
-          "collectionElements": null,
-          "complexValue": null,
-          "complexValueType": null,
-          "dateTimeValue": null,
-          "dateValue": null,
-          "elementReference": null,
-          "formulaDataType": null,
-          "formulaExpression": null,
-          "inputConfiguratorMode": null,
-          "numberValue": null,
-          "setupReference": null,
-          "setupReferenceType": null,
-          "sobjectValue": null,
-          "stringValue": null,
-          "timeValue": null,
-          "transform": null,
-          "transformValueReference": null
-        }
-      }
-    ],
-    "flowRunAsUser": null,
-    "form": null,
-    "group": null,
-    "inputs": [],
-    "label": null,
-    "locationX": 254,
-    "locationY": 0,
-    "name": null,
-    "object": "Guild_Applicant__c",
-    "objectContainer": null,
-    "processMetadataValues": [],
-    "publishSegment": null,
-    "recordTriggerType": "Create",
-    "schedule": null,
-    "scheduledPaths": [
-      {
-        "connector": {
-          "isGoTo": null,
-          "processMetadataValues": [],
-          "targetReference": "Character_Arguments"
-        },
-        "description": null,
-        "label": null,
-        "maxBatchSize": null,
-        "name": null,
-        "offsetNumber": null,
-        "offsetUnit": null,
-        "pathType": "AsyncAfterCommit",
-        "processMetadataValues": [],
-        "recordField": null,
-        "timeSource": null
-      }
-    ],
-    "segment": null,
-    "triggerType": "RecordAfterSave",
-    "triggeringDataGraph": null,
-    "triggeringDataModelObjectPath": null,
-    "versionString": null
-  },
-  "startElementReference": null,
-  "status": "Obsolete",
-  "steps": [],
-  "subflows": [],
-  "textTemplates": [
-    {
-      "description": null,
-      "isViewedAsPlainText": false,
-      "name": "Link_to_existing_record",
-      "processMetadataValues": [],
-      "text": "<p><a href=\"/lightning/r/Guild_Applicant__c/{!Check_for_Matching_Records.Id}/view\" rel=\"noopener noreferrer\" target=\"_blank\">View Existing Record</a></p>"
-    }
-  ],
-  "timeZoneSidKey": null,
-  "transforms": [],
-  "triggerOrder": null,
-  "urls": null,
-  "variables": [
-    {
-      "apexClass": null,
-      "dataType": "SObject",
-      "description": null,
-      "isCollection": true,
-      "isInput": true,
-      "isOutput": true,
-      "name": "Character_Record",
-      "objectType": "Guild_Applicant__c",
-      "processMetadataValues": [],
-      "scale": null,
-      "value": null
-    },
-    {
-      "apexClass": null,
-      "dataType": "String",
-      "description": null,
-      "isCollection": true,
-      "isInput": true,
-      "isOutput": true,
-      "name": "Realm_and_Character",
-      "objectType": null,
-      "processMetadataValues": [],
-      "scale": null,
-      "value": null
-    },
-    {
-      "apexClass": null,
-      "dataType": "String",
-      "description": null,
-      "isCollection": false,
-      "isInput": true,
-      "isOutput": true,
-      "name": "recordId",
-      "objectType": null,
-      "processMetadataValues": [],
-      "scale": null,
-      "value": null
-    }
-  ],
-  "waits": []
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Applicant_Reach_Out</name>
+        <label>Applicant - Reach Out</label>
+        <locationX>314</locationX>
+        <locationY>492</locationY>
+        <actionName>NewTask</actionName>
+        <actionType>quickAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <elementReference>Create_Character.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>Subject</name>
+            <value>
+                <stringValue>Reach out to the Applicant in-game, introduce yourself and let them know their application is under review.</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>OwnerId</name>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>NewTask</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Create_Character</name>
+        <label>Create Character</label>
+        <locationX>578</locationX>
+        <locationY>384</locationY>
+        <actionName>WoWCharacter</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Update_Guild_Applicant</targetReference>
+        </connector>
+        <dataTypeMappings>
+            <typeName>U__output</typeName>
+            <typeValue>Guild_Applicant__c</typeValue>
+        </dataTypeMappings>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>args</name>
+            <value>
+                <elementReference>Realm_and_Character</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>WoWCharacter</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>62.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Character_Arguments</name>
+        <label>Character Arguments</label>
+        <locationX>578</locationX>
+        <locationY>276</locationY>
+        <assignmentItems>
+            <assignToReference>Realm_and_Character</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Realm__r.Realm_Slug__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Realm_and_Character</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Realm_and_Character</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Character</targetReference>
+        </connector>
+    </assignments>
+    <customErrors>
+        <name>Duplicate_Applicant_Found</name>
+        <label>Duplicate Applicant Found</label>
+        <locationX>50</locationX>
+        <locationY>492</locationY>
+        <customErrorMessages>
+            <errorMessage>Applicant already exists.</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <name>Check</name>
+        <label>Check</label>
+        <locationX>182</locationX>
+        <locationY>384</locationY>
+        <defaultConnector>
+            <targetReference>Applicant_Reach_Out</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Duplicates</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Check_for_Matching_Records.Name</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Realm__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Check_for_Matching_Records.Realm__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Duplicate_Applicant_Found</targetReference>
+            </connector>
+            <label>Duplicates</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Create Guild Applicant {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create Guild Applicant</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Update_Guild_Applicant</name>
+        <label>Update Guild Applicant</label>
+        <locationX>578</locationX>
+        <locationY>492</locationY>
+        <doesUpsert>true</doesUpsert>
+        <inputReference>Create_Character</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Check_for_Matching_Records</name>
+        <label>Check for Matching Records</label>
+        <locationX>182</locationX>
+        <locationY>276</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Name</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Realm__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Realm__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Guild_Applicant__c</object>
+        <sortField>SystemModstamp</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_for_Matching_Records</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Realm__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Guild_Applicant__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Character_Arguments</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>Link_to_existing_record</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;a href=&quot;/lightning/r/Guild_Applicant__c/{!Check_for_Matching_Records.Id}/view&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;View Existing Record&lt;/a&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>Character_Record</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Guild_Applicant__c</objectType>
+    </variables>
+    <variables>
+        <name>Realm_and_Character</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

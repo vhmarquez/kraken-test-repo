@@ -1,0 +1,17 @@
+<template>
+    <div data-label="Organization / Contact Name" class="slds-hint-parent" style="background-color: #F3F3F3; padding: 6px 12px; border-bottom: 1px solid #c9c9c9; color: #000;">
+        <lightning-button-icon icon-name={iconName} variant="bare" size="small" onclick={toggle} class="slds-m-left_medium"></lightning-button-icon>
+        <span class="slds-m-left_x-small">{contact.name}</span>
+    </div>
+    <template if:true={isExpanded}>
+        <div class="slds-p-left_xx-large">
+            <lightning-datatable
+                data={contact.children}
+                columns={deviceColumns}
+                key-field="id"
+                hide-checkbox-column
+                onrowaction={handleRowAction}>
+            </lightning-datatable>
+        </div>
+    </template>
+</template>

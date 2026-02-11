@@ -1,0 +1,40 @@
+<template>
+    <lightning-modal-header label={modalTitle}></lightning-modal-header>
+    <lightning-modal-body>
+        <div class="slds-m-around_medium">
+            <lightning-input
+                type="text"
+                label="Configuration Display Name"
+                value={displayName}
+                onchange={handleDisplayNameChange}
+                required
+            ></lightning-input>
+            <lightning-combobox
+                label="Object"
+                value={objectApiName}
+                options={objectOptions}
+                onchange={handleObjectChange}
+                required
+            ></lightning-combobox>
+            <template if:true={fieldOptions}>
+                <lightning-dual-listbox
+                    name="fields"
+                    label="Select Fields"
+                    source-label="Available Fields"
+                    selected-label="Selected Fields"
+                    options={fieldOptions}
+                    value={selectedFields}
+                    onchange={handleFieldChange}
+                    required
+                ></lightning-dual-listbox>
+            </template>
+            <template if:true={error}>
+                <p class="slds-text-color_error">{error}</p>
+            </template>
+        </div>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button variant="neutral" label="Cancel" onclick={handleCancel}></lightning-button>
+        <lightning-button variant="brand" label="Save" onclick={handleSave}></lightning-button>
+    </lightning-modal-footer>
+</template>

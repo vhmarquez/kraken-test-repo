@@ -1,26 +1,15 @@
-{
-  "customValue": [
-    {
-      "color": null,
-      "default": false,
-      "description": null,
-      "isActive": null,
-      "label": "Horde",
-      "urls": null,
-      "valueName": "Horde"
-    },
-    {
-      "color": null,
-      "default": false,
-      "description": null,
-      "isActive": null,
-      "label": "Alliance",
-      "urls": null,
-      "valueName": "Alliance"
-    }
-  ],
-  "description": null,
-  "masterLabel": "Faction",
-  "sorted": false,
-  "urls": null
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Horde</fullName>
+        <default>false</default>
+        <label>Horde</label>
+    </customValue>
+    <customValue>
+        <fullName>Alliance</fullName>
+        <default>false</default>
+        <label>Alliance</label>
+    </customValue>
+    <masterLabel>Faction</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

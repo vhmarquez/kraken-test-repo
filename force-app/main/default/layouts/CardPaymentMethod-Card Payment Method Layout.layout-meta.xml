@@ -1,465 +1,138 @@
-{
-  "customButtons": null,
-  "customConsoleComponents": null,
-  "emailDefault": null,
-  "excludeButtons": null,
-  "feedLayout": null,
-  "headers": null,
-  "layoutSections": [
-    {
-      "customLabel": true,
-      "detailHeading": true,
-      "editHeading": true,
-      "label": "Card Payment Method",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "NickName",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "InputCardNumber",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CardType",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CardHolderName",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ExpiryMonth",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CardBin",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "StartMonth",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CardHolderFirstName",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CardCategory",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "DisplayCardNumber",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "AutoCardType",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Status",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ExpiryYear",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CardLastFour",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "StartYear",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CardHolderLastName",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": true,
-      "editHeading": true,
-      "label": "GatewayDetails",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PaymentGatewayId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "GatewayToken",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": true,
-      "editHeading": true,
-      "label": "AdditionalInformation",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CompanyName",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PaymentMethodAddress",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Email",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "AccountId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Comments",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": false,
-      "label": null,
-      "layoutColumns": [
-        {
-          "layoutItems": null,
-          "reserved": null
-        }
-      ],
-      "style": "CustomLinks"
-    }
-  ],
-  "miniLayout": null,
-  "multilineLayoutFields": null,
-  "platformActionList": null,
-  "quickActionList": null,
-  "relatedContent": null,
-  "relatedLists": null,
-  "relatedObjects": [],
-  "runAssignmentRulesDefault": null,
-  "showEmailCheckbox": false,
-  "showHighlightsPanel": null,
-  "showInteractionLogPanel": null,
-  "showKnowledgeComponent": null,
-  "showRunAssignmentRulesCheckbox": false,
-  "showSolutionSection": null,
-  "showSubmitAndAttachButton": false,
-  "summaryLayout": null,
-  "urls": null
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Card Payment Method</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NickName</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>InputCardNumber</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CardType</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CardHolderName</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ExpiryMonth</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CardBin</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>StartMonth</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CardHolderFirstName</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CardCategory</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>DisplayCardNumber</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AutoCardType</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Status</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ExpiryYear</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CardLastFour</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>StartYear</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CardHolderLastName</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>GatewayDetails</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PaymentGatewayId</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>GatewayToken</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>AdditionalInformation</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CompanyName</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PaymentMethodAddress</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Email</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AccountId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Comments</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+        <layoutColumns/>
+        <style>CustomLinks</style>
+    </layoutSections>
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+</Layout>

@@ -1,0 +1,55 @@
+<template>
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12">
+            <lightning-layout multiple-rows="false" horizontal-align="space">
+                <lightning-layout-item flexibility="auto">
+                    <lightning-button-group>
+                        <lightning-button label="Display Contacts" onclick={handleViewChange} data-view={viewDisplayContacts} variant={variantDisplayContacts}></lightning-button>
+                        <lightning-button label="E-ISAC" onclick={handleViewChange} data-view={viewEISAC} variant={variantEISAC}></lightning-button>
+                        <lightning-button label="My Org" onclick={handleViewChange} data-view={viewMyOrg} variant={variantMyOrg}></lightning-button>
+                        <lightning-button label="Mine" onclick={handleViewChange} data-view={viewMine} variant={variantMine}></lightning-button>
+                    </lightning-button-group>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" class="slds-text-align_right">
+                    <lightning-button label="Add New ESCC Device" variant="brand" onclick={handleAddNew} class="slds-m-left_x-small"></lightning-button>
+                    <lightning-button label="Export as CSV" icon-name="utility:down" icon-position="right" onclick={handleExport} class="slds-m-left_x-small"></lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" class="slds-m-top_small">
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading"></lightning-spinner>
+            </template>
+            <template if:false={isLoading}>
+                <lightning-tree-grid
+                    data={treeData}
+                    columns={columns}
+                    key-field="id"
+                    onrowaction={handleRowAction}>
+                </lightning-tree-grid>
+            </template>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" class="slds-m-top_small">
+            <lightning-layout multiple-rows="false">
+                <lightning-layout-item padding="horizontal-small">
+                    <lightning-combobox
+                        label="Contacts per page"
+                        value={pageSize}
+                        options={pageSizeOptions}
+                        onchange={handlePageSizeChange}>
+                    </lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="grow" class="slds-text-align_center">
+                    <span>{rowRange} </span>
+                </lightning-layout-item>
+                <lightning-layout-item class="slds-text-align_right">
+                    <lightning-layout multiple-rows="false" horizontal-align="end">
+                        <lightning-button-icon icon-name="utility:chevronleft" variant="bare" disabled={isPreviousDisabled} onclick={handlePrevious} alternative-text="Previous"></lightning-button-icon>
+                        <span class="slds-m-horizontal_small">{pageInfo}</span>
+                        <lightning-button-icon icon-name="utility:chevronright" variant="bare" disabled={isNextDisabled} onclick={handleNext} alternative-text="Next"></lightning-button-icon>
+                    </lightning-layout>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

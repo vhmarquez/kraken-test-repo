@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Api, RefreshToken</commaSeparatedOauthScopes>
+    <externalClientApplication>Kraken_DevOps</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>Kraken_DevOps_oauth</label>
+    <oauthLink>00Dak00000HEw5Z:888ak000000q0qL</oauthLink>
+</ExtlClntAppOauthSettings>

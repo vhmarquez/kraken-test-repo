@@ -1,0 +1,159 @@
+<template>
+    <lightning-card>
+        <template lwc:if={characterModel.data}>
+            <h2 class="slds-card__header-title slds-text-align_center slds-m-bottom_x-small" style="display: block; margin-top: -0.5rem;">
+                {name} {title}
+            </h2>
+            <div class="slds-media">
+                <div class="slds-media__figure">
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={head}>
+                            <img src={head} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 0; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={neck}>
+                            <img src={neck} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 7%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={shoulders}>
+                            <img src={shoulders} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 13%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={back}>
+                            <img src={back} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 25%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={chest}>
+                            <img src={chest} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 18.5%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 31%; max-height: 55px;">
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={tabard}>
+                            <img src={tabard} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0% 25%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={wrist}>
+                            <img src={wrist} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 37.5%; max-height: 55px;">
+                        </template>
+                    </div>
+                </div>
+                <div class="slds-media__body slds-text-align_center">
+                    <div class="slds-box slds-box_xx-small slds-m-bottom_small">
+                        <img src={characterRender} alt="Character Model Render" style="height: 566px; object-fit: cover; object-position: 50% 65%;"/>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-right_small slds-m-left_small" style="display: inline-block;">
+                        <template lwc:if={main_hand}>
+                            <img src={main_hand} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 81%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-right_small slds-m-left_small" style="display: inline-block;">
+                        <template lwc:if={off_hand}>
+                            <img src={off_hand} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 87.5%; max-height: 55px;">
+                        </template>
+                    </div>
+                </div>
+                <div class="slds-media__figure slds-media__figure_reverse">
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={hands}>
+                            <img src={hands} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 43.5%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={waist}>
+                            <img src={waist} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 50.5%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={legs}>
+                            <img src={legs} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 56%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={feet}>
+                            <img src={feet} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 62.5%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={finger}>
+                            <img src={finger} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 69%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={finger_2}>
+                            <img src={finger_2} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 69%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={trinket}>
+                            <img src={trinket} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 75%; max-height: 55px;">
+                        </template>
+                    </div>
+                    <div class="slds-box slds-box_xx-small slds-text-align_center slds-m-bottom_x-small slds-m-right_small slds-m-left_small">
+                        <template lwc:if={trinket_2}>
+                            <img src={trinket_2} alt="" height="55" width="55">
+                        </template>
+                        <template lwc:else>
+                            <img src={missingItemUrl} alt="" height="55" width="55" style="object-fit: cover; object-position: 0 75%; max-height: 55px;">
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </lightning-card>
+</template>

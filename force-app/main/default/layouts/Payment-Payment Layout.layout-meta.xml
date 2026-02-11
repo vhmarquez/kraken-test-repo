@@ -1,724 +1,209 @@
-{
-  "customButtons": null,
-  "customConsoleComponents": null,
-  "emailDefault": null,
-  "excludeButtons": null,
-  "feedLayout": null,
-  "headers": null,
-  "layoutSections": [
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PaymentNumber",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "AccountId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Amount",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PaymentAuthorizationId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PaymentMethodId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ProcessingMode",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Balance",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "TotalRefundApplied",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Date",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Status",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Type",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PaymentGroupId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "EffectiveDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Comments",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "TotalRefundUnapplied",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "NetRefundApplied",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": true,
-      "editHeading": true,
-      "label": "AdditionalInformation",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ImpactAmount",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CancellationDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "SfResultCode",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CancellationSfResultCode",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CancellationEffectiveDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": true,
-      "editHeading": true,
-      "label": "GatewayDetails",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "PaymentGatewayId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "GatewayResultCode",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "GatewayRefNumber",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CancellationGatewayDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CancellationGatewayRefNumber",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "GatewayDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "GatewayResultCodeDescription",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "GatewayRefDetails",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CancellationGatewayResultCode",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": true,
-      "editHeading": true,
-      "label": "SystemInformation",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CreatedById",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CreatedDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "MacAddress",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Phone",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "LastModifiedById",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "LastModifiedDate",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "IpAddress",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Email",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": false,
-      "label": null,
-      "layoutColumns": [
-        {
-          "layoutItems": null,
-          "reserved": null
-        }
-      ],
-      "style": "CustomLinks"
-    }
-  ],
-  "miniLayout": null,
-  "multilineLayoutFields": null,
-  "platformActionList": null,
-  "quickActionList": null,
-  "relatedContent": null,
-  "relatedLists": null,
-  "relatedObjects": [],
-  "runAssignmentRulesDefault": null,
-  "showEmailCheckbox": false,
-  "showHighlightsPanel": null,
-  "showInteractionLogPanel": null,
-  "showKnowledgeComponent": null,
-  "showRunAssignmentRulesCheckbox": false,
-  "showSolutionSection": null,
-  "showSubmitAndAttachButton": false,
-  "summaryLayout": null,
-  "urls": null
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>PaymentNumber</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AccountId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Amount</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PaymentAuthorizationId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PaymentMethodId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>ProcessingMode</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Balance</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalRefundApplied</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Date</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Status</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Type</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PaymentGroupId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>EffectiveDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Comments</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>TotalRefundUnapplied</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>NetRefundApplied</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>AdditionalInformation</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ImpactAmount</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CancellationDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SfResultCode</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CancellationSfResultCode</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CancellationEffectiveDate</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>GatewayDetails</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>PaymentGatewayId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>GatewayResultCode</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>GatewayRefNumber</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CancellationGatewayDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CancellationGatewayRefNumber</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>GatewayDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>GatewayResultCodeDescription</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>GatewayRefDetails</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CancellationGatewayResultCode</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>SystemInformation</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CreatedById</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CreatedDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>MacAddress</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Phone</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>LastModifiedById</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>LastModifiedDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IpAddress</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Email</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+        <layoutColumns/>
+        <style>CustomLinks</style>
+    </layoutSections>
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+</Layout>

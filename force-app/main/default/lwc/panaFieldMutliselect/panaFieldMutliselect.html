@@ -1,0 +1,7 @@
+<template>
+    <select multiple>
+        <template for:each={pickListValues} for:item="picklistValue">
+            <option key={picklistValue.value} value={picklistValue.value}>{picklistValue.label}</option>
+        </template>
+    </select>
+</template>

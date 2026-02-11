@@ -1,0 +1,39 @@
+<template>
+    <lightning-card title="Kraken Data Table Configuration Manager" icon-name="standard:custom">
+        <div slot="actions">
+            <lightning-button variant="brand" label="New" onclick={openNewConfigModal}></lightning-button>
+        </div>
+        <div class="config-table-container">
+            <template if:true={configs}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={configs}
+                    columns={columns}
+                    hide-checkbox-column
+                    onrowaction={handleRowAction}
+                ></lightning-datatable>
+            </template>
+            <template if:false={configs}>
+                <p>No configurations available.</p>
+            </template>
+            <template if:true={showModal}>
+                <section role="dialog" tabindex="-1" aria-labelledby="modal-heading" aria-modal="true" class="slds-modal slds-fade-in-open">
+                    <div class="slds-modal__container">
+                        <c-kraken-config-manager-modal
+                            config-id={editConfigId}
+                            display-name={editDisplayName}
+                            object-api-name={editObjectApiName}
+                            selected-fields={editSelectedFields}
+                            onsave={handleSaveConfig}
+                            oncancel={closeModal}
+                        ></c-kraken-config-manager-modal>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </template>
+            <template if:true={error}>
+                <p>{error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

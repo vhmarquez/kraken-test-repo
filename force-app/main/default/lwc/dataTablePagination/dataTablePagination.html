@@ -1,0 +1,25 @@
+<template>
+    <lightning-datatable
+        key-field="Id"
+        hide-checkbox-column
+        data={contactList}
+        columns={columns}>
+    </lightning-datatable>
+    <lightning-combobox
+        name="limit"
+        label="Contacts per page:"
+        placeholder={pageSize}
+        options={pageSizeOptions}
+        onchange={selectPageSize}>
+    </lightning-combobox>
+    <lightning-button
+        label="Previous"
+        onclick={previousPage}
+        disabled={prevButton}>
+    </lightning-button>
+    <lightning-button
+        label="Next"
+        onclick={nextPage}
+        disabled={nextButton}>
+    </lightning-button>
+</template>

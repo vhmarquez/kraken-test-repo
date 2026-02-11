@@ -1,21 +1,17 @@
 {
-  "overrides": [
-    {
-      "files": "**/lwc/**/*.html",
-      "options": {
-        "parser": "lwc"
-      }
-    },
-    {
-      "files": "*.{cmp,page,component}",
-      "options": {
-        "parser": "html"
-      }
-    }
-  ],
+  "trailingComma": "none",
   "plugins": [
     "prettier-plugin-apex",
     "@prettier/plugin-xml"
   ],
-  "trailingComma": "none"
+  "overrides": [
+    {
+      "files": "**/lwc/**/*.html",
+      "options": { "parser": "lwc" }
+    },
+    {
+      "files": "*.{cmp,page,component}",
+      "options": { "parser": "html" }
+    }
+  ]
 }

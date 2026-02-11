@@ -1,0 +1,36 @@
+:host {
+    --slds-c-button-brand-color-background: #0070d2;
+}
+
+.slds-text-color_default {
+    color: #006dcc;
+    font-weight: bold;
+}
+
+.slds-button_icon-bare {
+    border-radius: 50%;
+    background-color: #f3f2f2;
+    width: 2rem;
+    height: 2rem;
+}
+
+.slds-button_icon-bare[disabled] {
+    background-color: #dddbda;
+}
+
+.slds-cell-action .slds-button_icon {
+    border: 1px solid #dddbda;
+    border-radius: 50%;
+}
+
+.slds-m-left_medium {
+    margin-left: 1rem;
+}
+
+.slds-p-left_xx-large {
+    padding-left: 2rem;
+}
+
+.slds-button_icon-bare {
+     line-height: 0 !important;
+}

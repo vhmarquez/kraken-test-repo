@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Device Type --></label>
+    <name>Device_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cellular</masterLabel>
+        <translation><!-- Cellular --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GETS</masterLabel>
+        <translation><!-- GETS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Landline</masterLabel>
+        <translation><!-- Landline --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satellite</masterLabel>
+        <translation><!-- Satellite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VoIP</masterLabel>
+        <translation><!-- VoIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WPS</masterLabel>
+        <translation><!-- WPS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

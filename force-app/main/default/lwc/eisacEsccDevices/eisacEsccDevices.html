@@ -1,0 +1,208 @@
+<template>
+    <!-- Main Container -->
+    <div class="escc-container">
+        <!-- Header Section with Filters and Actions -->
+        <div class="header-section">
+            <div class="filter-section">
+                <span class="filter-label">Display contacts</span>
+                <div class="filter-checkboxes">
+                    <lightning-input
+                        type="checkbox"
+                        label="E-ISAC"
+                        checked={filters.eisac}
+                        data-filter="eisac"
+                        onchange={handleFilterChange}
+                        class="filter-checkbox"
+                    ></lightning-input>
+                    <lightning-input
+                        type="checkbox"
+                        label="My Org"
+                        checked={filters.myOrg}
+                        data-filter="myOrg"
+                        onchange={handleFilterChange}
+                        class="filter-checkbox"
+                    ></lightning-input>
+                    <lightning-input
+                        type="checkbox"
+                        label="Mine"
+                        checked={filters.mine}
+                        data-filter="mine"
+                        onchange={handleFilterChange}
+                        class="filter-checkbox"
+                    ></lightning-input>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <lightning-button
+                    label="Add New ESCC Device"
+                    icon-name="utility:add"
+                    onclick={handleAddDevice}
+                    class="action-button"
+                ></lightning-button>
+                <lightning-button
+                    label="Export as CSV"
+                    icon-name="utility:download"
+                    onclick={handleExportCSV}
+                    class="action-button"
+                ></lightning-button>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <template if:true={isLoading}>
+            <div class="loading-container">
+                <lightning-spinner
+                    alternative-text="Loading devices..."
+                    size="medium"
+                ></lightning-spinner>
+            </div>
+        </template>
+
+        <!-- Empty State -->
+        <template if:true={hasNoData}>
+            <div class="empty-state">
+                <lightning-icon
+                    icon-name="utility:error"
+                    size="large"
+                    alternative-text="No devices"
+                ></lightning-icon>
+                <p class="empty-message">No devices found</p>
+            </div>
+        </template>
+
+        <!-- Tree Grid Content -->
+        <template if:false={isLoading}>
+            <template if:true={organizations.length}>
+                <div class="tree-container">
+                    <!-- Organizations (Level 1) -->
+                    <template for:each={organizations} for:item="org">
+                        <div key={org.id} class="tree-level-1">
+                            <!-- Organization Row -->
+                            <div
+                                class="org-row tree-row"
+                                data-id={org.id}
+                                onclick={handleOrganizationClick}
+                                role="button"
+                                tabindex="0"
+                                aria-expanded={org.isExpanded}
+                                aria-label={org.name}
+                            >
+                                <lightning-icon
+                                    icon-name={org._chevronIcon}
+                                    size="x-small"
+                                    class="chevron-icon"
+                                ></lightning-icon>
+                                <span class="org-name">{org.name}</span>
+                            </div>
+
+                            <!-- Contacts (Level 2) -->
+                            <template if:true={org.isExpanded}>
+                                <template for:each={org.contacts} for:item="contact">
+                                    <div key={contact.id} class="tree-level-2">
+                                        <!-- Contact Row -->
+                                        <div
+                                            class="contact-row tree-row"
+                                            data-org-id={org.id}
+                                            data-contact-id={contact.id}
+                                            onclick={handleContactClick}
+                                            role="button"
+                                            tabindex="0"
+                                            aria-expanded={contact.isExpanded}
+                                            aria-label={contact.name}
+                                        >
+                                            <lightning-icon
+                                                icon-name={contact.isExpanded}
+                                                size="x-small"
+                                                class="chevron-icon"
+                                            ></lightning-icon>
+                                            <span class="contact-info">
+                                                <span class="contact-name">{contact.name}</span>
+                                                <template if:true={contact.jobTitle}>
+                                                    <span class="job-title"> – {contact.jobTitle}</span>
+                                                </template>
+                                            </span>
+                                        </div>
+
+                                        <!-- Devices Table (Level 3) -->
+                                        <template if:true={contact.isExpanded}>
+                                            <div class="tree-level-3">
+                                                <table class="devices-table" role="grid">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">Device Number</th>
+                                                            <th scope="col">Device Level</th>
+                                                            <th scope="col">Device Type</th>
+                                                            <th scope="col">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <template for:each={contact.devices} for:item="device">
+                                                            <tr key={device.id}>
+                                                                <td>{device.deviceNumber}</td>
+                                                                <td>{device.deviceLevel}</td>
+                                                                <td>{device.deviceType}</td>
+                                                                <td>
+                                                                    <lightning-button-icon
+                                                                        icon-name="utility:edit"
+                                                                        alternative-text="Edit device"
+                                                                        title="Edit"
+                                                                        data-device-id={device.id}
+                                                                        onclick={handleEditDevice}
+                                                                        class="action-icon"
+                                                                    ></lightning-button-icon>
+                                                                </td>
+                                                            </tr>
+                                                        </template>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+                            </template>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Pagination Footer -->
+                <div class="pagination-footer">
+                    <div class="page-size-selector">
+                        <span class="page-size-label">Organizations per page</span>
+                        <lightning-combobox
+                            value={pageSize}
+                            options={pageSizeOptions}
+                            onchange={handlePageSizeChange}
+                            variant="label-hidden"
+                            class="page-size-combo"
+                        ></lightning-combobox>
+                    </div>
+
+                    <div class="pagination-info">
+                        <span>{paginationText}</span>
+                    </div>
+
+                    <div class="pagination-controls">
+                        <lightning-button-icon
+                            icon-name="utility:chevronleft"
+                            alternative-text="Previous page"
+                            title="Previous"
+                            disabled={isPreviousDisabled}
+                            onclick={handlePreviousPage}
+                            class="pagination-button"
+                        ></lightning-button-icon>
+                        <span class="page-number">{pageNumberText}</span>
+                        <lightning-button-icon
+                            icon-name="utility:chevronright"
+                            alternative-text="Next page"
+                            title="Next"
+                            disabled={isNextDisabled}
+                            onclick={handleNextPage}
+                            class="pagination-button"
+                        ></lightning-button-icon>
+                    </div>
+                </div>
+            </template>
+        </template>
+    </div>
+</template>

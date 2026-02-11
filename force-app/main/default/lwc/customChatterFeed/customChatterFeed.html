@@ -1,0 +1,53 @@
+<template>
+    <lightning-card title="Chatter Feed" icon-name="standard:scan_card">
+        <div class="slds-feed">
+            <ul class="slds-feed__list">
+                <!-- Post Editor -->
+                <li class="slds-feed__item">
+                    <div class="slds-comment slds-media slds-media_center">
+                        <div class="slds-media__figure">
+                            <lightning-avatar 
+                                src={currentUserPhotoUrl} 
+                                fallback-icon-name="standard:user" 
+                                alternative-text="Your avatar">
+                            </lightning-avatar>
+                        </div>
+                        <div class="slds-media__body">
+                            <lightning-input-rich-text 
+                                value={commentBody} 
+                                placeholder="Add a comment or @mention someone..." 
+                                onchange={handleBodyChange}
+                                formats={formats}>
+                            </lightning-input-rich-text>
+                            <div class="slds-clearfix slds-m-top_small">
+                                <lightning-button 
+                                    class="slds-float_right" 
+                                    name="post" 
+                                    label="Post" 
+                                    variant="brand" 
+                                    onclick={handlePost}>
+                                </lightning-button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Feed Items -->
+                <template if:true={feedItems}>
+                    <template for:each={feedItems} for:item="item">
+                        <li key={item.Id} class="slds-feed__item">
+                            <c-chatter-feed-tile 
+                                feed-item={item}
+                                current-user-photo-url={currentUserPhotoUrl}
+                                onreply={handleReply}
+                                onlike={handleLike}>
+                            </c-chatter-feed-tile>
+                        </li>
+                    </template>
+                </template>
+                <template if:false={feedItems}>
+                    <li class="slds-feed__item"><p>No comments yet.</p></li>
+                </template>
+            </ul>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,34 @@
+<template>
+    <div class="slds-card" style={elementStyles}>
+        <div class="slds-card__body">
+            <template if:true={layoutSections}>
+                <lightning-record-view-form record-id={recordId} object-api-name={objectApiName}>
+                    <lightning-accordion allow-multiple-sections-open active-section-name={activeSectionNames}>
+                        <template for:each={layoutSections} for:item="section">
+                            <lightning-accordion-section key={section.id} name={section.id} label={section.heading} class="slds-var-m-bottom_small">
+                                <div class="slds-form slds-var-p-top_medium" role="list">
+                                    <template for:each={section.rows} for:item="row">
+                                        <div class="slds-form__row" key={row.key}>
+                                            <template for:each={row.items} for:item="item">
+                                                <div key={item.key} class="slds-form__item" role="listitem">
+                                                    <template if:true={item.isField}>
+                                                        <div class="slds-form-element slds-form-element_readonly slds-form-element_stacked">
+                                                            <span class="slds-form-element__label kraken-label">{item.label}</span>
+                                                            <div class="slds-form-element__control">
+                                                                <div class="slds-form-element__static kraken-value">{item.value}</div>
+                                                            </div>
+                                                        </div>
+                                                    </template>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </template>
+                                </div>
+                            </lightning-accordion-section>
+                        </template>
+                    </lightning-accordion>
+                </lightning-record-view-form>
+            </template>
+        </div>
+    </div>
+</template>

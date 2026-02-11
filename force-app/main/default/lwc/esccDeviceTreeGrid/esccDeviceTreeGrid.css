@@ -1,0 +1,24 @@
+:host {
+    --slds-c-button-brand-color-background: #0070d2;
+}
+
+.slds-tree__branch > .slds-tree__item > .slds-tree__item-label {
+    color: #006dcc;
+    font-weight: bold;
+}
+
+.slds-button_icon-bare {
+    border-radius: 50%;
+    background-color: #f3f2f2;
+    width: 2rem;
+    height: 2rem;
+}
+
+.slds-button_icon-bare[disabled] {
+    background-color: #dddbda;
+}
+
+.slds-cell-action .slds-button_icon {
+    border: 1px solid #dddbda;
+    border-radius: 50%;
+}

@@ -1,0 +1,8 @@
+<template>
+    <button value="page-one" data-name="one" onclick={switchPage}>Go to Page One</button>
+    <button value="page-two" data-name="two" onclick={switchPage}>Go to Page Two</button>
+    <div class="page-container">
+        <lwc:component lwc:is={currentPage}></lwc:component>
+    </div>
+
+</template>

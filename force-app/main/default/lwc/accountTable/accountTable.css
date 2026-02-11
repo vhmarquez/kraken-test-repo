@@ -1,0 +1,76 @@
+:host {
+  --slds-c-card-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  --slds-c-card-spacing-block: var(--slds-spacing-none);
+}
+
+/* Scrollable Table Container */
+:host {
+  display: block;
+}
+
+.slds-scrollable_x {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Account Table Styling */
+.account-table {
+  width: 100%;
+}
+
+/* Pagination Controls Container */
+.pagination-controls {
+  display: flex;
+  gap: var(--slds-spacing-small);
+  justify-content: flex-end;
+}
+
+/* Button Styling */
+:host ::part(button) {
+  margin: 0 var(--slds-spacing-x-small);
+}
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 768px) {
+  .pagination-controls {
+    flex-direction: column;
+    gap: var(--slds-spacing-medium);
+  }
+
+  .slds-col {
+    width: 100% !important;
+  }
+
+  .slds-text-align_right {
+    text-align: left !important;
+  }
+
+  .slds-grid {
+    flex-direction: column;
+  }
+
+  .slds-scrollable_x {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Accessibility: Focus Styles */
+:host ::part(button):focus {
+  outline: 2px solid var(--slds-c-button-focus-outline-color);
+  outline-offset: 2px;
+}
+
+/* Empty State Styling */
+.slds-text-color_weak {
+  color: var(--slds-c-text-color-weak);
+}
+
+/* Loading Spinner */
+:host ::part(spinner) {
+  margin: 0 auto;
+}
+
+/* Error Alert */
+:host ::part(alert) {
+  margin: 0;
+}

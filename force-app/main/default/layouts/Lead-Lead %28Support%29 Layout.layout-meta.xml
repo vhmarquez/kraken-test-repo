@@ -1,780 +1,368 @@
-{
-  "customButtons": [],
-  "customConsoleComponents": null,
-  "emailDefault": null,
-  "excludeButtons": [],
-  "feedLayout": null,
-  "headers": [],
-  "layoutSections": [
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Lead Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "OwnerId",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Name",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Company",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Title",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "LeadSource",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Required",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Status",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Item_Level__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Incident__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Incident_Reason__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Phone",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "MobilePhone",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Fax",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Email",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Website",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsTopToBottom"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Address Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Address",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsTopToBottom"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Additional Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "ProductInterest__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Industry",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "NumberOfEmployees",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CurrentGenerators__c",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            },
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "AnnualRevenue",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsLeftToRight"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "System Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "CreatedById",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        },
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Readonly",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "LastModifiedById",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "TwoColumnsTopToBottom"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": false,
-      "editHeading": true,
-      "label": "Description Information",
-      "layoutColumns": [
-        {
-          "layoutItems": [
-            {
-              "analyticsCloudComponent": null,
-              "behavior": "Edit",
-              "canvas": null,
-              "component": null,
-              "customLink": null,
-              "emptySpace": null,
-              "field": "Description",
-              "height": null,
-              "page": null,
-              "reportChartComponent": null,
-              "scontrol": null,
-              "showLabel": null,
-              "showScrollbars": null,
-              "width": null
-            }
-          ],
-          "reserved": null
-        }
-      ],
-      "style": "OneColumn"
-    },
-    {
-      "customLabel": false,
-      "detailHeading": true,
-      "editHeading": false,
-      "label": "Custom Links",
-      "layoutColumns": [
-        {
-          "layoutItems": [],
-          "reserved": null
-        },
-        {
-          "layoutItems": [],
-          "reserved": null
-        },
-        {
-          "layoutItems": [],
-          "reserved": null
-        }
-      ],
-      "style": "CustomLinks"
-    }
-  ],
-  "miniLayout": null,
-  "multilineLayoutFields": null,
-  "platformActionList": {
-    "actionListContext": "Record",
-    "platformActionListItems": [
-      {
-        "actionName": "FeedItem.TextPost",
-        "actionType": "QuickAction",
-        "sortOrder": 0,
-        "subtype": null
-      },
-      {
-        "actionName": "FeedItem.ContentPost",
-        "actionType": "QuickAction",
-        "sortOrder": 1,
-        "subtype": null
-      },
-      {
-        "actionName": "NewTask",
-        "actionType": "QuickAction",
-        "sortOrder": 2,
-        "subtype": null
-      },
-      {
-        "actionName": "LogACall",
-        "actionType": "QuickAction",
-        "sortOrder": 3,
-        "subtype": null
-      },
-      {
-        "actionName": "NewCase",
-        "actionType": "QuickAction",
-        "sortOrder": 4,
-        "subtype": null
-      },
-      {
-        "actionName": "NewNote",
-        "actionType": "QuickAction",
-        "sortOrder": 5,
-        "subtype": null
-      },
-      {
-        "actionName": "NewEvent",
-        "actionType": "QuickAction",
-        "sortOrder": 6,
-        "subtype": null
-      },
-      {
-        "actionName": "FeedItem.LinkPost",
-        "actionType": "QuickAction",
-        "sortOrder": 7,
-        "subtype": null
-      },
-      {
-        "actionName": "FeedItem.PollPost",
-        "actionType": "QuickAction",
-        "sortOrder": 8,
-        "subtype": null
-      },
-      {
-        "actionName": "FeedItem.QuestionPost",
-        "actionType": "QuickAction",
-        "sortOrder": 9,
-        "subtype": null
-      },
-      {
-        "actionName": "SendEmail",
-        "actionType": "QuickAction",
-        "sortOrder": 10,
-        "subtype": null
-      },
-      {
-        "actionName": "Delete",
-        "actionType": "StandardButton",
-        "sortOrder": 11,
-        "subtype": null
-      },
-      {
-        "actionName": "SendEmail",
-        "actionType": "StandardButton",
-        "sortOrder": 12,
-        "subtype": null
-      },
-      {
-        "actionName": "ChangeRecordType",
-        "actionType": "StandardButton",
-        "sortOrder": 13,
-        "subtype": null
-      },
-      {
-        "actionName": "Clone",
-        "actionType": "StandardButton",
-        "sortOrder": 14,
-        "subtype": null
-      },
-      {
-        "actionName": "Share",
-        "actionType": "StandardButton",
-        "sortOrder": 15,
-        "subtype": null
-      },
-      {
-        "actionName": "Edit",
-        "actionType": "StandardButton",
-        "sortOrder": 16,
-        "subtype": null
-      },
-      {
-        "actionName": "XClean",
-        "actionType": "StandardButton",
-        "sortOrder": 17,
-        "subtype": null
-      },
-      {
-        "actionName": "Convert",
-        "actionType": "StandardButton",
-        "sortOrder": 18,
-        "subtype": null
-      },
-      {
-        "actionName": "Submit",
-        "actionType": "StandardButton",
-        "sortOrder": 19,
-        "subtype": null
-      },
-      {
-        "actionName": "ChangeOwnerOne",
-        "actionType": "StandardButton",
-        "sortOrder": 20,
-        "subtype": null
-      },
-      {
-        "actionName": "CallHighlightAction",
-        "actionType": "ProductivityAction",
-        "sortOrder": 21,
-        "subtype": null
-      },
-      {
-        "actionName": "SmsHighlightAction",
-        "actionType": "ProductivityAction",
-        "sortOrder": 22,
-        "subtype": null
-      },
-      {
-        "actionName": "EmailHighlightAction",
-        "actionType": "ProductivityAction",
-        "sortOrder": 23,
-        "subtype": null
-      }
-    ],
-    "relatedSourceEntity": null
-  },
-  "quickActionList": {
-    "quickActionListItems": [
-      {
-        "quickActionName": "FeedItem.TextPost"
-      },
-      {
-        "quickActionName": "FeedItem.ContentPost"
-      },
-      {
-        "quickActionName": "NewTask"
-      },
-      {
-        "quickActionName": "LogACall"
-      },
-      {
-        "quickActionName": "NewCase"
-      },
-      {
-        "quickActionName": "NewNote"
-      },
-      {
-        "quickActionName": "NewEvent"
-      },
-      {
-        "quickActionName": "FeedItem.LinkPost"
-      },
-      {
-        "quickActionName": "FeedItem.PollPost"
-      },
-      {
-        "quickActionName": "FeedItem.QuestionPost"
-      },
-      {
-        "quickActionName": "SendEmail"
-      }
-    ]
-  },
-  "relatedContent": {
-    "relatedContentItems": [
-      {
-        "layoutItem": {
-          "analyticsCloudComponent": null,
-          "behavior": "Readonly",
-          "canvas": null,
-          "component": null,
-          "customLink": null,
-          "emptySpace": null,
-          "field": "CampaignId",
-          "height": null,
-          "page": null,
-          "reportChartComponent": null,
-          "scontrol": null,
-          "showLabel": null,
-          "showScrollbars": null,
-          "width": null
-        }
-      }
-    ]
-  },
-  "relatedLists": [
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [
-        "TASK.SUBJECT",
-        "ACTIVITY.TASK",
-        "TASK.DUE_DATE",
-        "TASK.STATUS",
-        "TASK.PRIORITY",
-        "CORE.USERS.FULL_NAME"
-      ],
-      "quickActions": [],
-      "relatedList": "RelatedActivityList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [
-        "TASK.SUBJECT",
-        "ACTIVITY.TASK",
-        "TASK.DUE_DATE",
-        "CORE.USERS.FULL_NAME",
-        "TASK.LAST_UPDATE"
-      ],
-      "quickActions": [],
-      "relatedList": "RelatedHistoryList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [
-        "ACTIVITY.SUBJECT",
-        "EMAIL_STATUS.CREATED_DATE",
-        "EMAIL_STATUS.FIRST_OPEN_DATE",
-        "EMAIL_STATUS.TIMES_OPENED",
-        "EMAIL_STATUS.LAST_OPEN_DATE"
-      ],
-      "quickActions": [],
-      "relatedList": "RelatedEmailStatusList",
-      "sortField": null,
-      "sortOrder": null
-    },
-    {
-      "customButtons": [],
-      "excludeButtons": [],
-      "fields": [
-        "CreatedDate",
-        "StepStatus",
-        "OriginalActor",
-        "Actor",
-        "Comments"
-      ],
-      "quickActions": [],
-      "relatedList": "RelatedProcessHistoryList",
-      "sortField": null,
-      "sortOrder": null
-    }
-  ],
-  "relatedObjects": [],
-  "runAssignmentRulesDefault": false,
-  "showEmailCheckbox": false,
-  "showHighlightsPanel": false,
-  "showInteractionLogPanel": false,
-  "showKnowledgeComponent": null,
-  "showRunAssignmentRulesCheckbox": true,
-  "showSolutionSection": null,
-  "showSubmitAndAttachButton": false,
-  "summaryLayout": {
-    "masterLabel": "00h1a0000012AHL",
-    "sizeX": 4,
-    "sizeY": 0,
-    "sizeZ": null,
-    "summaryLayoutItems": [],
-    "summaryLayoutStyle": "Default"
-  },
-  "urls": null
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Lead Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OwnerId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Name</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Company</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Title</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>LeadSource</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Status</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Item_Level__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Incident__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Incident_Reason__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Phone</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>MobilePhone</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Fax</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Email</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Website</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Address Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Address</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns/>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Additional Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ProductInterest__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Industry</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NumberOfEmployees</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CurrentGenerators__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AnnualRevenue</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>System Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CreatedById</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>LastModifiedById</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Description Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>OneColumn</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>false</editHeading>
+        <label>Custom Links</label>
+        <layoutColumns/>
+        <layoutColumns/>
+        <layoutColumns/>
+        <style>CustomLinks</style>
+    </layoutSections>
+    <platformActionList>
+        <actionListContext>Record</actionListContext>
+        <platformActionListItems>
+            <actionName>FeedItem.TextPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.ContentPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>1</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewTask</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>2</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>LogACall</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>3</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewCase</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewNote</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>5</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewEvent</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>6</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.LinkPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>7</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.PollPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>8</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.QuestionPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>9</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>SendEmail</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>10</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Delete</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>11</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>SendEmail</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>12</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ChangeRecordType</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>13</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Clone</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>14</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Share</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>15</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Edit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>16</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>XClean</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>17</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Convert</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>18</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Submit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>19</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ChangeOwnerOne</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>20</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>CallHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>21</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>SmsHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>22</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>EmailHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>23</sortOrder>
+        </platformActionListItems>
+    </platformActionList>
+    <quickActionList>
+        <quickActionListItems>
+            <quickActionName>FeedItem.TextPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.ContentPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>NewTask</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>LogACall</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>NewCase</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>NewNote</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>NewEvent</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.LinkPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.PollPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.QuestionPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>SendEmail</quickActionName>
+        </quickActionListItems>
+    </quickActionList>
+    <relatedContent>
+        <relatedContentItems>
+            <layoutItem>
+                <behavior>Readonly</behavior>
+                <field>CampaignId</field>
+            </layoutItem>
+        </relatedContentItems>
+    </relatedContent>
+    <relatedLists>
+        <fields>TASK.SUBJECT</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>TASK.STATUS</fields>
+        <fields>TASK.PRIORITY</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <relatedList>RelatedActivityList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>TASK.SUBJECT</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <fields>TASK.LAST_UPDATE</fields>
+        <relatedList>RelatedHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>ACTIVITY.SUBJECT</fields>
+        <fields>EMAIL_STATUS.CREATED_DATE</fields>
+        <fields>EMAIL_STATUS.FIRST_OPEN_DATE</fields>
+        <fields>EMAIL_STATUS.TIMES_OPENED</fields>
+        <fields>EMAIL_STATUS.LAST_OPEN_DATE</fields>
+        <relatedList>RelatedEmailStatusList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>CreatedDate</fields>
+        <fields>StepStatus</fields>
+        <fields>OriginalActor</fields>
+        <fields>Actor</fields>
+        <fields>Comments</fields>
+        <relatedList>RelatedProcessHistoryList</relatedList>
+    </relatedLists>
+    <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showHighlightsPanel>false</showHighlightsPanel>
+    <showInteractionLogPanel>false</showInteractionLogPanel>
+    <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h1a0000012AHL</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
+</Layout>

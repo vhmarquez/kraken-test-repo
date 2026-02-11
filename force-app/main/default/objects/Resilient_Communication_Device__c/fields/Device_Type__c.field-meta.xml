@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Device_Type__c</fullName>
+    <label>Device Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cellular</fullName>
+                <default>false</default>
+                <label>Cellular</label>
+            </value>
+            <value>
+                <fullName>GETS</fullName>
+                <default>false</default>
+                <label>GETS</label>
+            </value>
+            <value>
+                <fullName>Landline</fullName>
+                <default>false</default>
+                <label>Landline</label>
+            </value>
+            <value>
+                <fullName>Satellite</fullName>
+                <default>false</default>
+                <label>Satellite</label>
+            </value>
+            <value>
+                <fullName>VoIP</fullName>
+                <default>false</default>
+                <label>VoIP</label>
+            </value>
+            <value>
+                <fullName>WPS</fullName>
+                <default>false</default>
+                <label>WPS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

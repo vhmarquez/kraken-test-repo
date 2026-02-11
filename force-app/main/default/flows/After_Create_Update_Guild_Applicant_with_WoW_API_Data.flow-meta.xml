@@ -1,539 +1,157 @@
-{
-  "actionCalls": [
-    {
-      "actionCallPaths": [],
-      "actionName": "WoWCharacter",
-      "actionType": "apex",
-      "connector": {
-        "isGoTo": null,
-        "processMetadataValues": [],
-        "targetReference": "Update_Guild_Applicant"
-      },
-      "dataTypeMappings": [
-        {
-          "apexClass": null,
-          "processMetadataValues": [],
-          "typeName": "U__output",
-          "typeValue": "Guild_Applicant__c",
-          "valueMappingKey": null,
-          "valueMappingTarget": null,
-          "valueMappingTransformType": null
-        }
-      ],
-      "description": null,
-      "elementSubtype": null,
-      "faultConnector": null,
-      "flowTransactionModel": "CurrentTransaction",
-      "group": null,
-      "inputParameters": [
-        {
-          "name": "args",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "Realm_and_Character",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        }
-      ],
-      "isWaitUntilCompleted": null,
-      "label": "Create WoW Character",
-      "locationX": 314,
-      "locationY": 384,
-      "name": "Create_WoW_Character",
-      "nameSegment": "WoWCharacter",
-      "offset": 0,
-      "offsetUnit": null,
-      "outputConfigParams": [],
-      "outputParameters": [],
-      "processMetadataValues": [],
-      "storeOutputAutomatically": true,
-      "timeoutConnector": null,
-      "versionString": null
-    },
-    {
-      "actionCallPaths": [],
-      "actionName": "NewTask",
-      "actionType": "quickAction",
-      "connector": null,
-      "dataTypeMappings": [],
-      "description": null,
-      "elementSubtype": null,
-      "faultConnector": null,
-      "flowTransactionModel": "CurrentTransaction",
-      "group": null,
-      "inputParameters": [
-        {
-          "name": "contextId",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Id",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "name": "Subject",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": null,
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": "Reach out to the Applicant in-game, introduce yourself and let them know their application is under review.",
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "name": "OwnerId",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$User.Id",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        }
-      ],
-      "isWaitUntilCompleted": null,
-      "label": "Reach out to applicant",
-      "locationX": 50,
-      "locationY": 276,
-      "name": "Reach_out_to_applicant",
-      "nameSegment": "NewTask",
-      "offset": 0,
-      "offsetUnit": null,
-      "outputConfigParams": [],
-      "outputParameters": [],
-      "processMetadataValues": [],
-      "storeOutputAutomatically": null,
-      "timeoutConnector": null,
-      "versionString": null
-    }
-  ],
-  "apexPluginCalls": [],
-  "apiVersion": 62.0,
-  "areMetricsLoggedToDataCloud": false,
-  "assignments": [
-    {
-      "assignmentItems": [
-        {
-          "assignToReference": "Realm_and_Character",
-          "operator": "Add",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Realm__r.Realm_Slug__c",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "assignToReference": "Realm_and_Character",
-          "operator": "Add",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Name",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        },
-        {
-          "assignToReference": "Realm_and_Character",
-          "operator": "Add",
-          "processMetadataValues": [],
-          "value": {
-            "apexValue": null,
-            "booleanValue": null,
-            "collectionElements": null,
-            "complexValue": null,
-            "complexValueType": null,
-            "dateTimeValue": null,
-            "dateValue": null,
-            "elementReference": "$Record.Id",
-            "formulaDataType": null,
-            "formulaExpression": null,
-            "inputConfiguratorMode": null,
-            "numberValue": null,
-            "setupReference": null,
-            "setupReferenceType": null,
-            "sobjectValue": null,
-            "stringValue": null,
-            "timeValue": null,
-            "transform": null,
-            "transformValueReference": null
-          }
-        }
-      ],
-      "connector": {
-        "isGoTo": null,
-        "processMetadataValues": [],
-        "targetReference": "Create_WoW_Character"
-      },
-      "description": null,
-      "elementSubtype": null,
-      "group": null,
-      "label": "Create Character Arguments",
-      "locationX": 314,
-      "locationY": 276,
-      "name": "Create_Character_Arguments",
-      "processMetadataValues": []
-    }
-  ],
-  "choices": [],
-  "collectionProcessors": [],
-  "constants": [],
-  "customErrors": [],
-  "customProperties": [],
-  "dataSpace": null,
-  "decisions": [],
-  "description": null,
-  "dynamicChoiceSets": [],
-  "environments": [
-    "Default"
-  ],
-  "exitRules": [],
-  "experiments": [],
-  "formulas": [],
-  "groups": [],
-  "interviewLabel": "After Create - Update Guild Applicant with WoW API Data {!$Flow.CurrentDateTime}",
-  "isAdditionalPermissionRequiredToRun": null,
-  "isOverridable": null,
-  "isTemplate": null,
-  "label": "After Create - Update Guild Applicant with WoW API Data",
-  "loops": [],
-  "migratedFromWorkflowRuleName": null,
-  "orchestratedStages": [],
-  "overriddenFlow": null,
-  "processMetadataValues": [
-    {
-      "name": "BuilderType",
-      "value": {
-        "apexValue": null,
-        "booleanValue": null,
-        "collectionElements": null,
-        "complexValue": null,
-        "complexValueType": null,
-        "dateTimeValue": null,
-        "dateValue": null,
-        "elementReference": null,
-        "formulaDataType": null,
-        "formulaExpression": null,
-        "inputConfiguratorMode": null,
-        "numberValue": null,
-        "setupReference": null,
-        "setupReferenceType": null,
-        "sobjectValue": null,
-        "stringValue": "LightningFlowBuilder",
-        "timeValue": null,
-        "transform": null,
-        "transformValueReference": null
-      }
-    },
-    {
-      "name": "CanvasMode",
-      "value": {
-        "apexValue": null,
-        "booleanValue": null,
-        "collectionElements": null,
-        "complexValue": null,
-        "complexValueType": null,
-        "dateTimeValue": null,
-        "dateValue": null,
-        "elementReference": null,
-        "formulaDataType": null,
-        "formulaExpression": null,
-        "inputConfiguratorMode": null,
-        "numberValue": null,
-        "setupReference": null,
-        "setupReferenceType": null,
-        "sobjectValue": null,
-        "stringValue": "AUTO_LAYOUT_CANVAS",
-        "timeValue": null,
-        "transform": null,
-        "transformValueReference": null
-      }
-    },
-    {
-      "name": "OriginBuilderType",
-      "value": {
-        "apexValue": null,
-        "booleanValue": null,
-        "collectionElements": null,
-        "complexValue": null,
-        "complexValueType": null,
-        "dateTimeValue": null,
-        "dateValue": null,
-        "elementReference": null,
-        "formulaDataType": null,
-        "formulaExpression": null,
-        "inputConfiguratorMode": null,
-        "numberValue": null,
-        "setupReference": null,
-        "setupReferenceType": null,
-        "sobjectValue": null,
-        "stringValue": "LightningFlowBuilder",
-        "timeValue": null,
-        "transform": null,
-        "transformValueReference": null
-      }
-    }
-  ],
-  "processType": "AutoLaunchedFlow",
-  "recordCreates": [],
-  "recordDeletes": [],
-  "recordLookups": [],
-  "recordRollbacks": [],
-  "recordUpdates": [
-    {
-      "connector": null,
-      "description": null,
-      "elementSubtype": null,
-      "faultConnector": null,
-      "filterLogic": null,
-      "filters": [],
-      "group": null,
-      "inputAssignments": [],
-      "inputReference": "Create_WoW_Character",
-      "label": "Update Guild Applicant",
-      "locationX": 314,
-      "locationY": 492,
-      "name": "Update_Guild_Applicant",
-      "object": null,
-      "processMetadataValues": []
-    }
-  ],
-  "runInMode": null,
-  "screens": [],
-  "sourceTemplate": null,
-  "start": {
-    "activation": null,
-    "capabilityTypes": [],
-    "conditionLogic": null,
-    "conditions": [],
-    "connector": {
-      "isGoTo": null,
-      "processMetadataValues": [],
-      "targetReference": "Reach_out_to_applicant"
-    },
-    "dataGraph": null,
-    "dataTypeMappings": [],
-    "description": null,
-    "doesRequireRecordChangedToMeetCriteria": null,
-    "elementSubtype": null,
-    "entryType": null,
-    "eventName": null,
-    "eventType": null,
-    "fanOutAction": null,
-    "filterFormula": null,
-    "filterLogic": "and",
-    "filters": [
-      {
-        "field": "Name",
-        "operator": "IsNull",
-        "processMetadataValues": [],
-        "value": {
-          "apexValue": null,
-          "booleanValue": false,
-          "collectionElements": null,
-          "complexValue": null,
-          "complexValueType": null,
-          "dateTimeValue": null,
-          "dateValue": null,
-          "elementReference": null,
-          "formulaDataType": null,
-          "formulaExpression": null,
-          "inputConfiguratorMode": null,
-          "numberValue": null,
-          "setupReference": null,
-          "setupReferenceType": null,
-          "sobjectValue": null,
-          "stringValue": null,
-          "timeValue": null,
-          "transform": null,
-          "transformValueReference": null
-        }
-      },
-      {
-        "field": "Realm__c",
-        "operator": "IsNull",
-        "processMetadataValues": [],
-        "value": {
-          "apexValue": null,
-          "booleanValue": false,
-          "collectionElements": null,
-          "complexValue": null,
-          "complexValueType": null,
-          "dateTimeValue": null,
-          "dateValue": null,
-          "elementReference": null,
-          "formulaDataType": null,
-          "formulaExpression": null,
-          "inputConfiguratorMode": null,
-          "numberValue": null,
-          "setupReference": null,
-          "setupReferenceType": null,
-          "sobjectValue": null,
-          "stringValue": null,
-          "timeValue": null,
-          "transform": null,
-          "transformValueReference": null
-        }
-      }
-    ],
-    "flowRunAsUser": null,
-    "form": null,
-    "group": null,
-    "inputs": [],
-    "label": null,
-    "locationX": 56,
-    "locationY": 0,
-    "name": null,
-    "object": "Guild_Applicant__c",
-    "objectContainer": null,
-    "processMetadataValues": [],
-    "publishSegment": null,
-    "recordTriggerType": "Create",
-    "schedule": null,
-    "scheduledPaths": [
-      {
-        "connector": {
-          "isGoTo": null,
-          "processMetadataValues": [],
-          "targetReference": "Create_Character_Arguments"
-        },
-        "description": null,
-        "label": null,
-        "maxBatchSize": null,
-        "name": null,
-        "offsetNumber": null,
-        "offsetUnit": null,
-        "pathType": "AsyncAfterCommit",
-        "processMetadataValues": [],
-        "recordField": null,
-        "timeSource": null
-      }
-    ],
-    "segment": null,
-    "triggerType": "RecordAfterSave",
-    "triggeringDataGraph": null,
-    "triggeringDataModelObjectPath": null,
-    "versionString": null
-  },
-  "startElementReference": null,
-  "status": "Active",
-  "steps": [],
-  "subflows": [],
-  "textTemplates": [],
-  "timeZoneSidKey": null,
-  "transforms": [],
-  "triggerOrder": null,
-  "urls": null,
-  "variables": [
-    {
-      "apexClass": null,
-      "dataType": "String",
-      "description": null,
-      "isCollection": true,
-      "isInput": true,
-      "isOutput": true,
-      "name": "Realm_and_Character",
-      "objectType": null,
-      "processMetadataValues": [],
-      "scale": null,
-      "value": null
-    }
-  ],
-  "waits": []
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Create_WoW_Character</name>
+        <label>Create WoW Character</label>
+        <locationX>314</locationX>
+        <locationY>384</locationY>
+        <actionName>WoWCharacter</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Update_Guild_Applicant</targetReference>
+        </connector>
+        <dataTypeMappings>
+            <typeName>U__output</typeName>
+            <typeValue>Guild_Applicant__c</typeValue>
+        </dataTypeMappings>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>args</name>
+            <value>
+                <elementReference>Realm_and_Character</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>WoWCharacter</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Reach_out_to_applicant</name>
+        <label>Reach out to applicant</label>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
+        <actionName>NewTask</actionName>
+        <actionType>quickAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>Subject</name>
+            <value>
+                <stringValue>Reach out to the Applicant in-game, introduce yourself and let them know their application is under review.</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>OwnerId</name>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>NewTask</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>62.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Create_Character_Arguments</name>
+        <label>Create Character Arguments</label>
+        <locationX>314</locationX>
+        <locationY>276</locationY>
+        <assignmentItems>
+            <assignToReference>Realm_and_Character</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Realm__r.Realm_Slug__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Realm_and_Character</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Realm_and_Character</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_WoW_Character</targetReference>
+        </connector>
+    </assignments>
+    <environments>Default</environments>
+    <interviewLabel>After Create - Update Guild Applicant with WoW API Data {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>After Create - Update Guild Applicant with WoW API Data</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Guild_Applicant</name>
+        <label>Update Guild Applicant</label>
+        <locationX>314</locationX>
+        <locationY>492</locationY>
+        <inputReference>Create_WoW_Character</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Reach_out_to_applicant</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Realm__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Guild_Applicant__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Create_Character_Arguments</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>Realm_and_Character</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>
