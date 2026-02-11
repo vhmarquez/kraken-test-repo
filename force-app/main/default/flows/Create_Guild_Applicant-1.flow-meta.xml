@@ -1,0 +1,279 @@
+{
+  "actionCalls": [
+    {
+      "actionName": "WoWCharacter",
+      "actionType": "apex",
+      "connector": null,
+      "dataTypeMappings": [],
+      "description": null,
+      "elementSubtype": null,
+      "faultConnector": null,
+      "flowTransactionModel": "CurrentTransaction",
+      "inputParameters": [
+        {
+          "name": "args",
+          "processMetadataValues": [],
+          "value": {
+            "apexValue": null,
+            "booleanValue": null,
+            "dateTimeValue": null,
+            "dateValue": null,
+            "elementReference": "Realm_and_Character",
+            "formulaDataType": null,
+            "formulaExpression": null,
+            "numberValue": null,
+            "setupReference": null,
+            "setupReferenceType": null,
+            "sobjectValue": null,
+            "stringValue": null
+          }
+        }
+      ],
+      "label": "Create Character",
+      "locationX": 176,
+      "locationY": 431,
+      "name": "Create_Character",
+      "nameSegment": "WoWCharacter",
+      "outputConfigParams": [],
+      "outputParameters": [],
+      "processMetadataValues": [],
+      "storeOutputAutomatically": null,
+      "versionSegment": null
+    }
+  ],
+  "apexPluginCalls": [],
+  "apiVersion": 62.0,
+  "assignments": [
+    {
+      "assignmentItems": [
+        {
+          "assignToReference": "Realm_and_Character",
+          "operator": "Add",
+          "processMetadataValues": [],
+          "value": {
+            "apexValue": null,
+            "booleanValue": null,
+            "dateTimeValue": null,
+            "dateValue": null,
+            "elementReference": "$Record.Realm__r.Realm_Slug__c",
+            "formulaDataType": null,
+            "formulaExpression": null,
+            "numberValue": null,
+            "setupReference": null,
+            "setupReferenceType": null,
+            "sobjectValue": null,
+            "stringValue": null
+          }
+        },
+        {
+          "assignToReference": "Realm_and_Character",
+          "operator": "Add",
+          "processMetadataValues": [],
+          "value": {
+            "apexValue": null,
+            "booleanValue": null,
+            "dateTimeValue": null,
+            "dateValue": null,
+            "elementReference": "$Record.Name",
+            "formulaDataType": null,
+            "formulaExpression": null,
+            "numberValue": null,
+            "setupReference": null,
+            "setupReferenceType": null,
+            "sobjectValue": null,
+            "stringValue": null
+          }
+        }
+      ],
+      "connector": {
+        "isGoTo": null,
+        "processMetadataValues": [],
+        "targetReference": "Create_Character"
+      },
+      "description": null,
+      "elementSubtype": null,
+      "label": "Character Arguments",
+      "locationX": 176,
+      "locationY": 323,
+      "name": "Character_Arguments",
+      "processMetadataValues": []
+    }
+  ],
+  "choices": [],
+  "collectionProcessors": [],
+  "constants": [],
+  "customErrors": [],
+  "decisions": [],
+  "description": null,
+  "dynamicChoiceSets": [],
+  "environments": [
+    "Default"
+  ],
+  "exitRules": [],
+  "formulas": [],
+  "interviewLabel": "Create Guild Applicant {!$Flow.CurrentDateTime}",
+  "isAdditionalPermissionRequiredToRun": null,
+  "isOverridable": null,
+  "isTemplate": null,
+  "label": "Create Guild Applicant",
+  "loops": [],
+  "migratedFromWorkflowRuleName": null,
+  "orchestratedStages": [],
+  "overriddenFlow": null,
+  "processMetadataValues": [
+    {
+      "name": "BuilderType",
+      "value": {
+        "apexValue": null,
+        "booleanValue": null,
+        "dateTimeValue": null,
+        "dateValue": null,
+        "elementReference": null,
+        "formulaDataType": null,
+        "formulaExpression": null,
+        "numberValue": null,
+        "setupReference": null,
+        "setupReferenceType": null,
+        "sobjectValue": null,
+        "stringValue": "LightningFlowBuilder"
+      }
+    },
+    {
+      "name": "CanvasMode",
+      "value": {
+        "apexValue": null,
+        "booleanValue": null,
+        "dateTimeValue": null,
+        "dateValue": null,
+        "elementReference": null,
+        "formulaDataType": null,
+        "formulaExpression": null,
+        "numberValue": null,
+        "setupReference": null,
+        "setupReferenceType": null,
+        "sobjectValue": null,
+        "stringValue": "AUTO_LAYOUT_CANVAS"
+      }
+    },
+    {
+      "name": "OriginBuilderType",
+      "value": {
+        "apexValue": null,
+        "booleanValue": null,
+        "dateTimeValue": null,
+        "dateValue": null,
+        "elementReference": null,
+        "formulaDataType": null,
+        "formulaExpression": null,
+        "numberValue": null,
+        "setupReference": null,
+        "setupReferenceType": null,
+        "sobjectValue": null,
+        "stringValue": "LightningFlowBuilder"
+      }
+    }
+  ],
+  "processType": "AutoLaunchedFlow",
+  "recordCreates": [],
+  "recordDeletes": [],
+  "recordLookups": [],
+  "recordRollbacks": [],
+  "recordUpdates": [],
+  "runInMode": null,
+  "screens": [],
+  "sourceTemplate": null,
+  "start": {
+    "capabilityTypes": [],
+    "connector": {
+      "isGoTo": null,
+      "processMetadataValues": [],
+      "targetReference": "Character_Arguments"
+    },
+    "description": null,
+    "doesRequireRecordChangedToMeetCriteria": null,
+    "elementSubtype": null,
+    "entryType": null,
+    "filterFormula": null,
+    "filterLogic": "and",
+    "filters": [
+      {
+        "field": "Name",
+        "operator": "NotEqualTo",
+        "processMetadataValues": [],
+        "value": {
+          "apexValue": null,
+          "booleanValue": null,
+          "dateTimeValue": null,
+          "dateValue": null,
+          "elementReference": null,
+          "formulaDataType": null,
+          "formulaExpression": null,
+          "numberValue": null,
+          "setupReference": null,
+          "setupReferenceType": null,
+          "sobjectValue": null,
+          "stringValue": ""
+        }
+      },
+      {
+        "field": "Realm__c",
+        "operator": "NotEqualTo",
+        "processMetadataValues": [],
+        "value": {
+          "apexValue": null,
+          "booleanValue": null,
+          "dateTimeValue": null,
+          "dateValue": null,
+          "elementReference": null,
+          "formulaDataType": null,
+          "formulaExpression": null,
+          "numberValue": null,
+          "setupReference": null,
+          "setupReferenceType": null,
+          "sobjectValue": null,
+          "stringValue": ""
+        }
+      }
+    ],
+    "flowRunAsUser": null,
+    "form": null,
+    "label": null,
+    "locationX": 50,
+    "locationY": 0,
+    "name": null,
+    "object": "Guild_Applicant__c",
+    "objectContainer": null,
+    "processMetadataValues": [],
+    "publishSegment": null,
+    "recordTriggerType": "Create",
+    "schedule": null,
+    "scheduledPaths": [],
+    "segment": null,
+    "triggerType": "RecordAfterSave"
+  },
+  "startElementReference": null,
+  "status": "Obsolete",
+  "steps": [],
+  "subflows": [],
+  "textTemplates": [],
+  "timeZoneSidKey": null,
+  "transforms": [],
+  "triggerOrder": null,
+  "urls": null,
+  "variables": [
+    {
+      "apexClass": null,
+      "dataType": "String",
+      "description": null,
+      "isCollection": true,
+      "isInput": true,
+      "isOutput": true,
+      "name": "Realm_and_Character",
+      "objectType": null,
+      "processMetadataValues": [],
+      "scale": null,
+      "value": null
+    }
+  ],
+  "waits": []
+}

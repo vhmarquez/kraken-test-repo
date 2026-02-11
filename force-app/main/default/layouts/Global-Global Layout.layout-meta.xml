@@ -1,0 +1,151 @@
+{
+  "customButtons": null,
+  "customConsoleComponents": null,
+  "emailDefault": null,
+  "excludeButtons": null,
+  "feedLayout": null,
+  "headers": null,
+  "layoutSections": [],
+  "miniLayout": null,
+  "multilineLayoutFields": null,
+  "platformActionList": {
+    "actionListContext": "Global",
+    "platformActionListItems": [
+      {
+        "actionName": "FeedItem.TextPost",
+        "actionType": "QuickAction",
+        "sortOrder": 0,
+        "subtype": null
+      },
+      {
+        "actionName": "FeedItem.ContentPost",
+        "actionType": "QuickAction",
+        "sortOrder": 1,
+        "subtype": null
+      },
+      {
+        "actionName": "NewEvent",
+        "actionType": "QuickAction",
+        "sortOrder": 2,
+        "subtype": null
+      },
+      {
+        "actionName": "NewTask",
+        "actionType": "QuickAction",
+        "sortOrder": 3,
+        "subtype": null
+      },
+      {
+        "actionName": "NewContact",
+        "actionType": "QuickAction",
+        "sortOrder": 4,
+        "subtype": null
+      },
+      {
+        "actionName": "LogACall",
+        "actionType": "QuickAction",
+        "sortOrder": 5,
+        "subtype": null
+      },
+      {
+        "actionName": "NewOpportunity",
+        "actionType": "QuickAction",
+        "sortOrder": 6,
+        "subtype": null
+      },
+      {
+        "actionName": "NewCase",
+        "actionType": "QuickAction",
+        "sortOrder": 7,
+        "subtype": null
+      },
+      {
+        "actionName": "NewLead",
+        "actionType": "QuickAction",
+        "sortOrder": 8,
+        "subtype": null
+      },
+      {
+        "actionName": "FeedItem.LinkPost",
+        "actionType": "QuickAction",
+        "sortOrder": 9,
+        "subtype": null
+      },
+      {
+        "actionName": "FeedItem.PollPost",
+        "actionType": "QuickAction",
+        "sortOrder": 10,
+        "subtype": null
+      },
+      {
+        "actionName": "FeedItem.QuestionPost",
+        "actionType": "QuickAction",
+        "sortOrder": 11,
+        "subtype": null
+      },
+      {
+        "actionName": "SendEmail",
+        "actionType": "QuickAction",
+        "sortOrder": 12,
+        "subtype": null
+      }
+    ],
+    "relatedSourceEntity": null
+  },
+  "quickActionList": {
+    "quickActionListItems": [
+      {
+        "quickActionName": "FeedItem.TextPost"
+      },
+      {
+        "quickActionName": "FeedItem.ContentPost"
+      },
+      {
+        "quickActionName": "NewEvent"
+      },
+      {
+        "quickActionName": "NewTask"
+      },
+      {
+        "quickActionName": "NewContact"
+      },
+      {
+        "quickActionName": "LogACall"
+      },
+      {
+        "quickActionName": "NewOpportunity"
+      },
+      {
+        "quickActionName": "NewCase"
+      },
+      {
+        "quickActionName": "NewLead"
+      },
+      {
+        "quickActionName": "FeedItem.LinkPost"
+      },
+      {
+        "quickActionName": "FeedItem.PollPost"
+      },
+      {
+        "quickActionName": "FeedItem.QuestionPost"
+      },
+      {
+        "quickActionName": "SendEmail"
+      }
+    ]
+  },
+  "relatedContent": null,
+  "relatedLists": null,
+  "relatedObjects": [],
+  "runAssignmentRulesDefault": null,
+  "showEmailCheckbox": false,
+  "showHighlightsPanel": null,
+  "showInteractionLogPanel": null,
+  "showKnowledgeComponent": null,
+  "showRunAssignmentRulesCheckbox": false,
+  "showSolutionSection": null,
+  "showSubmitAndAttachButton": false,
+  "summaryLayout": null,
+  "urls": null
+}

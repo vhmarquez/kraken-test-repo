@@ -1,0 +1,820 @@
+{
+  "customButtons": null,
+  "customConsoleComponents": null,
+  "emailDefault": false,
+  "excludeButtons": null,
+  "feedLayout": {
+    "autocollapsePublisher": true,
+    "compactFeed": true,
+    "feedFilterPosition": "LeftFixed",
+    "feedFilters": [
+      {
+        "feedFilterName": null,
+        "feedFilterType": "AllUpdates",
+        "feedItemType": null
+      },
+      {
+        "feedFilterName": null,
+        "feedFilterType": "FeedItemType",
+        "feedItemType": "CALL_LOG_POST"
+      },
+      {
+        "feedFilterName": null,
+        "feedFilterType": "FeedItemType",
+        "feedItemType": "TEXT_POST"
+      },
+      {
+        "feedFilterName": null,
+        "feedFilterType": "FeedItemType",
+        "feedItemType": "CHANGE_CASE_STATUS_POST"
+      },
+      {
+        "feedFilterName": null,
+        "feedFilterType": "FeedItemType",
+        "feedItemType": "ACTIVITY_EVENT"
+      }
+    ],
+    "fullWidthFeed": true,
+    "hideSidebar": true,
+    "highlightExternalFeedItems": false,
+    "leftComponents": null,
+    "rightComponents": [
+      {
+        "componentType": "HelpAndToolLinks",
+        "height": null,
+        "page": null
+      },
+      {
+        "componentType": "Following",
+        "height": null,
+        "page": null
+      },
+      {
+        "componentType": "Followers",
+        "height": null,
+        "page": null
+      },
+      {
+        "componentType": "Topics",
+        "height": null,
+        "page": null
+      },
+      {
+        "componentType": "CustomLinks",
+        "height": null,
+        "page": null
+      },
+      {
+        "componentType": "CustomButtons",
+        "height": null,
+        "page": null
+      }
+    ],
+    "useInlineFiltersInConsole": false
+  },
+  "headers": [
+    "PersonalTagging",
+    "PublicTagging"
+  ],
+  "layoutSections": [
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": true,
+      "label": "Case Information",
+      "layoutColumns": [
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "OwnerId",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "CaseNumber",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "ContactId",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "AccountId",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "ContactPhone",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "ContactEmail",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Type",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Reason",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        },
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Required",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Status",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Priority",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Required",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Origin",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        }
+      ],
+      "style": "TwoColumnsTopToBottom"
+    },
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": true,
+      "label": "Web Information",
+      "layoutColumns": [
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "SuppliedEmail",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "SuppliedName",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "CreatedDate",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        },
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "SuppliedCompany",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "SuppliedPhone",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "ClosedDate",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        }
+      ],
+      "style": "TwoColumnsTopToBottom"
+    },
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": true,
+      "label": "Additional Information",
+      "layoutColumns": [
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Product__c",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "SLAViolation__c",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        },
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "PotentialLiability__c",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        }
+      ],
+      "style": "TwoColumnsLeftToRight"
+    },
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": true,
+      "label": "System Information",
+      "layoutColumns": [
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "CreatedById",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        },
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Readonly",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "LastModifiedById",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        }
+      ],
+      "style": "TwoColumnsTopToBottom"
+    },
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": true,
+      "label": "Description Information",
+      "layoutColumns": [
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Subject",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Description",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Comments",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        }
+      ],
+      "style": "OneColumn"
+    },
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": false,
+      "label": null,
+      "layoutColumns": [
+        {
+          "layoutItems": null,
+          "reserved": null
+        }
+      ],
+      "style": "CustomLinks"
+    }
+  ],
+  "miniLayout": null,
+  "multilineLayoutFields": null,
+  "platformActionList": null,
+  "quickActionList": {
+    "quickActionListItems": [
+      {
+        "quickActionName": "FeedItem.TextPost"
+      },
+      {
+        "quickActionName": "Case.LogACall"
+      },
+      {
+        "quickActionName": "Case.CaseComment"
+      },
+      {
+        "quickActionName": "Case.ChangeStatus"
+      },
+      {
+        "quickActionName": "FeedItem.ContentPost"
+      },
+      {
+        "quickActionName": "FeedItem.LinkPost"
+      },
+      {
+        "quickActionName": "FeedItem.PollPost"
+      }
+    ]
+  },
+  "relatedContent": {
+    "relatedContentItems": [
+      {
+        "layoutItem": {
+          "analyticsCloudComponent": null,
+          "behavior": "Readonly",
+          "canvas": null,
+          "component": null,
+          "customLink": null,
+          "emptySpace": null,
+          "field": "ContactId",
+          "height": null,
+          "page": null,
+          "reportChartComponent": null,
+          "scontrol": null,
+          "showLabel": null,
+          "showScrollbars": null,
+          "width": null
+        }
+      },
+      {
+        "layoutItem": {
+          "analyticsCloudComponent": null,
+          "behavior": "Readonly",
+          "canvas": null,
+          "component": null,
+          "customLink": null,
+          "emptySpace": null,
+          "field": "AccountId",
+          "height": null,
+          "page": null,
+          "reportChartComponent": null,
+          "scontrol": null,
+          "showLabel": null,
+          "showScrollbars": null,
+          "width": null
+        }
+      }
+    ]
+  },
+  "relatedLists": [
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [
+        "SOLUTION.ISSUE",
+        "SOLUTION.SOLUTION_NUMBER",
+        "SOLUTION.STATUS",
+        "CORE.USERS.ALIAS"
+      ],
+      "quickActions": [],
+      "relatedList": "RelatedSolutionList",
+      "sortField": null,
+      "sortOrder": null
+    },
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [
+        "TASK.SUBJECT",
+        "TASK.WHO_NAME",
+        "ACTIVITY.TASK",
+        "TASK.DUE_DATE",
+        "TASK.STATUS",
+        "TASK.PRIORITY",
+        "CORE.USERS.FULL_NAME"
+      ],
+      "quickActions": [],
+      "relatedList": "RelatedActivityList",
+      "sortField": null,
+      "sortOrder": null
+    },
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [
+        "TASK.SUBJECT",
+        "TASK.WHO_NAME",
+        "ACTIVITY.TASK",
+        "TASK.DUE_DATE",
+        "CORE.USERS.FULL_NAME",
+        "TASK.LAST_UPDATE"
+      ],
+      "quickActions": [],
+      "relatedList": "RelatedHistoryList",
+      "sortField": null,
+      "sortOrder": null
+    },
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [],
+      "quickActions": [],
+      "relatedList": "RelatedCommentsList",
+      "sortField": null,
+      "sortOrder": null
+    },
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [],
+      "quickActions": [],
+      "relatedList": "RelatedAttachmentList",
+      "sortField": null,
+      "sortOrder": null
+    },
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [],
+      "quickActions": [],
+      "relatedList": "RelatedEntityHistoryList",
+      "sortField": null,
+      "sortOrder": null
+    }
+  ],
+  "relatedObjects": [
+    "ContactId",
+    "AccountId"
+  ],
+  "runAssignmentRulesDefault": false,
+  "showEmailCheckbox": true,
+  "showHighlightsPanel": true,
+  "showInteractionLogPanel": false,
+  "showKnowledgeComponent": true,
+  "showRunAssignmentRulesCheckbox": true,
+  "showSolutionSection": null,
+  "showSubmitAndAttachButton": true,
+  "summaryLayout": {
+    "masterLabel": "00h1a0000012AHE",
+    "sizeX": 3,
+    "sizeY": 4,
+    "sizeZ": null,
+    "summaryLayoutItems": [
+      {
+        "customLink": null,
+        "field": "ContactId",
+        "posX": 0,
+        "posY": 0,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "AccountId",
+        "posX": 0,
+        "posY": 1,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "ContactPhone",
+        "posX": 0,
+        "posY": 2,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "CaseNumber",
+        "posX": 1,
+        "posY": 0,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "CreatedDate",
+        "posX": 1,
+        "posY": 1,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "Subject",
+        "posX": 1,
+        "posY": 2,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "Description",
+        "posX": 1,
+        "posY": 3,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "Status",
+        "posX": 2,
+        "posY": 0,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "Priority",
+        "posX": 2,
+        "posY": 1,
+        "posZ": null
+      },
+      {
+        "customLink": null,
+        "field": "OwnerId",
+        "posX": 2,
+        "posY": 2,
+        "posZ": null
+      }
+    ],
+    "summaryLayoutStyle": "CaseInteraction"
+  },
+  "urls": null
+}

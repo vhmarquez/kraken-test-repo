@@ -1,0 +1,150 @@
+{
+  "customButtons": null,
+  "customConsoleComponents": null,
+  "emailDefault": null,
+  "excludeButtons": null,
+  "feedLayout": null,
+  "headers": null,
+  "layoutSections": [
+    {
+      "customLabel": true,
+      "detailHeading": true,
+      "editHeading": true,
+      "label": "Payment Gateway",
+      "layoutColumns": [
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Required",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "PaymentGatewayName",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "PaymentGatewayProviderId",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "MerchantCredentialId",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Required",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Status",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "ExternalReference",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "Comments",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        }
+      ],
+      "style": "OneColumn"
+    },
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": false,
+      "label": null,
+      "layoutColumns": [
+        {
+          "layoutItems": null,
+          "reserved": null
+        }
+      ],
+      "style": "CustomLinks"
+    }
+  ],
+  "miniLayout": null,
+  "multilineLayoutFields": null,
+  "platformActionList": null,
+  "quickActionList": null,
+  "relatedContent": null,
+  "relatedLists": null,
+  "relatedObjects": [],
+  "runAssignmentRulesDefault": null,
+  "showEmailCheckbox": false,
+  "showHighlightsPanel": null,
+  "showInteractionLogPanel": null,
+  "showKnowledgeComponent": null,
+  "showRunAssignmentRulesCheckbox": false,
+  "showSolutionSection": null,
+  "showSubmitAndAttachButton": false,
+  "summaryLayout": null,
+  "urls": null
+}

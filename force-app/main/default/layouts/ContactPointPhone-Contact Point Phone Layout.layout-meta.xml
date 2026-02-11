@@ -1,0 +1,243 @@
+{
+  "customButtons": null,
+  "customConsoleComponents": null,
+  "emailDefault": null,
+  "excludeButtons": null,
+  "feedLayout": null,
+  "headers": null,
+  "layoutSections": [
+    {
+      "customLabel": false,
+      "detailHeading": true,
+      "editHeading": true,
+      "label": "Information",
+      "layoutColumns": [
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "IsPrimary",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Required",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "TelephoneNumber",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "AreaCode",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "PhoneType",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "IsPersonalPhone",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "IsSmsCapable",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "ParentId",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        },
+        {
+          "layoutItems": [
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "ExtensionNumber",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "IsBusinessPhone",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            },
+            {
+              "analyticsCloudComponent": null,
+              "behavior": "Edit",
+              "canvas": null,
+              "component": null,
+              "customLink": null,
+              "emptySpace": null,
+              "field": "IsFaxCapable",
+              "height": null,
+              "page": null,
+              "reportChartComponent": null,
+              "scontrol": null,
+              "showLabel": null,
+              "showScrollbars": null,
+              "width": null
+            }
+          ],
+          "reserved": null
+        }
+      ],
+      "style": "TwoColumnsTopToBottom"
+    },
+    {
+      "customLabel": false,
+      "detailHeading": false,
+      "editHeading": false,
+      "label": null,
+      "layoutColumns": [
+        {
+          "layoutItems": null,
+          "reserved": null
+        }
+      ],
+      "style": "CustomLinks"
+    }
+  ],
+  "miniLayout": null,
+  "multilineLayoutFields": null,
+  "platformActionList": null,
+  "quickActionList": null,
+  "relatedContent": null,
+  "relatedLists": [
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [
+        "Name",
+        "ContactPoint",
+        "DataUsePurpose",
+        "PrivacyConsentStatus"
+      ],
+      "quickActions": [],
+      "relatedList": "ContactPointConsents",
+      "sortField": null,
+      "sortOrder": null
+    },
+    {
+      "customButtons": [],
+      "excludeButtons": [],
+      "fields": [],
+      "quickActions": [],
+      "relatedList": "RelatedEntityHistoryList",
+      "sortField": null,
+      "sortOrder": null
+    }
+  ],
+  "relatedObjects": [],
+  "runAssignmentRulesDefault": null,
+  "showEmailCheckbox": false,
+  "showHighlightsPanel": null,
+  "showInteractionLogPanel": null,
+  "showKnowledgeComponent": null,
+  "showRunAssignmentRulesCheckbox": false,
+  "showSolutionSection": null,
+  "showSubmitAndAttachButton": false,
+  "summaryLayout": null,
+  "urls": null
+}

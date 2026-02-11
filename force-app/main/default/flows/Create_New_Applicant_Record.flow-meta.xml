@@ -1,0 +1,286 @@
+{
+  "actionCalls": [],
+  "apexPluginCalls": [],
+  "apiVersion": 62.0,
+  "assignments": [],
+  "choices": [],
+  "collectionProcessors": [],
+  "constants": [],
+  "customErrors": [
+    {
+      "connector": null,
+      "customErrorMessages": [
+        {
+          "errorMessage": "Applicant already exists.",
+          "fieldSelection": null,
+          "isFieldError": false,
+          "processMetadataValues": []
+        }
+      ],
+      "description": null,
+      "elementSubtype": null,
+      "label": "Duplicate Applicant Found",
+      "locationX": 50,
+      "locationY": 503,
+      "name": "Duplicate_Applicant_Found",
+      "processMetadataValues": []
+    }
+  ],
+  "decisions": [
+    {
+      "attributes": null,
+      "defaultConnector": null,
+      "defaultConnectorLabel": "Default Outcome",
+      "description": null,
+      "elementSubtype": null,
+      "label": "Check",
+      "locationX": 182,
+      "locationY": 395,
+      "name": "Check",
+      "processMetadataValues": [],
+      "rules": [
+        {
+          "attributes": null,
+          "conditionLogic": "and",
+          "conditions": [
+            {
+              "conditionType": null,
+              "leftValueReference": "Check_for_Duplicates.Name",
+              "operator": "EqualTo",
+              "processMetadataValues": [],
+              "rightValue": {
+                "apexValue": null,
+                "booleanValue": null,
+                "dateTimeValue": null,
+                "dateValue": null,
+                "elementReference": "$Record.Name",
+                "formulaDataType": null,
+                "formulaExpression": null,
+                "numberValue": null,
+                "setupReference": null,
+                "setupReferenceType": null,
+                "sobjectValue": null,
+                "stringValue": null
+              }
+            },
+            {
+              "conditionType": null,
+              "leftValueReference": "Check_for_Duplicates.Realm__c",
+              "operator": "EqualTo",
+              "processMetadataValues": [],
+              "rightValue": {
+                "apexValue": null,
+                "booleanValue": null,
+                "dateTimeValue": null,
+                "dateValue": null,
+                "elementReference": "$Record.Realm__c",
+                "formulaDataType": null,
+                "formulaExpression": null,
+                "numberValue": null,
+                "setupReference": null,
+                "setupReferenceType": null,
+                "sobjectValue": null,
+                "stringValue": null
+              }
+            }
+          ],
+          "connector": {
+            "isGoTo": null,
+            "processMetadataValues": [],
+            "targetReference": "Duplicate_Applicant_Found"
+          },
+          "description": null,
+          "doesRequireRecordChangedToMeetCriteria": null,
+          "label": "Duplicates",
+          "name": "Duplicates",
+          "processMetadataValues": []
+        }
+      ]
+    }
+  ],
+  "description": null,
+  "dynamicChoiceSets": [],
+  "environments": [
+    "Default"
+  ],
+  "exitRules": [],
+  "formulas": [],
+  "interviewLabel": "Create New Applicant Record {!$Flow.CurrentDateTime}",
+  "isAdditionalPermissionRequiredToRun": null,
+  "isOverridable": null,
+  "isTemplate": null,
+  "label": "Create New Applicant Record",
+  "loops": [],
+  "migratedFromWorkflowRuleName": null,
+  "orchestratedStages": [],
+  "overriddenFlow": null,
+  "processMetadataValues": [
+    {
+      "name": "BuilderType",
+      "value": {
+        "apexValue": null,
+        "booleanValue": null,
+        "dateTimeValue": null,
+        "dateValue": null,
+        "elementReference": null,
+        "formulaDataType": null,
+        "formulaExpression": null,
+        "numberValue": null,
+        "setupReference": null,
+        "setupReferenceType": null,
+        "sobjectValue": null,
+        "stringValue": "LightningFlowBuilder"
+      }
+    },
+    {
+      "name": "CanvasMode",
+      "value": {
+        "apexValue": null,
+        "booleanValue": null,
+        "dateTimeValue": null,
+        "dateValue": null,
+        "elementReference": null,
+        "formulaDataType": null,
+        "formulaExpression": null,
+        "numberValue": null,
+        "setupReference": null,
+        "setupReferenceType": null,
+        "sobjectValue": null,
+        "stringValue": "AUTO_LAYOUT_CANVAS"
+      }
+    },
+    {
+      "name": "OriginBuilderType",
+      "value": {
+        "apexValue": null,
+        "booleanValue": null,
+        "dateTimeValue": null,
+        "dateValue": null,
+        "elementReference": null,
+        "formulaDataType": null,
+        "formulaExpression": null,
+        "numberValue": null,
+        "setupReference": null,
+        "setupReferenceType": null,
+        "sobjectValue": null,
+        "stringValue": "LightningFlowBuilder"
+      }
+    }
+  ],
+  "processType": "AutoLaunchedFlow",
+  "recordCreates": [],
+  "recordDeletes": [],
+  "recordLookups": [
+    {
+      "assignNullValuesIfNoRecordsFound": false,
+      "connector": {
+        "isGoTo": null,
+        "processMetadataValues": [],
+        "targetReference": "Check"
+      },
+      "description": null,
+      "elementSubtype": null,
+      "faultConnector": null,
+      "filterLogic": "and",
+      "filters": [
+        {
+          "field": "Name",
+          "operator": "EqualTo",
+          "processMetadataValues": [],
+          "value": {
+            "apexValue": null,
+            "booleanValue": null,
+            "dateTimeValue": null,
+            "dateValue": null,
+            "elementReference": "$Record.Name",
+            "formulaDataType": null,
+            "formulaExpression": null,
+            "numberValue": null,
+            "setupReference": null,
+            "setupReferenceType": null,
+            "sobjectValue": null,
+            "stringValue": null
+          }
+        },
+        {
+          "field": "Realm__c",
+          "operator": "EqualTo",
+          "processMetadataValues": [],
+          "value": {
+            "apexValue": null,
+            "booleanValue": null,
+            "dateTimeValue": null,
+            "dateValue": null,
+            "elementReference": "$Record.Realm__c",
+            "formulaDataType": null,
+            "formulaExpression": null,
+            "numberValue": null,
+            "setupReference": null,
+            "setupReferenceType": null,
+            "sobjectValue": null,
+            "stringValue": null
+          }
+        }
+      ],
+      "getFirstRecordOnly": true,
+      "label": "Check for Duplicates",
+      "locationX": 182,
+      "locationY": 287,
+      "name": "Check_for_Duplicates",
+      "object": "Guild_Applicant__c",
+      "outputAssignments": [],
+      "outputReference": null,
+      "processMetadataValues": [],
+      "queriedFields": null,
+      "sortField": null,
+      "sortOrder": null,
+      "storeOutputAutomatically": true
+    }
+  ],
+  "recordRollbacks": [],
+  "recordUpdates": [],
+  "runInMode": null,
+  "screens": [],
+  "sourceTemplate": null,
+  "start": {
+    "capabilityTypes": [],
+    "connector": {
+      "isGoTo": null,
+      "processMetadataValues": [],
+      "targetReference": "Check_for_Duplicates"
+    },
+    "description": null,
+    "doesRequireRecordChangedToMeetCriteria": null,
+    "elementSubtype": null,
+    "entryType": null,
+    "filterFormula": null,
+    "filterLogic": null,
+    "filters": [],
+    "flowRunAsUser": null,
+    "form": null,
+    "label": null,
+    "locationX": 56,
+    "locationY": 0,
+    "name": null,
+    "object": "Guild_Applicant__c",
+    "objectContainer": null,
+    "processMetadataValues": [],
+    "publishSegment": null,
+    "recordTriggerType": "Create",
+    "schedule": null,
+    "scheduledPaths": [],
+    "segment": null,
+    "triggerType": "RecordBeforeSave"
+  },
+  "startElementReference": null,
+  "status": "Active",
+  "steps": [],
+  "subflows": [],
+  "textTemplates": [],
+  "timeZoneSidKey": null,
+  "transforms": [],
+  "triggerOrder": null,
+  "urls": null,
+  "variables": [],
+  "waits": []
+}
