@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>abortSwapDialogModalDescription</fullName>
+        <value>Confirms that you want to wait to synchronize changes when you swap environments, which isn’t recommended.</value>
+    </labels>
+</CustomLabels>

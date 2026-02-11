@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>abortSwapDialogContent</fullName>
+        <value>We recommend that you don't wait too long to synchronize the environment to avoid potential future promotion failures. To ensure your environment has all the latest metadata, deploy all metadata from the stage's branch to this environment during the next promotion.</value>
+    </labels>
+</CustomLabels>
