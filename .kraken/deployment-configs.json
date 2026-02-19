@@ -51,6 +51,27 @@
     "target_env_username": "victor@marquez.com",
     "selected_metadata": [
       {
+        "file_path": ".kraken/deployment-configs.json",
+        "change_type": "Added",
+        "metadata_type": "Metadata",
+        "component_name": "deployment-configs.json",
+        "selected": true
+      },
+      {
+        "file_path": ".kraken/deployments/cfg-1771085704378.json",
+        "change_type": "Added",
+        "metadata_type": "Metadata",
+        "component_name": "cfg-1771085704378.json",
+        "selected": true
+      },
+      {
+        "file_path": ".kraken/deployments/cfg-1771086635032.json",
+        "change_type": "Added",
+        "metadata_type": "Metadata",
+        "component_name": "cfg-1771086635032.json",
+        "selected": true
+      },
+      {
         "file_path": "force-app/main/default/cleanDataServices/DataCloudGeoLocation.cleanDataService-meta.xml",
         "change_type": "Modified",
         "metadata_type": "Metadata",
@@ -73,9 +94,21 @@
     "pr_url": null,
     "pr_status": null,
     "deployment_ready": true,
-    "config_status": "draft",
+    "config_status": "deployment_failed",
     "last_validation_at": null,
-    "last_deployment_at": null,
-    "last_result": null
+    "last_deployment_at": "2026-02-19T15:34:27.682Z",
+    "last_result": {
+      "component_failures": [],
+      "component_successes": [
+        "LightningComponentBundle: vibeAccountTable",
+        ": package.xml"
+      ],
+      "coverage_results": [],
+      "deployment_id": "0Afak00000VFQl7CAH",
+      "overall_coverage": 0,
+      "status": "Failed",
+      "success": false,
+      "test_results": []
+    }
   }
 ]
