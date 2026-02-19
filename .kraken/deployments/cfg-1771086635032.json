@@ -1,0 +1,42 @@
+{
+  "id": "cfg-1771086635032",
+  "name": "Testing Deployments",
+  "project_id": "5a61c390-bd34-491a-aa41-08b5cbf10cd4",
+  "source_branch": "feature/vibe-table",
+  "target_env_username": "victor@marquez.com",
+  "selected_metadata": [
+    {
+      "file_path": "force-app/main/default/cleanDataServices/DataCloudGeoLocation.cleanDataService-meta.xml",
+      "metadata_type": "cleanDataServices",
+      "api_name": "DataCloudGeoLocation.cleanDataService",
+      "selected": false
+    },
+    {
+      "file_path": "force-app/main/default/lwc/vibeAccountTable/vibeAccountTable.html",
+      "metadata_type": "LightningComponentBundle",
+      "api_name": "vibeAccountTable",
+      "selected": true
+    }
+  ],
+  "test_level": "RunLocalTests",
+  "test_classes": [],
+  "created_at": "2026-02-14T16:30:35.032Z",
+  "base_branch": "master",
+  "pr_number": null,
+  "pr_url": null,
+  "pr_status": null,
+  "deployment_ready": true,
+  "config_status": "validation_failed",
+  "last_validation_at": "2026-02-14T16:45:44.058Z",
+  "last_deployment_at": null,
+  "last_result": {
+    "component_failures": [],
+    "component_successes": [],
+    "coverage_results": [],
+    "deployment_id": "VAL-4D9E",
+    "overall_coverage": 0,
+    "status": "Failed to validate the deployment (0Afak00000V50FFCAZ). Due To:\nAverage test coverage across all Apex Classes and Triggers is 23%, at least 75% test coverage is required.\r\n\r\n\r\nChatterFeedControllerTest.testCreateFeedItemFailure - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000UquTECAZ: [ParentId],ChatterFeedControllerTest.testCreateFeedItemWithMention - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000UquTECAZ: [ParentId],ChatterFeedControllerTest.testGetFeedItems - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000UquTECAZ: [ParentId],ChatterFeedControllerTest.testGetFeedItemsFailure - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000UquTECAZ: [ParentId],ChatterFeedControllerTest.testLikeAndUnlikeFeedItem - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000UquTECAZ: [ParentId],KrakenDataTableControllerTest.testDeleteConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetFieldOptions - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetRecords - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testSaveConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testUpdateConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testUpdateRecords - System.AssertException: Assertion Failed: Expected exception message",
+    "success": false,
+    "test_results": []
+  }
+}
