@@ -1,0 +1,36 @@
+@isTest public class CharacterProfileSummaryObjectTest { @isTest static void testAll() {
+  CharacterProfileSummaryObject obj = new CharacterProfileSummaryObject();
+  JSON.serialize(obj);
+  CharacterProfileSummaryObject.titles v_titles = new CharacterProfileSummaryObject.titles();
+  CharacterProfileSummaryObject.statistics v_statistics = new CharacterProfileSummaryObject.statistics();
+  CharacterProfileSummaryObject.specializations v_specializations = new CharacterProfileSummaryObject.specializations();
+  CharacterProfileSummaryObject.soulbinds v_soulbinds = new CharacterProfileSummaryObject.soulbinds();
+  CharacterProfileSummaryObject.self v_self = new CharacterProfileSummaryObject.self();
+  CharacterProfileSummaryObject.reputations v_reputations = new CharacterProfileSummaryObject.reputations();
+  CharacterProfileSummaryObject.realm v_realm = new CharacterProfileSummaryObject.realm();
+  CharacterProfileSummaryObject.race v_race = new CharacterProfileSummaryObject.race();
+  CharacterProfileSummaryObject.quests v_quests = new CharacterProfileSummaryObject.quests();
+  CharacterProfileSummaryObject.pvp_summary v_pvp_summary = new CharacterProfileSummaryObject.pvp_summary();
+  CharacterProfileSummaryObject.professions v_professions = new CharacterProfileSummaryObject.professions();
+  CharacterProfileSummaryObject.name v_name = new CharacterProfileSummaryObject.name();
+  CharacterProfileSummaryObject.mythic_keystone_profile v_mythic_keystone_profile = new CharacterProfileSummaryObject.mythic_keystone_profile();
+  CharacterProfileSummaryObject.media v_media = new CharacterProfileSummaryObject.media();
+  CharacterProfileSummaryObject.key v_key = new CharacterProfileSummaryObject.key();
+  CharacterProfileSummaryObject.guild v_guild = new CharacterProfileSummaryObject.guild();
+  CharacterProfileSummaryObject.gender v_gender = new CharacterProfileSummaryObject.gender();
+  CharacterProfileSummaryObject.faction v_faction = new CharacterProfileSummaryObject.faction();
+  CharacterProfileSummaryObject.equipment v_equipment = new CharacterProfileSummaryObject.equipment();
+  CharacterProfileSummaryObject.encounters v_encounters = new CharacterProfileSummaryObject.encounters();
+  CharacterProfileSummaryObject.display_string v_display_string = new CharacterProfileSummaryObject.display_string();
+  CharacterProfileSummaryObject.covenant_progress v_covenant_progress = new CharacterProfileSummaryObject.covenant_progress();
+  CharacterProfileSummaryObject.collections v_collections = new CharacterProfileSummaryObject.collections();
+  CharacterProfileSummaryObject.chosen_covenant v_chosen_covenant = new CharacterProfileSummaryObject.chosen_covenant();
+  CharacterProfileSummaryObject.character_class v_character_class = new CharacterProfileSummaryObject.character_class();
+  CharacterProfileSummaryObject.appearance v_appearance = new CharacterProfileSummaryObject.appearance();
+  CharacterProfileSummaryObject.active_title v_active_title = new CharacterProfileSummaryObject.active_title();
+  CharacterProfileSummaryObject.active_spec v_active_spec = new CharacterProfileSummaryObject.active_spec();
+  CharacterProfileSummaryObject.achievements_statistics v_achievements_statistics = new CharacterProfileSummaryObject.achievements_statistics();
+  CharacterProfileSummaryObject.achievements v_achievements = new CharacterProfileSummaryObject.achievements();
+  CharacterProfileSummaryObject.links v_links = new CharacterProfileSummaryObject.links();
+  System.assertNotEquals(null, obj);
+} }

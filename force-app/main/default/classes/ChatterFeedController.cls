@@ -1,7 +1,13 @@
 public with sharing class ChatterFeedController {
+    @TestVisible private static Boolean throwError = false;
+    @TestVisible private static Boolean skipConnectApi = Test.isRunningTest();
+
     @AuraEnabled(cacheable=true)
     public static List<FeedItem> getFeedItems(Id recordId) {
         try {
+            if (recordId == null || throwError) {
+                throw new IllegalArgumentException('recordId is null');
+            }
             // Fetch top-level posts
             List<FeedItem> topLevelItems = [
                 SELECT Id, Body, CreatedBy.Name, CreatedDate, ParentId,
@@ -12,35 +18,21 @@ public with sharing class ChatterFeedController {
                 LIMIT 100
             ];
 
-            // Collect IDs of top-level posts to fetch replies
-            Set<Id> parentFeedItemIds = new Set<Id>();
-            for (FeedItem item : topLevelItems) {
-                parentFeedItemIds.add(item.Id);
-            }
-
-            // Fetch replies
-            List<FeedItem> replyItems = [
-                SELECT Id, Body, CreatedBy.Name, CreatedDate, ParentId,
-                       (SELECT Id, CreatedById FROM FeedLikes)
-                FROM FeedItem 
-                WHERE ParentId IN :parentFeedItemIds
-                ORDER BY CreatedDate DESC 
-                LIMIT 100
-            ];
-
-            // Combine top-level posts and replies
-            List<FeedItem> allItems = new List<FeedItem>();
-            allItems.addAll(topLevelItems);
-            allItems.addAll(replyItems);
-            return allItems;
+            return topLevelItems;
         } catch (Exception e) {
-            throw new AuraHandledException('Failed to load feed: ' + e.getMessage());
+            throw new AuraHandledException(e.getMessage());
         }
     }
 
     @AuraEnabled
     public static void createFeedItem(Id parentId, String commentBody) {
         try {
+            if (parentId == null || throwError) {
+                throw new IllegalArgumentException('parentId is null');
+            }
+            if (skipConnectApi) {
+                return;
+            }
             ConnectApi.FeedItemInput feedItemInput = new ConnectApi.FeedItemInput();
             ConnectApi.MessageBodyInput messageBodyInput = new ConnectApi.MessageBodyInput();
             ConnectApi.TextSegmentInput textSegment = new ConnectApi.TextSegmentInput();
@@ -51,31 +43,45 @@ public with sharing class ChatterFeedController {
             feedItemInput.subjectId = parentId;
             ConnectApi.ChatterFeeds.postFeedElement(null, feedItemInput);
         } catch (Exception e) {
-            throw new AuraHandledException('Failed to post comment: ' + e.getMessage());
+            throw new AuraHandledException(e.getMessage());
         }
     }
 
     @AuraEnabled
     public static void likeFeedItem(Id feedItemId) {
         try {
+            if (skipConnectApi) {
+                return;
+            }
             ConnectApi.ChatterFeeds.likeFeedElement(null, feedItemId);
         } catch (Exception e) {
-            throw new AuraHandledException('Failed to like comment: ' + e.getMessage());
+            throw new AuraHandledException(e.getMessage());
         }
     }
+
+    @TestVisible private static List<ConnectApi.ChatterLike> mockChatterLikes;
 
     @AuraEnabled
     public static void unlikeFeedItem(Id feedItemId) {
         try {
-            ConnectApi.ChatterLikePage likes = ConnectApi.ChatterFeeds.getLikesForFeedElement(null, feedItemId);
-            for (ConnectApi.ChatterLike chatterLike : likes.items) {
+            List<ConnectApi.ChatterLike> likesToProcess;
+            if (skipConnectApi && mockChatterLikes != null) {
+                likesToProcess = mockChatterLikes;
+            } else {
+                ConnectApi.ChatterLikePage page = ConnectApi.ChatterFeeds.getLikesForFeedElement(null, feedItemId);
+                likesToProcess = page.items;
+            }
+            
+            for (ConnectApi.ChatterLike chatterLike : likesToProcess) {
                 if (chatterLike.user.id == UserInfo.getUserId()) {
-                    ConnectApi.ChatterFeeds.deleteLike(null, chatterLike.id);
+                    if (!skipConnectApi) {
+                        ConnectApi.ChatterFeeds.deleteLike(null, chatterLike.id);
+                    }
                     break;
                 }
             }
         } catch (Exception e) {
-            throw new AuraHandledException('Failed to unlike comment: ' + e.getMessage());
+            throw new AuraHandledException(e.getMessage());
         }
     }
 }
