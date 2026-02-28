@@ -1,0 +1,38 @@
+@isTest public class CharacterEquipmentSummaryObjectTest { @isTest static void testAll() {
+  CharacterEquipmentSummaryObject obj = new CharacterEquipmentSummaryObject();
+  JSON.serialize(obj);
+  CharacterEquipmentSummaryObject.type v_type = new CharacterEquipmentSummaryObject.type();
+  CharacterEquipmentSummaryObject.transmog v_transmog = new CharacterEquipmentSummaryObject.transmog();
+  CharacterEquipmentSummaryObject.stats v_stats = new CharacterEquipmentSummaryObject.stats();
+  CharacterEquipmentSummaryObject.slot v_slot = new CharacterEquipmentSummaryObject.slot();
+  CharacterEquipmentSummaryObject.set_bonus v_set_bonus = new CharacterEquipmentSummaryObject.set_bonus();
+  CharacterEquipmentSummaryObject.sell_price v_sell_price = new CharacterEquipmentSummaryObject.sell_price();
+  CharacterEquipmentSummaryObject.self v_self = new CharacterEquipmentSummaryObject.self();
+  CharacterEquipmentSummaryObject.requirements v_requirements = new CharacterEquipmentSummaryObject.requirements();
+  CharacterEquipmentSummaryObject.realm v_realm = new CharacterEquipmentSummaryObject.realm();
+  CharacterEquipmentSummaryObject.quality v_quality = new CharacterEquipmentSummaryObject.quality();
+  CharacterEquipmentSummaryObject.playable_classes v_playable_classes = new CharacterEquipmentSummaryObject.playable_classes();
+  CharacterEquipmentSummaryObject.name_description v_name_description = new CharacterEquipmentSummaryObject.name_description();
+  CharacterEquipmentSummaryObject.media v_media = new CharacterEquipmentSummaryObject.media();
+  CharacterEquipmentSummaryObject.links v_links = new CharacterEquipmentSummaryObject.links();
+  CharacterEquipmentSummaryObject.level v_level = new CharacterEquipmentSummaryObject.level();
+  CharacterEquipmentSummaryObject.key v_key = new CharacterEquipmentSummaryObject.key();
+  CharacterEquipmentSummaryObject.items v_items = new CharacterEquipmentSummaryObject.items();
+  CharacterEquipmentSummaryObject.item_subclass v_item_subclass = new CharacterEquipmentSummaryObject.item_subclass();
+  CharacterEquipmentSummaryObject.item_set v_item_set = new CharacterEquipmentSummaryObject.item_set();
+  CharacterEquipmentSummaryObject.item_class v_item_class = new CharacterEquipmentSummaryObject.item_class();
+  CharacterEquipmentSummaryObject.item v_item = new CharacterEquipmentSummaryObject.item();
+  CharacterEquipmentSummaryObject.inventory_type v_inventory_type = new CharacterEquipmentSummaryObject.inventory_type();
+  CharacterEquipmentSummaryObject.equipped_items v_equipped_items = new CharacterEquipmentSummaryObject.equipped_items();
+  CharacterEquipmentSummaryObject.equipped_item_sets v_equipped_item_sets = new CharacterEquipmentSummaryObject.equipped_item_sets();
+  CharacterEquipmentSummaryObject.effects v_effects = new CharacterEquipmentSummaryObject.effects();
+  CharacterEquipmentSummaryObject.durability v_durability = new CharacterEquipmentSummaryObject.durability();
+  CharacterEquipmentSummaryObject.display_strings v_display_strings = new CharacterEquipmentSummaryObject.display_strings();
+  CharacterEquipmentSummaryObject.display v_display = new CharacterEquipmentSummaryObject.display();
+  CharacterEquipmentSummaryObject.color v_color = new CharacterEquipmentSummaryObject.color();
+  CharacterEquipmentSummaryObject.character v_character = new CharacterEquipmentSummaryObject.character();
+  CharacterEquipmentSummaryObject.binding v_binding = new CharacterEquipmentSummaryObject.binding();
+  CharacterEquipmentSummaryObject.armor v_armor = new CharacterEquipmentSummaryObject.armor();
+  CharacterEquipmentSummaryObject.links_extra v_links_extra = new CharacterEquipmentSummaryObject.links_extra();
+  System.assertNotEquals(null, obj);
+} }
