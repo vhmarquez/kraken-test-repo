@@ -123,6 +123,426 @@
     "target_env_username": "victor@marquez.com",
     "selected_metadata": [
       {
+        "file_path": ".kraken/deployment-configs.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "deployment-configs.json",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedController.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedController",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedControllerTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableControllerTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest.cls-meta",
+        "selected": true
+      },
+      {
         "file_path": "force-app/main/default/lwc/vibeAccountTable/vibeAccountTable.html",
         "change_type": "Modified",
         "metadata_type": "LightningComponentBundle",
@@ -138,17 +558,51 @@
     "pr_url": null,
     "pr_status": null,
     "deployment_ready": true,
-    "config_status": "validation_failed",
-    "last_validation_at": "2026-02-27T15:19:48.145Z",
-    "last_deployment_at": null,
+    "config_status": "deployed",
+    "last_validation_at": "2026-02-28T00:31:49.824Z",
+    "last_deployment_at": "2026-02-28T00:39:22.439Z",
     "last_result": {
       "component_failures": [],
-      "component_successes": [],
+      "component_successes": [
+        "ApexClass: AccountControllerTest",
+        "ApexClass: CharacterEquipmentSummaryObjectTest",
+        "ApexClass: CharacterMediaSummaryObjectTest",
+        "ApexClass: CharacterProfileSummaryObjectTest",
+        "ApexClass: ChatterFeedController",
+        "ApexClass: ChatterFeedControllerTest",
+        "ApexClass: ClassObjectTest",
+        "ApexClass: ClassesIndexObjectTest",
+        "ApexClass: CursorContactsTest",
+        "ApexClass: ESCCDeviceControllerPlusTest",
+        "ApexClass: ESCCDeviceControllerTest",
+        "ApexClass: EisacEsccDevicesControllerTest",
+        "ApexClass: ItemMediaObjectTest",
+        "ApexClass: KnowledgeArticleControllerTest",
+        "ApexClass: KrakenDataTableControllerTest",
+        "ApexClass: MultiMock",
+        "ApexClass: RacesIndexObjectTest",
+        "ApexClass: RealmIndexObjectTest",
+        "ApexClass: TestDataFactory",
+        "ApexClass: UtilityMethodsMock",
+        "ApexClass: UtilityMethodsTest",
+        "ApexClass: VibeAccountTableControllerTest",
+        "ApexClass: WoWCharacterTest",
+        "ApexClass: WoWDataAPITest",
+        "ApexClass: WoWObjectsTest",
+        "ApexClass: WoWPlayableClassesTest",
+        "ApexClass: WoWPlayableRaceClassCombinationTest",
+        "ApexClass: WoWPlayableRacesTest",
+        "ApexClass: WoWProfileAPITest",
+        "ApexClass: WoWRealmsTest",
+        "ApexClass: getContactDataTableListTest",
+        "LightningComponentBundle: vibeAccountTable",
+        ": package.xml"
+      ],
       "coverage_results": [],
-      "deployment_id": "VAL-3CFA5A7F",
+      "deployment_id": "0Afak00000VX7P3CAL",
       "overall_coverage": 0,
-      "status": "Failed to validate the deployment (0Afak00000VWFWjCAP). Due To:\nAverage test coverage across all Apex Classes and Triggers is 23%, at least 75% test coverage is required.\n\n\nChatterFeedControllerTest.testCreateFeedItemFailure - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testCreateFeedItemWithMention - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testGetFeedItems - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testGetFeedItemsFailure - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testLikeAndUnlikeFeedItem - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],KrakenDataTableControllerTest.testDeleteConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetFieldOptions - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetRecords - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testSaveConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testUpdateConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testUpdateRecords - System.AssertException: Assertion Failed: Expected exception message",
-      "success": false,
+      "status": "Succeeded",
+      "success": true,
       "test_results": []
     },
     "created_by": "vmarquez",
