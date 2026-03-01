@@ -36,4 +36,22 @@ private class StringManipulatorTest {
         Integer result = StringManipulator.countVowels('gym');
         System.assertEquals(0, result);
     }
+
+    @IsTest
+    static void testTruncate() {
+        String result = StringManipulator.truncate('Hello World', 5);
+        System.assertEquals('Hello...', result);
+    }
+
+    @IsTest
+    static void testTruncateShortString() {
+        String result = StringManipulator.truncate('Hi', 10);
+        System.assertEquals('Hi', result);
+    }
+
+    @IsTest
+    static void testTruncateBlank() {
+        String result = StringManipulator.truncate(null, 5);
+        System.assertEquals('', result);
+    }
 }
