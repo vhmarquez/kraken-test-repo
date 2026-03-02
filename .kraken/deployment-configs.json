@@ -42,6 +42,7 @@
       "success": false,
       "test_results": []
     },
+    "validation_id": null,
     "created_by": null,
     "target_env_name": null
   },
@@ -112,6 +113,7 @@
       "success": false,
       "test_results": []
     },
+    "validation_id": null,
     "created_by": null,
     "target_env_name": null
   },
@@ -623,24 +625,100 @@
     "pr_url": null,
     "pr_status": null,
     "deployment_ready": true,
-    "config_status": "validation_failed",
-    "last_validation_at": "2026-03-01T23:52:34.099Z",
+    "config_status": "validated",
+    "last_validation_at": "2026-03-02T14:05:28.859Z",
     "last_deployment_at": "2026-02-28T00:39:22.439Z",
     "last_result": {
       "component_failures": [],
-      "component_successes": [],
-      "coverage_results": [],
+      "component_successes": [
+        "ApexClass: StringManipulator",
+        "ApexClass: StringManipulatorTest",
+        ": package.xml"
+      ],
+      "coverage_results": [
+        {
+          "class_name": "StringManipulator",
+          "coverage_percent": 96.15384615384616,
+          "covered_lines": 25,
+          "uncovered_lines": 1
+        }
+      ],
       "coverage_threshold": {
-        "actual_coverage": 0,
-        "passed": false,
+        "actual_coverage": 96.15384615384616,
+        "passed": true,
         "required_coverage": 85
       },
-      "deployment_id": "VAL-AAD21699",
-      "overall_coverage": 0,
-      "status": "Failed to validate the deployment (0Afak00000VatovCAB). Due To:\nStringManipulator - Test coverage of selected Apex Class is 73.077%, at least 75% test coverage is required",
-      "success": false,
-      "test_results": []
+      "deployment_id": "0Afak00000VbjcDCAR",
+      "overall_coverage": 96.15384615384616,
+      "status": "Succeeded",
+      "success": true,
+      "test_results": [
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalize",
+          "outcome": "Pass",
+          "run_time_ms": 366000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalizeBlank",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowels",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowelsNone",
+          "outcome": "Pass",
+          "run_time_ms": 86000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseString",
+          "outcome": "Pass",
+          "run_time_ms": 84000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseStringBlank",
+          "outcome": "Pass",
+          "run_time_ms": 83000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncate",
+          "outcome": "Pass",
+          "run_time_ms": 79000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateBlank",
+          "outcome": "Pass",
+          "run_time_ms": 84000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateShortString",
+          "outcome": "Pass",
+          "run_time_ms": 98000
+        }
+      ]
     },
+    "validation_id": "0Afak00000VbjcDCAR",
     "created_by": "vmarquez",
     "target_env_name": "DevVM"
   },
@@ -1152,9 +1230,9 @@
     "pr_url": null,
     "pr_status": null,
     "deployment_ready": true,
-    "config_status": "validation_failed",
-    "last_validation_at": "2026-03-01T23:56:19.178Z",
-    "last_deployment_at": null,
+    "config_status": "deployed",
+    "last_validation_at": "2026-03-02T13:56:45.985Z",
+    "last_deployment_at": "2026-03-02T13:58:20.604Z",
     "last_result": {
       "component_failures": [],
       "component_successes": [
@@ -1162,68 +1240,14 @@
         "ApexClass: StringManipulatorTest",
         ": package.xml"
       ],
-      "coverage_results": [
-        {
-          "class_name": "StringManipulator",
-          "coverage_percent": 73.07692307692307,
-          "covered_lines": 19,
-          "uncovered_lines": 7
-        }
-      ],
-      "coverage_threshold": {
-        "actual_coverage": 73.07692307692307,
-        "passed": false,
-        "required_coverage": 85
-      },
-      "deployment_id": "0Afak00000VapIICAZ",
-      "overall_coverage": 73.07692307692307,
-      "status": "Failed",
-      "success": false,
-      "test_results": [
-        {
-          "class_name": "StringManipulatorTest",
-          "message": null,
-          "method_name": "testCapitalize",
-          "outcome": "Pass",
-          "run_time_ms": 355000
-        },
-        {
-          "class_name": "StringManipulatorTest",
-          "message": null,
-          "method_name": "testCapitalizeBlank",
-          "outcome": "Pass",
-          "run_time_ms": 106000
-        },
-        {
-          "class_name": "StringManipulatorTest",
-          "message": null,
-          "method_name": "testCountVowels",
-          "outcome": "Pass",
-          "run_time_ms": 104000
-        },
-        {
-          "class_name": "StringManipulatorTest",
-          "message": null,
-          "method_name": "testCountVowelsNone",
-          "outcome": "Pass",
-          "run_time_ms": 119000
-        },
-        {
-          "class_name": "StringManipulatorTest",
-          "message": null,
-          "method_name": "testReverseString",
-          "outcome": "Pass",
-          "run_time_ms": 105000
-        },
-        {
-          "class_name": "StringManipulatorTest",
-          "message": null,
-          "method_name": "testReverseStringBlank",
-          "outcome": "Pass",
-          "run_time_ms": 109000
-        }
-      ]
+      "coverage_results": [],
+      "deployment_id": "0Afak00000VbieXCAR",
+      "overall_coverage": 0,
+      "status": "Succeeded",
+      "success": true,
+      "test_results": []
     },
+    "validation_id": null,
     "created_by": "vmarquez",
     "target_env_name": "DevVM"
   }

@@ -1,12 +1,9 @@
 <template>
-  <lightning-card title="Accounts" icon-name="standard:account">
+  <lightning-card title="Accounts Big Massive Change" icon-name="standard:account">
     <!-- Loading State -->
     <template if:true={isLoading}>
       <div class="slds-p-around_large slds-text-align_center">
-        <lightning-spinner
-          alternative-text="Loading accounts..."
-          size="medium"
-        ></lightning-spinner>
+        <lightning-spinner alternative-text="Loading accounts..." size="medium"></lightning-spinner>
         <p class="slds-m-top_medium slds-text-body_regular">
           Loading account records...
         </p>
@@ -19,10 +16,7 @@
         <lightning-alert variant="error">
           <strong>Error loading accounts:</strong> {error}
         </lightning-alert>
-        <button
-          class="slds-button slds-button_brand slds-m-top_medium"
-          onclick={handleRetry}
-        >
+        <button class="slds-button slds-button_brand slds-m-top_medium" onclick={handleRetry}>
           Try Again
         </button>
       </div>
@@ -32,11 +26,7 @@
     <template if:true={isEmpty}>
       <div class="slds-p-around_x-large slds-text-align_center">
         <div class="slds-m-bottom_medium">
-          <lightning-icon
-            icon-name="standard:account"
-            size="large"
-            class="slds-text-color_weak"
-          ></lightning-icon>
+          <lightning-icon icon-name="standard:account" size="large" class="slds-text-color_weak"></lightning-icon>
         </div>
         <h3 class="slds-text-heading_medium slds-m-bottom_small">
           No Accounts Found
@@ -53,13 +43,8 @@
         <template if:false={isEmpty}>
           <!-- Table Container -->
           <div class="slds-scrollable_x">
-            <lightning-datatable
-              key-field="Id"
-              data={data}
-              columns={columns}
-              hide-checkbox-column
-              class="account-table"
-            ></lightning-datatable>
+            <lightning-datatable key-field="Id" data={data} columns={columns} hide-checkbox-column
+              class="account-table"></lightning-datatable>
           </div>
 
           <!-- Pagination Controls -->
@@ -81,35 +66,19 @@
               </div>
 
               <!-- Right: Pagination Buttons -->
-              <div
-                class="slds-col slds-size_4-of-12 slds-text-align_right pagination-controls"
-              >
-                <button
-                  class="slds-button slds-button_neutral"
-                  onclick={handlePreviousPage}
-                  disabled={isFirstPage}
-                  title="Go to previous page"
-                >
-                  <lightning-icon
-                    icon-name="utility:chevronleft"
-                    size="x-small"
-                    class="slds-m-right_x-small"
-                  ></lightning-icon>
+              <div class="slds-col slds-size_4-of-12 slds-text-align_right pagination-controls">
+                <button class="slds-button slds-button_neutral" onclick={handlePreviousPage} disabled={isFirstPage}
+                  title="Go to previous page">
+                  <lightning-icon icon-name="utility:chevronleft" size="x-small"
+                    class="slds-m-right_x-small"></lightning-icon>
                   Previous
                 </button>
 
-                <button
-                  class="slds-button slds-button_neutral slds-m-left_small"
-                  onclick={handleNextPage}
-                  disabled={isLastPage}
-                  title="Go to next page"
-                >
+                <button class="slds-button slds-button_neutral slds-m-left_small" onclick={handleNextPage}
+                  disabled={isLastPage} title="Go to next page">
                   Next
-                  <lightning-icon
-                    icon-name="utility:chevronright"
-                    size="x-small"
-                    class="slds-m-left_x-small"
-                  ></lightning-icon>
+                  <lightning-icon icon-name="utility:chevronright" size="x-small"
+                    class="slds-m-left_x-small"></lightning-icon>
                 </button>
               </div>
             </div>
