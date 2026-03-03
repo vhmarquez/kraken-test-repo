@@ -42,8 +42,10 @@
       "success": false,
       "test_results": []
     },
+    "validation_id": null,
     "created_by": null,
-    "target_env_name": null
+    "target_env_name": null,
+    "jira_issue_key": null
   },
   {
     "id": "cfg-1771462724038",
@@ -112,8 +114,10 @@
       "success": false,
       "test_results": []
     },
+    "validation_id": null,
     "created_by": null,
-    "target_env_name": null
+    "target_env_name": null,
+    "jira_issue_key": null
   },
   {
     "id": "cfg-1772203592458",
@@ -123,35 +127,5091 @@
     "target_env_username": "victor@marquez.com",
     "selected_metadata": [
       {
+        "file_path": ".kraken/deployment-configs.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "deployment-configs.json",
+        "selected": false
+      },
+      {
+        "file_path": "coverage/coverage/coverage.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "coverage.json",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedController.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedController",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/lwc/accountTable/accountTable.html",
+        "change_type": "Modified",
+        "metadata_type": "LightningComponentBundle",
+        "component_name": "accountTable",
+        "selected": true
+      },
+      {
         "file_path": "force-app/main/default/lwc/vibeAccountTable/vibeAccountTable.html",
         "change_type": "Modified",
         "metadata_type": "LightningComponentBundle",
         "component_name": "vibeAccountTable",
-        "selected": true
+        "selected": false
       }
     ],
     "test_level": "RunLocalTests",
-    "test_classes": [],
+    "test_classes": [
+      "StringManipulatorTest"
+    ],
     "created_at": "2026-02-27T14:46:32.458Z",
     "base_branch": "master",
     "pr_number": null,
     "pr_url": null,
     "pr_status": null,
     "deployment_ready": true,
-    "config_status": "validation_failed",
-    "last_validation_at": "2026-02-27T15:19:48.145Z",
-    "last_deployment_at": null,
+    "config_status": "deployed",
+    "last_validation_at": "2026-03-02T14:05:28.859Z",
+    "last_deployment_at": "2026-03-02T19:02:09.575Z",
     "last_result": {
       "component_failures": [],
-      "component_successes": [],
+      "component_successes": [
+        "LightningComponentBundle: accountTable",
+        ": package.xml"
+      ],
+      "coverage_results": [
+        {
+          "class_name": "CursorContacts",
+          "coverage_percent": 84.61538461538461,
+          "covered_lines": 11,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "getContactDataTableList",
+          "coverage_percent": 87.5,
+          "covered_lines": 7,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "UtilityMethods",
+          "coverage_percent": 81.81818181818183,
+          "covered_lines": 9,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "ItemMediaObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ClassesIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "StringManipulator",
+          "coverage_percent": 96.15384615384616,
+          "covered_lines": 25,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "WoWPlayableClasses",
+          "coverage_percent": 91.66666666666666,
+          "covered_lines": 22,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "ESCCDeviceController",
+          "coverage_percent": 81.81818181818183,
+          "covered_lines": 81,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "ClassObject",
+          "coverage_percent": 100,
+          "covered_lines": 30,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterEquipmentSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 107,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "MicrobatchSelfRegController",
+          "coverage_percent": 80,
+          "covered_lines": 32,
+          "uncovered_lines": 8
+        },
+        {
+          "class_name": "CommunitiesSelfRegConfirmController",
+          "coverage_percent": 100,
+          "covered_lines": 1,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ChatterFeedController",
+          "coverage_percent": 95.91836734693877,
+          "covered_lines": 47,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "WoWDataAPI",
+          "coverage_percent": 100,
+          "covered_lines": 20,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "WoWProfileAPI",
+          "coverage_percent": 100,
+          "covered_lines": 20,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "LightningSelfRegisterController",
+          "coverage_percent": 72.72727272727273,
+          "covered_lines": 56,
+          "uncovered_lines": 21
+        },
+        {
+          "class_name": "WoWPlayableRaces",
+          "coverage_percent": 90.9090909090909,
+          "covered_lines": 10,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "EisacEsccDevicesController",
+          "coverage_percent": 87.09677419354838,
+          "covered_lines": 108,
+          "uncovered_lines": 16
+        },
+        {
+          "class_name": "LightningLoginFormController",
+          "coverage_percent": 45.45454545454545,
+          "covered_lines": 15,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "KrakenDataTableConfigSelector",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "SiteRegisterController",
+          "coverage_percent": 81.48148148148148,
+          "covered_lines": 22,
+          "uncovered_lines": 5
+        },
+        {
+          "class_name": "VibeAccountTableController",
+          "coverage_percent": 100,
+          "covered_lines": 33,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ChangePasswordController",
+          "coverage_percent": 100,
+          "covered_lines": 6,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "PortalUserAccounts",
+          "coverage_percent": 100,
+          "covered_lines": 3,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "SiteLoginController",
+          "coverage_percent": 100,
+          "covered_lines": 6,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterMediaSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 16,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "RealmIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 9,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlus",
+          "coverage_percent": 82,
+          "covered_lines": 82,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "KrakenDataTableController",
+          "coverage_percent": 100,
+          "covered_lines": 110,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "WoWRealms",
+          "coverage_percent": 90.9090909090909,
+          "covered_lines": 10,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "WoWPlayableRaceClassCombination",
+          "coverage_percent": 94.44444444444444,
+          "covered_lines": 17,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "CommunitiesLandingController",
+          "coverage_percent": 100,
+          "covered_lines": 3,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterProfileSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 109,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "KnowledgeArticleController",
+          "coverage_percent": 72.72727272727273,
+          "covered_lines": 24,
+          "uncovered_lines": 9
+        },
+        {
+          "class_name": "RacesIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CommunitiesLoginController",
+          "coverage_percent": 100,
+          "covered_lines": 5,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CommunitiesSelfRegController",
+          "coverage_percent": 76.19047619047619,
+          "covered_lines": 32,
+          "uncovered_lines": 10
+        },
+        {
+          "class_name": "WoWCharacter",
+          "coverage_percent": 98.4251968503937,
+          "covered_lines": 125,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "AccountController",
+          "coverage_percent": 84.21052631578947,
+          "covered_lines": 16,
+          "uncovered_lines": 3
+        },
+        {
+          "class_name": "ForgotPasswordController",
+          "coverage_percent": 88.88888888888889,
+          "covered_lines": 8,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "MyProfilePageController",
+          "coverage_percent": 87.5,
+          "covered_lines": 21,
+          "uncovered_lines": 3
+        },
+        {
+          "class_name": "LightningForgotPasswordController",
+          "coverage_percent": 50,
+          "covered_lines": 9,
+          "uncovered_lines": 9
+        }
+      ],
+      "coverage_threshold": {
+        "actual_coverage": 89.40123881624226,
+        "passed": true,
+        "required_coverage": 85
+      },
+      "deployment_id": "0Afak00000VcOlpCAF",
+      "overall_coverage": 89.40123881624226,
+      "status": "Succeeded",
+      "success": true,
+      "test_results": [
+        {
+          "class_name": "AccountControllerTest",
+          "message": null,
+          "method_name": "testGetAccounts",
+          "outcome": "Pass",
+          "run_time_ms": 230000
+        },
+        {
+          "class_name": "AccountControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsNoAccess",
+          "outcome": "Pass",
+          "run_time_ms": 1042000
+        },
+        {
+          "class_name": "ChangePasswordControllerTest",
+          "message": null,
+          "method_name": "testChangePasswordController",
+          "outcome": "Pass",
+          "run_time_ms": 94000
+        },
+        {
+          "class_name": "CharacterEquipmentSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 107000
+        },
+        {
+          "class_name": "CharacterMediaSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 204000
+        },
+        {
+          "class_name": "CharacterProfileSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 110000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCoverageForConnectApi",
+          "outcome": "Pass",
+          "run_time_ms": 156000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCreateFeedItemFailure",
+          "outcome": "Pass",
+          "run_time_ms": 97000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCreateFeedItemWithMention",
+          "outcome": "Pass",
+          "run_time_ms": 117000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testGetFeedItems",
+          "outcome": "Pass",
+          "run_time_ms": 188000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testGetFeedItemsFailure",
+          "outcome": "Pass",
+          "run_time_ms": 104000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testLikeAndUnlikeFeedItem",
+          "outcome": "Pass",
+          "run_time_ms": 179000
+        },
+        {
+          "class_name": "ClassesIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 99000
+        },
+        {
+          "class_name": "ClassObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 128000
+        },
+        {
+          "class_name": "CommunitiesLandingControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesLandingController",
+          "outcome": "Pass",
+          "run_time_ms": 102000
+        },
+        {
+          "class_name": "CommunitiesLoginControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesLoginController",
+          "outcome": "Pass",
+          "run_time_ms": 110000
+        },
+        {
+          "class_name": "CommunitiesSelfRegConfirmControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesSelfRegConfirmController",
+          "outcome": "Pass",
+          "run_time_ms": 95000
+        },
+        {
+          "class_name": "CommunitiesSelfRegControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesSelfRegController",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "CursorContactsTest",
+          "message": null,
+          "method_name": "testGetContacts",
+          "outcome": "Pass",
+          "run_time_ms": 187000
+        },
+        {
+          "class_name": "CursorContactsTest",
+          "message": null,
+          "method_name": "testGetTotalContacts",
+          "outcome": "Pass",
+          "run_time_ms": 138000
+        },
+        {
+          "class_name": "EisacEsccDevicesControllerTest",
+          "message": null,
+          "method_name": "testExportToCSV",
+          "outcome": "Pass",
+          "run_time_ms": 157000
+        },
+        {
+          "class_name": "EisacEsccDevicesControllerTest",
+          "message": null,
+          "method_name": "testGetDeviceData",
+          "outcome": "Pass",
+          "run_time_ms": 173000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetCSVData",
+          "outcome": "Pass",
+          "run_time_ms": 126000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetTotalCount",
+          "outcome": "Pass",
+          "run_time_ms": 147000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetTreeData",
+          "outcome": "Pass",
+          "run_time_ms": 195000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetCSVData",
+          "outcome": "Pass",
+          "run_time_ms": 95000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetTotalCount",
+          "outcome": "Pass",
+          "run_time_ms": 155000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetTreeData",
+          "outcome": "Pass",
+          "run_time_ms": 188000
+        },
+        {
+          "class_name": "ForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testForgotPasswordController",
+          "outcome": "Pass",
+          "run_time_ms": 121000
+        },
+        {
+          "class_name": "getContactDataTableListTest",
+          "message": null,
+          "method_name": "testGetList",
+          "outcome": "Pass",
+          "run_time_ms": 94000
+        },
+        {
+          "class_name": "ItemMediaObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 113000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testFindArticleByUrlName",
+          "outcome": "Pass",
+          "run_time_ms": 152000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testFindArticleByUrlNameEmpty",
+          "outcome": "Pass",
+          "run_time_ms": 104000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testGetArticles",
+          "outcome": "Pass",
+          "run_time_ms": 135000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testNoAccess",
+          "outcome": "Pass",
+          "run_time_ms": 552000
+        },
+        {
+          "class_name": "KrakenDataTableConfigSelectorTest",
+          "message": null,
+          "method_name": "testSelector",
+          "outcome": "Pass",
+          "run_time_ms": 174000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testConfigSelectorPicklist",
+          "outcome": "Pass",
+          "run_time_ms": 49000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testDeleteConfig",
+          "outcome": "Pass",
+          "run_time_ms": 657000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetAllConfigs",
+          "outcome": "Pass",
+          "run_time_ms": 129000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetConfig",
+          "outcome": "Pass",
+          "run_time_ms": 130000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetFieldOptions",
+          "outcome": "Pass",
+          "run_time_ms": 402000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetObjectOptions",
+          "outcome": "Pass",
+          "run_time_ms": 1647000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetRecords",
+          "outcome": "Pass",
+          "run_time_ms": 278000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testSaveConfig",
+          "outcome": "Pass",
+          "run_time_ms": 140000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testUpdateConfig",
+          "outcome": "Pass",
+          "run_time_ms": 168000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testUpdateRecords",
+          "outcome": "Pass",
+          "run_time_ms": 395000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "LightningForgotPasswordControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 90000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testLightningForgotPasswordControllerInvalidUserName",
+          "outcome": "Pass",
+          "run_time_ms": 90000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testLightningForgotPasswordControllerWithNullCheckEmailRef",
+          "outcome": "Pass",
+          "run_time_ms": 93000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "LightningLoginFormControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testAuthConfig",
+          "outcome": "Pass",
+          "run_time_ms": 158000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testGetSelfRegistrationURL",
+          "outcome": "Pass",
+          "run_time_ms": 169000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testIsSelfRegistrationEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 167000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testIsUsernamePasswordEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 178000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "LightningSelfRegisterControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 87000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetExtraFieldsInSelfRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 94000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetNonEmptyExtraFields",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetNullExtraFields",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testIsValidPassword",
+          "outcome": "Pass",
+          "run_time_ms": 94000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegisterWithCreatedAccount",
+          "outcome": "Pass",
+          "run_time_ms": 197000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegisterWithProperCredentials",
+          "outcome": "Pass",
+          "run_time_ms": 107000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 106000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSiteAsContainerEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 170000
+        },
+        {
+          "class_name": "MicrobatchSelfRegControllerTest",
+          "message": null,
+          "method_name": "testMicrobatchSelfRegController",
+          "outcome": "Pass",
+          "run_time_ms": 104000
+        },
+        {
+          "class_name": "MyProfilePageControllerTest",
+          "message": null,
+          "method_name": "testSave",
+          "outcome": "Pass",
+          "run_time_ms": 459000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountFail",
+          "outcome": "Pass",
+          "run_time_ms": 287000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountSuccess",
+          "outcome": "Pass",
+          "run_time_ms": 283000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountSuccessMultiple",
+          "outcome": "Pass",
+          "run_time_ms": 295000
+        },
+        {
+          "class_name": "RacesIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 110000
+        },
+        {
+          "class_name": "RealmIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 113000
+        },
+        {
+          "class_name": "SiteLoginControllerTest",
+          "message": null,
+          "method_name": "testSiteLoginController",
+          "outcome": "Pass",
+          "run_time_ms": 95000
+        },
+        {
+          "class_name": "SiteRegisterControllerTest",
+          "message": null,
+          "method_name": "testRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 98000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalize",
+          "outcome": "Pass",
+          "run_time_ms": 100000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalizeBlank",
+          "outcome": "Pass",
+          "run_time_ms": 107000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowels",
+          "outcome": "Pass",
+          "run_time_ms": 113000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowelsNone",
+          "outcome": "Pass",
+          "run_time_ms": 222000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseString",
+          "outcome": "Pass",
+          "run_time_ms": 102000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseStringBlank",
+          "outcome": "Pass",
+          "run_time_ms": 115000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncate",
+          "outcome": "Pass",
+          "run_time_ms": 102000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateBlank",
+          "outcome": "Pass",
+          "run_time_ms": 97000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateShortString",
+          "outcome": "Pass",
+          "run_time_ms": 101000
+        },
+        {
+          "class_name": "UtilityMethodsTest",
+          "message": null,
+          "method_name": "testCallRetryFailureThenSuccess",
+          "outcome": "Pass",
+          "run_time_ms": 104000
+        },
+        {
+          "class_name": "UtilityMethodsTest",
+          "message": null,
+          "method_name": "testCallRetrySuccess",
+          "outcome": "Pass",
+          "run_time_ms": 102000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsInvalidInputs",
+          "outcome": "Pass",
+          "run_time_ms": 73000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsPaged",
+          "outcome": "Pass",
+          "run_time_ms": 116000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsWithSearch",
+          "outcome": "Pass",
+          "run_time_ms": 147000
+        },
+        {
+          "class_name": "WoWCharacterTest",
+          "message": null,
+          "method_name": "testCreateCharacterApplicantAndModel",
+          "outcome": "Pass",
+          "run_time_ms": 2507000
+        },
+        {
+          "class_name": "WoWCharacterTest",
+          "message": null,
+          "method_name": "testCreateCharacterLead",
+          "outcome": "Pass",
+          "run_time_ms": 355000
+        },
+        {
+          "class_name": "WoWDataAPITest",
+          "message": null,
+          "method_name": "testFetchMethods",
+          "outcome": "Pass",
+          "run_time_ms": 102000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterEquipmentSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 106000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterMediaSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 95000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterProfileSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 98000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testClassObject",
+          "outcome": "Pass",
+          "run_time_ms": 102000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testClassesIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 93000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testItemMediaObject",
+          "outcome": "Pass",
+          "run_time_ms": 96000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testRacesIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 107000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testRealmIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 94000
+        },
+        {
+          "class_name": "WoWPlayableClassesTest",
+          "message": null,
+          "method_name": "testCreatePlayableClassSpecs",
+          "outcome": "Pass",
+          "run_time_ms": 315000
+        },
+        {
+          "class_name": "WoWPlayableClassesTest",
+          "message": null,
+          "method_name": "testCreatePlayableClasses",
+          "outcome": "Pass",
+          "run_time_ms": 204000
+        },
+        {
+          "class_name": "WoWPlayableRaceClassCombinationTest",
+          "message": null,
+          "method_name": "testCreateCombinations",
+          "outcome": "Pass",
+          "run_time_ms": 289000
+        },
+        {
+          "class_name": "WoWPlayableRacesTest",
+          "message": null,
+          "method_name": "testCreatePlayableRaces",
+          "outcome": "Pass",
+          "run_time_ms": 170000
+        },
+        {
+          "class_name": "WoWPOJOTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 107000
+        },
+        {
+          "class_name": "WoWProfileAPITest",
+          "message": null,
+          "method_name": "testFetchMethods",
+          "outcome": "Pass",
+          "run_time_ms": 97000
+        },
+        {
+          "class_name": "WoWRealmsTest",
+          "message": null,
+          "method_name": "testCreateAllRealms",
+          "outcome": "Pass",
+          "run_time_ms": 170000
+        }
+      ]
+    },
+    "validation_id": "0Afak00000VbjcDCAR",
+    "created_by": "vmarquez",
+    "target_env_name": "DevVM",
+    "jira_issue_key": "SCRUM-1"
+  },
+  {
+    "id": "cfg-1772407418203",
+    "name": "Test Coverage",
+    "project_id": "fa4f2631-e53d-49f7-92a9-4dd81835ab16",
+    "source_branch": "feat/omega-vibe",
+    "target_env_username": "victor@marquez.com",
+    "selected_metadata": [
+      {
+        "file_path": ".kraken/deployment-configs.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "deployment-configs.json",
+        "selected": false
+      },
+      {
+        "file_path": "coverage/coverage/coverage.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "coverage.json",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedController.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedController",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest.cls-meta",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/lwc/vibeAccountTable/vibeAccountTable.html",
+        "change_type": "Modified",
+        "metadata_type": "LightningComponentBundle",
+        "component_name": "vibeAccountTable",
+        "selected": false
+      }
+    ],
+    "test_level": "RunSpecifiedTests",
+    "test_classes": [
+      "StringManipulatorTest"
+    ],
+    "created_at": "2026-03-01T23:23:38.204Z",
+    "base_branch": "master",
+    "pr_number": null,
+    "pr_url": null,
+    "pr_status": null,
+    "deployment_ready": true,
+    "config_status": "deployed",
+    "last_validation_at": "2026-03-02T13:56:45.985Z",
+    "last_deployment_at": "2026-03-02T13:58:20.604Z",
+    "last_result": {
+      "component_failures": [],
+      "component_successes": [
+        "ApexClass: StringManipulator",
+        "ApexClass: StringManipulatorTest",
+        ": package.xml"
+      ],
       "coverage_results": [],
-      "deployment_id": "VAL-3CFA5A7F",
+      "deployment_id": "0Afak00000VbieXCAR",
       "overall_coverage": 0,
-      "status": "Failed to validate the deployment (0Afak00000VWFWjCAP). Due To:\nAverage test coverage across all Apex Classes and Triggers is 23%, at least 75% test coverage is required.\n\n\nChatterFeedControllerTest.testCreateFeedItemFailure - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testCreateFeedItemWithMention - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testGetFeedItems - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testGetFeedItemsFailure - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],ChatterFeedControllerTest.testLikeAndUnlikeFeedItem - System.DmlException: Insert failed. First exception on row 0; first error: FIELD_INTEGRITY_EXCEPTION, Parent ID: id value of incorrect type: 0D5ak00000VkrCLCAZ: [ParentId],KrakenDataTableControllerTest.testDeleteConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetFieldOptions - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testGetRecords - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testSaveConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testUpdateConfig - System.AssertException: Assertion Failed: Expected exception message,KrakenDataTableControllerTest.testUpdateRecords - System.AssertException: Assertion Failed: Expected exception message",
-      "success": false,
+      "status": "Succeeded",
+      "success": true,
       "test_results": []
     },
+    "validation_id": null,
     "created_by": "vmarquez",
-    "target_env_name": "DevVM"
+    "target_env_name": "DevVM",
+    "jira_issue_key": null
+  },
+  {
+    "id": "cfg-1772473619797",
+    "name": "Testing Rollback",
+    "project_id": "fa4f2631-e53d-49f7-92a9-4dd81835ab16",
+    "source_branch": "feat/omega-vibe",
+    "target_env_username": "victor@marquez.com",
+    "selected_metadata": [
+      {
+        "file_path": ".kraken/deployment-configs.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "deployment-configs.json",
+        "selected": false
+      },
+      {
+        "file_path": "coverage/coverage/coverage.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "coverage.json",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedController.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedController",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/lwc/accountTable/accountTable.html",
+        "change_type": "Modified",
+        "metadata_type": "LightningComponentBundle",
+        "component_name": "accountTable",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/lwc/vibeAccountTable/vibeAccountTable.html",
+        "change_type": "Modified",
+        "metadata_type": "LightningComponentBundle",
+        "component_name": "vibeAccountTable",
+        "selected": false
+      }
+    ],
+    "test_level": "RunLocalTests",
+    "test_classes": [],
+    "created_at": "2026-03-02T17:46:59.797Z",
+    "base_branch": "master",
+    "pr_number": null,
+    "pr_url": null,
+    "pr_status": null,
+    "deployment_ready": true,
+    "config_status": "deployed",
+    "last_validation_at": null,
+    "last_deployment_at": "2026-03-02T17:46:59.797Z",
+    "last_result": {
+      "component_failures": [],
+      "component_successes": [
+        "LightningComponentBundle: accountTable",
+        ": package.xml"
+      ],
+      "coverage_results": [
+        {
+          "class_name": "CursorContacts",
+          "coverage_percent": 84.61538461538461,
+          "covered_lines": 11,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "getContactDataTableList",
+          "coverage_percent": 87.5,
+          "covered_lines": 7,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "UtilityMethods",
+          "coverage_percent": 81.81818181818183,
+          "covered_lines": 9,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "ItemMediaObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ClassesIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "StringManipulator",
+          "coverage_percent": 96.15384615384616,
+          "covered_lines": 25,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "WoWPlayableClasses",
+          "coverage_percent": 91.66666666666666,
+          "covered_lines": 22,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "ESCCDeviceController",
+          "coverage_percent": 81.81818181818183,
+          "covered_lines": 81,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "ClassObject",
+          "coverage_percent": 100,
+          "covered_lines": 30,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterEquipmentSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 107,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "MicrobatchSelfRegController",
+          "coverage_percent": 80,
+          "covered_lines": 32,
+          "uncovered_lines": 8
+        },
+        {
+          "class_name": "CommunitiesSelfRegConfirmController",
+          "coverage_percent": 100,
+          "covered_lines": 1,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ChatterFeedController",
+          "coverage_percent": 95.91836734693877,
+          "covered_lines": 47,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "WoWDataAPI",
+          "coverage_percent": 100,
+          "covered_lines": 20,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "WoWProfileAPI",
+          "coverage_percent": 100,
+          "covered_lines": 20,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "LightningSelfRegisterController",
+          "coverage_percent": 72.72727272727273,
+          "covered_lines": 56,
+          "uncovered_lines": 21
+        },
+        {
+          "class_name": "WoWPlayableRaces",
+          "coverage_percent": 90.9090909090909,
+          "covered_lines": 10,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "EisacEsccDevicesController",
+          "coverage_percent": 87.09677419354838,
+          "covered_lines": 108,
+          "uncovered_lines": 16
+        },
+        {
+          "class_name": "LightningLoginFormController",
+          "coverage_percent": 45.45454545454545,
+          "covered_lines": 15,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "KrakenDataTableConfigSelector",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "SiteRegisterController",
+          "coverage_percent": 81.48148148148148,
+          "covered_lines": 22,
+          "uncovered_lines": 5
+        },
+        {
+          "class_name": "VibeAccountTableController",
+          "coverage_percent": 100,
+          "covered_lines": 33,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ChangePasswordController",
+          "coverage_percent": 100,
+          "covered_lines": 6,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "PortalUserAccounts",
+          "coverage_percent": 100,
+          "covered_lines": 3,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "SiteLoginController",
+          "coverage_percent": 100,
+          "covered_lines": 6,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterMediaSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 16,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "RealmIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 9,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlus",
+          "coverage_percent": 82,
+          "covered_lines": 82,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "KrakenDataTableController",
+          "coverage_percent": 100,
+          "covered_lines": 110,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "WoWRealms",
+          "coverage_percent": 90.9090909090909,
+          "covered_lines": 10,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "WoWPlayableRaceClassCombination",
+          "coverage_percent": 94.44444444444444,
+          "covered_lines": 17,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "CommunitiesLandingController",
+          "coverage_percent": 100,
+          "covered_lines": 3,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterProfileSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 109,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "KnowledgeArticleController",
+          "coverage_percent": 72.72727272727273,
+          "covered_lines": 24,
+          "uncovered_lines": 9
+        },
+        {
+          "class_name": "RacesIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CommunitiesLoginController",
+          "coverage_percent": 100,
+          "covered_lines": 5,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CommunitiesSelfRegController",
+          "coverage_percent": 76.19047619047619,
+          "covered_lines": 32,
+          "uncovered_lines": 10
+        },
+        {
+          "class_name": "WoWCharacter",
+          "coverage_percent": 98.4251968503937,
+          "covered_lines": 125,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "AccountController",
+          "coverage_percent": 84.21052631578947,
+          "covered_lines": 16,
+          "uncovered_lines": 3
+        },
+        {
+          "class_name": "ForgotPasswordController",
+          "coverage_percent": 88.88888888888889,
+          "covered_lines": 8,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "MyProfilePageController",
+          "coverage_percent": 87.5,
+          "covered_lines": 21,
+          "uncovered_lines": 3
+        },
+        {
+          "class_name": "LightningForgotPasswordController",
+          "coverage_percent": 50,
+          "covered_lines": 9,
+          "uncovered_lines": 9
+        }
+      ],
+      "coverage_threshold": {
+        "actual_coverage": 89.40123881624226,
+        "passed": true,
+        "required_coverage": 85
+      },
+      "deployment_id": "0Afak00000VcDOzCAN",
+      "overall_coverage": 89.40123881624226,
+      "status": "Succeeded",
+      "success": true,
+      "test_results": [
+        {
+          "class_name": "AccountControllerTest",
+          "message": null,
+          "method_name": "testGetAccounts",
+          "outcome": "Pass",
+          "run_time_ms": 167000
+        },
+        {
+          "class_name": "AccountControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsNoAccess",
+          "outcome": "Pass",
+          "run_time_ms": 848000
+        },
+        {
+          "class_name": "ChangePasswordControllerTest",
+          "message": null,
+          "method_name": "testChangePasswordController",
+          "outcome": "Pass",
+          "run_time_ms": 84000
+        },
+        {
+          "class_name": "CharacterEquipmentSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 80000
+        },
+        {
+          "class_name": "CharacterMediaSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 71000
+        },
+        {
+          "class_name": "CharacterProfileSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 72000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCoverageForConnectApi",
+          "outcome": "Pass",
+          "run_time_ms": 59000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCreateFeedItemFailure",
+          "outcome": "Pass",
+          "run_time_ms": 72000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCreateFeedItemWithMention",
+          "outcome": "Pass",
+          "run_time_ms": 89000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testGetFeedItems",
+          "outcome": "Pass",
+          "run_time_ms": 123000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testGetFeedItemsFailure",
+          "outcome": "Pass",
+          "run_time_ms": 71000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testLikeAndUnlikeFeedItem",
+          "outcome": "Pass",
+          "run_time_ms": 232000
+        },
+        {
+          "class_name": "ClassesIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 81000
+        },
+        {
+          "class_name": "ClassObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "CommunitiesLandingControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesLandingController",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "CommunitiesLoginControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesLoginController",
+          "outcome": "Pass",
+          "run_time_ms": 66000
+        },
+        {
+          "class_name": "CommunitiesSelfRegConfirmControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesSelfRegConfirmController",
+          "outcome": "Pass",
+          "run_time_ms": 67000
+        },
+        {
+          "class_name": "CommunitiesSelfRegControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesSelfRegController",
+          "outcome": "Pass",
+          "run_time_ms": 66000
+        },
+        {
+          "class_name": "CursorContactsTest",
+          "message": null,
+          "method_name": "testGetContacts",
+          "outcome": "Pass",
+          "run_time_ms": 114000
+        },
+        {
+          "class_name": "CursorContactsTest",
+          "message": null,
+          "method_name": "testGetTotalContacts",
+          "outcome": "Pass",
+          "run_time_ms": 89000
+        },
+        {
+          "class_name": "EisacEsccDevicesControllerTest",
+          "message": null,
+          "method_name": "testExportToCSV",
+          "outcome": "Pass",
+          "run_time_ms": 87000
+        },
+        {
+          "class_name": "EisacEsccDevicesControllerTest",
+          "message": null,
+          "method_name": "testGetDeviceData",
+          "outcome": "Pass",
+          "run_time_ms": 99000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetCSVData",
+          "outcome": "Pass",
+          "run_time_ms": 82000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetTotalCount",
+          "outcome": "Pass",
+          "run_time_ms": 101000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetTreeData",
+          "outcome": "Pass",
+          "run_time_ms": 117000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetCSVData",
+          "outcome": "Pass",
+          "run_time_ms": 57000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetTotalCount",
+          "outcome": "Pass",
+          "run_time_ms": 97000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetTreeData",
+          "outcome": "Pass",
+          "run_time_ms": 111000
+        },
+        {
+          "class_name": "ForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testForgotPasswordController",
+          "outcome": "Pass",
+          "run_time_ms": 64000
+        },
+        {
+          "class_name": "getContactDataTableListTest",
+          "message": null,
+          "method_name": "testGetList",
+          "outcome": "Pass",
+          "run_time_ms": 45000
+        },
+        {
+          "class_name": "ItemMediaObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 66000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testFindArticleByUrlName",
+          "outcome": "Pass",
+          "run_time_ms": 88000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testFindArticleByUrlNameEmpty",
+          "outcome": "Pass",
+          "run_time_ms": 69000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testGetArticles",
+          "outcome": "Pass",
+          "run_time_ms": 76000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testNoAccess",
+          "outcome": "Pass",
+          "run_time_ms": 415000
+        },
+        {
+          "class_name": "KrakenDataTableConfigSelectorTest",
+          "message": null,
+          "method_name": "testSelector",
+          "outcome": "Pass",
+          "run_time_ms": 121000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testConfigSelectorPicklist",
+          "outcome": "Pass",
+          "run_time_ms": 29000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testDeleteConfig",
+          "outcome": "Pass",
+          "run_time_ms": 440000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetAllConfigs",
+          "outcome": "Pass",
+          "run_time_ms": 79000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetConfig",
+          "outcome": "Pass",
+          "run_time_ms": 88000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetFieldOptions",
+          "outcome": "Pass",
+          "run_time_ms": 251000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetObjectOptions",
+          "outcome": "Pass",
+          "run_time_ms": 761000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetRecords",
+          "outcome": "Pass",
+          "run_time_ms": 123000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testSaveConfig",
+          "outcome": "Pass",
+          "run_time_ms": 105000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testUpdateConfig",
+          "outcome": "Pass",
+          "run_time_ms": 111000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testUpdateRecords",
+          "outcome": "Pass",
+          "run_time_ms": 272000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "LightningForgotPasswordControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 65000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testLightningForgotPasswordControllerInvalidUserName",
+          "outcome": "Pass",
+          "run_time_ms": 64000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testLightningForgotPasswordControllerWithNullCheckEmailRef",
+          "outcome": "Pass",
+          "run_time_ms": 64000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "LightningLoginFormControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 66000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testAuthConfig",
+          "outcome": "Pass",
+          "run_time_ms": 140000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testGetSelfRegistrationURL",
+          "outcome": "Pass",
+          "run_time_ms": 126000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testIsSelfRegistrationEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 116000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testIsUsernamePasswordEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 142000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "LightningSelfRegisterControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 69000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetExtraFieldsInSelfRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 76000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetNonEmptyExtraFields",
+          "outcome": "Pass",
+          "run_time_ms": 72000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetNullExtraFields",
+          "outcome": "Pass",
+          "run_time_ms": 75000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testIsValidPassword",
+          "outcome": "Pass",
+          "run_time_ms": 68000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegisterWithCreatedAccount",
+          "outcome": "Pass",
+          "run_time_ms": 126000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegisterWithProperCredentials",
+          "outcome": "Pass",
+          "run_time_ms": 64000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 62000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSiteAsContainerEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 126000
+        },
+        {
+          "class_name": "MicrobatchSelfRegControllerTest",
+          "message": null,
+          "method_name": "testMicrobatchSelfRegController",
+          "outcome": "Pass",
+          "run_time_ms": 63000
+        },
+        {
+          "class_name": "MyProfilePageControllerTest",
+          "message": null,
+          "method_name": "testSave",
+          "outcome": "Pass",
+          "run_time_ms": 282000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountFail",
+          "outcome": "Pass",
+          "run_time_ms": 165000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountSuccess",
+          "outcome": "Pass",
+          "run_time_ms": 184000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountSuccessMultiple",
+          "outcome": "Pass",
+          "run_time_ms": 170000
+        },
+        {
+          "class_name": "RacesIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 60000
+        },
+        {
+          "class_name": "RealmIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 62000
+        },
+        {
+          "class_name": "SiteLoginControllerTest",
+          "message": null,
+          "method_name": "testSiteLoginController",
+          "outcome": "Pass",
+          "run_time_ms": 64000
+        },
+        {
+          "class_name": "SiteRegisterControllerTest",
+          "message": null,
+          "method_name": "testRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 69000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalize",
+          "outcome": "Pass",
+          "run_time_ms": 71000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalizeBlank",
+          "outcome": "Pass",
+          "run_time_ms": 68000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowels",
+          "outcome": "Pass",
+          "run_time_ms": 71000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowelsNone",
+          "outcome": "Pass",
+          "run_time_ms": 65000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseString",
+          "outcome": "Pass",
+          "run_time_ms": 72000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseStringBlank",
+          "outcome": "Pass",
+          "run_time_ms": 66000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncate",
+          "outcome": "Pass",
+          "run_time_ms": 62000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateBlank",
+          "outcome": "Pass",
+          "run_time_ms": 62000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateShortString",
+          "outcome": "Pass",
+          "run_time_ms": 64000
+        },
+        {
+          "class_name": "UtilityMethodsTest",
+          "message": null,
+          "method_name": "testCallRetryFailureThenSuccess",
+          "outcome": "Pass",
+          "run_time_ms": 68000
+        },
+        {
+          "class_name": "UtilityMethodsTest",
+          "message": null,
+          "method_name": "testCallRetrySuccess",
+          "outcome": "Pass",
+          "run_time_ms": 68000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsInvalidInputs",
+          "outcome": "Pass",
+          "run_time_ms": 42000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsPaged",
+          "outcome": "Pass",
+          "run_time_ms": 74000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsWithSearch",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "WoWCharacterTest",
+          "message": null,
+          "method_name": "testCreateCharacterApplicantAndModel",
+          "outcome": "Pass",
+          "run_time_ms": 1285000
+        },
+        {
+          "class_name": "WoWCharacterTest",
+          "message": null,
+          "method_name": "testCreateCharacterLead",
+          "outcome": "Pass",
+          "run_time_ms": 776000
+        },
+        {
+          "class_name": "WoWDataAPITest",
+          "message": null,
+          "method_name": "testFetchMethods",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterEquipmentSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 70000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterMediaSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 68000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterProfileSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 71000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testClassObject",
+          "outcome": "Pass",
+          "run_time_ms": 74000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testClassesIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 71000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testItemMediaObject",
+          "outcome": "Pass",
+          "run_time_ms": 72000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testRacesIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 75000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testRealmIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 70000
+        },
+        {
+          "class_name": "WoWPlayableClassesTest",
+          "message": null,
+          "method_name": "testCreatePlayableClassSpecs",
+          "outcome": "Pass",
+          "run_time_ms": 151000
+        },
+        {
+          "class_name": "WoWPlayableClassesTest",
+          "message": null,
+          "method_name": "testCreatePlayableClasses",
+          "outcome": "Pass",
+          "run_time_ms": 115000
+        },
+        {
+          "class_name": "WoWPlayableRaceClassCombinationTest",
+          "message": null,
+          "method_name": "testCreateCombinations",
+          "outcome": "Pass",
+          "run_time_ms": 169000
+        },
+        {
+          "class_name": "WoWPlayableRacesTest",
+          "message": null,
+          "method_name": "testCreatePlayableRaces",
+          "outcome": "Pass",
+          "run_time_ms": 112000
+        },
+        {
+          "class_name": "WoWPOJOTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 70000
+        },
+        {
+          "class_name": "WoWProfileAPITest",
+          "message": null,
+          "method_name": "testFetchMethods",
+          "outcome": "Pass",
+          "run_time_ms": 69000
+        },
+        {
+          "class_name": "WoWRealmsTest",
+          "message": null,
+          "method_name": "testCreateAllRealms",
+          "outcome": "Pass",
+          "run_time_ms": 123000
+        }
+      ]
+    },
+    "validation_id": null,
+    "created_by": "vmarquez",
+    "target_env_name": "DevVM",
+    "jira_issue_key": null
+  },
+  {
+    "id": "cfg-1772474750631",
+    "name": "Testing Rollback Snapshot",
+    "project_id": "fa4f2631-e53d-49f7-92a9-4dd81835ab16",
+    "source_branch": "feat/omega-vibe",
+    "target_env_username": "victor@marquez.com",
+    "selected_metadata": [
+      {
+        "file_path": ".kraken/deployment-configs.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "deployment-configs.json",
+        "selected": false
+      },
+      {
+        "file_path": "coverage/coverage/coverage.json",
+        "change_type": "Modified",
+        "metadata_type": "Metadata",
+        "component_name": "coverage.json",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/AccountControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "AccountControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterEquipmentSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterEquipmentSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterMediaSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterMediaSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CharacterProfileSummaryObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CharacterProfileSummaryObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedController.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedController",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ChatterFeedControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "ChatterFeedControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ClassesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ClassesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/CursorContactsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "CursorContactsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerPlusTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerPlusTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ESCCDeviceControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ESCCDeviceControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/EisacEsccDevicesControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "EisacEsccDevicesControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/ItemMediaObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "ItemMediaObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KnowledgeArticleControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KnowledgeArticleControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableConfigSelectorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableConfigSelectorTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/KrakenDataTableControllerTest.cls",
+        "change_type": "Modified",
+        "metadata_type": "ApexClass",
+        "component_name": "KrakenDataTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/MultiMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "MultiMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RacesIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RacesIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/RealmIndexObjectTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "RealmIndexObjectTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulator.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulator.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/StringManipulatorTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "StringManipulatorTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/TestDataFactory.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "TestDataFactory.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsMock.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsMock.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/UtilityMethodsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "UtilityMethodsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/VibeAccountTableControllerTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "VibeAccountTableControllerTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWCharacterTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWCharacterTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWDataAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWDataAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWObjectsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWObjectsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPOJOTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPOJOTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableClassesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableClassesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRaceClassCombinationTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRaceClassCombinationTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWPlayableRacesTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWPlayableRacesTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWProfileAPITest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWProfileAPITest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/WoWRealmsTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "WoWRealmsTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/classes/getContactDataTableListTest.cls-meta.xml",
+        "change_type": "Added",
+        "metadata_type": "ApexClass",
+        "component_name": "getContactDataTableListTest.cls-meta",
+        "selected": false
+      },
+      {
+        "file_path": "force-app/main/default/lwc/accountTable/accountTable.html",
+        "change_type": "Modified",
+        "metadata_type": "LightningComponentBundle",
+        "component_name": "accountTable",
+        "selected": true
+      },
+      {
+        "file_path": "force-app/main/default/lwc/vibeAccountTable/vibeAccountTable.html",
+        "change_type": "Modified",
+        "metadata_type": "LightningComponentBundle",
+        "component_name": "vibeAccountTable",
+        "selected": false
+      }
+    ],
+    "test_level": "RunLocalTests",
+    "test_classes": [],
+    "created_at": "2026-03-02T18:05:50.631Z",
+    "base_branch": "master",
+    "pr_number": null,
+    "pr_url": null,
+    "pr_status": null,
+    "deployment_ready": true,
+    "config_status": "deployed",
+    "last_validation_at": null,
+    "last_deployment_at": "2026-03-02T18:05:50.631Z",
+    "last_result": {
+      "component_failures": [],
+      "component_successes": [
+        "LightningComponentBundle: accountTable",
+        ": package.xml"
+      ],
+      "coverage_results": [
+        {
+          "class_name": "CursorContacts",
+          "coverage_percent": 84.61538461538461,
+          "covered_lines": 11,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "getContactDataTableList",
+          "coverage_percent": 87.5,
+          "covered_lines": 7,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "UtilityMethods",
+          "coverage_percent": 81.81818181818183,
+          "covered_lines": 9,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "ItemMediaObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ClassesIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "StringManipulator",
+          "coverage_percent": 96.15384615384616,
+          "covered_lines": 25,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "WoWPlayableClasses",
+          "coverage_percent": 91.66666666666666,
+          "covered_lines": 22,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "ESCCDeviceController",
+          "coverage_percent": 81.81818181818183,
+          "covered_lines": 81,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "ClassObject",
+          "coverage_percent": 100,
+          "covered_lines": 30,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterEquipmentSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 107,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "MicrobatchSelfRegController",
+          "coverage_percent": 80,
+          "covered_lines": 32,
+          "uncovered_lines": 8
+        },
+        {
+          "class_name": "CommunitiesSelfRegConfirmController",
+          "coverage_percent": 100,
+          "covered_lines": 1,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ChatterFeedController",
+          "coverage_percent": 95.91836734693877,
+          "covered_lines": 47,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "WoWDataAPI",
+          "coverage_percent": 100,
+          "covered_lines": 20,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "WoWProfileAPI",
+          "coverage_percent": 100,
+          "covered_lines": 20,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "LightningSelfRegisterController",
+          "coverage_percent": 72.72727272727273,
+          "covered_lines": 56,
+          "uncovered_lines": 21
+        },
+        {
+          "class_name": "WoWPlayableRaces",
+          "coverage_percent": 90.9090909090909,
+          "covered_lines": 10,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "EisacEsccDevicesController",
+          "coverage_percent": 87.09677419354838,
+          "covered_lines": 108,
+          "uncovered_lines": 16
+        },
+        {
+          "class_name": "LightningLoginFormController",
+          "coverage_percent": 45.45454545454545,
+          "covered_lines": 15,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "KrakenDataTableConfigSelector",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "SiteRegisterController",
+          "coverage_percent": 81.48148148148148,
+          "covered_lines": 22,
+          "uncovered_lines": 5
+        },
+        {
+          "class_name": "VibeAccountTableController",
+          "coverage_percent": 100,
+          "covered_lines": 33,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ChangePasswordController",
+          "coverage_percent": 100,
+          "covered_lines": 6,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "PortalUserAccounts",
+          "coverage_percent": 100,
+          "covered_lines": 3,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "SiteLoginController",
+          "coverage_percent": 100,
+          "covered_lines": 6,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterMediaSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 16,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "RealmIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 9,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlus",
+          "coverage_percent": 82,
+          "covered_lines": 82,
+          "uncovered_lines": 18
+        },
+        {
+          "class_name": "KrakenDataTableController",
+          "coverage_percent": 100,
+          "covered_lines": 110,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "WoWRealms",
+          "coverage_percent": 90.9090909090909,
+          "covered_lines": 10,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "WoWPlayableRaceClassCombination",
+          "coverage_percent": 94.44444444444444,
+          "covered_lines": 17,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "CommunitiesLandingController",
+          "coverage_percent": 100,
+          "covered_lines": 3,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CharacterProfileSummaryObject",
+          "coverage_percent": 100,
+          "covered_lines": 109,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "KnowledgeArticleController",
+          "coverage_percent": 72.72727272727273,
+          "covered_lines": 24,
+          "uncovered_lines": 9
+        },
+        {
+          "class_name": "RacesIndexObject",
+          "coverage_percent": 100,
+          "covered_lines": 8,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CommunitiesLoginController",
+          "coverage_percent": 100,
+          "covered_lines": 5,
+          "uncovered_lines": 0
+        },
+        {
+          "class_name": "CommunitiesSelfRegController",
+          "coverage_percent": 76.19047619047619,
+          "covered_lines": 32,
+          "uncovered_lines": 10
+        },
+        {
+          "class_name": "WoWCharacter",
+          "coverage_percent": 98.4251968503937,
+          "covered_lines": 125,
+          "uncovered_lines": 2
+        },
+        {
+          "class_name": "AccountController",
+          "coverage_percent": 84.21052631578947,
+          "covered_lines": 16,
+          "uncovered_lines": 3
+        },
+        {
+          "class_name": "ForgotPasswordController",
+          "coverage_percent": 88.88888888888889,
+          "covered_lines": 8,
+          "uncovered_lines": 1
+        },
+        {
+          "class_name": "MyProfilePageController",
+          "coverage_percent": 87.5,
+          "covered_lines": 21,
+          "uncovered_lines": 3
+        },
+        {
+          "class_name": "LightningForgotPasswordController",
+          "coverage_percent": 50,
+          "covered_lines": 9,
+          "uncovered_lines": 9
+        }
+      ],
+      "coverage_threshold": {
+        "actual_coverage": 89.40123881624226,
+        "passed": true,
+        "required_coverage": 85
+      },
+      "deployment_id": "0Afak00000VcFgvCAF",
+      "overall_coverage": 89.40123881624226,
+      "status": "Succeeded",
+      "success": true,
+      "test_results": [
+        {
+          "class_name": "AccountControllerTest",
+          "message": null,
+          "method_name": "testGetAccounts",
+          "outcome": "Pass",
+          "run_time_ms": 186000
+        },
+        {
+          "class_name": "AccountControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsNoAccess",
+          "outcome": "Pass",
+          "run_time_ms": 867000
+        },
+        {
+          "class_name": "ChangePasswordControllerTest",
+          "message": null,
+          "method_name": "testChangePasswordController",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "CharacterEquipmentSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 97000
+        },
+        {
+          "class_name": "CharacterMediaSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 85000
+        },
+        {
+          "class_name": "CharacterProfileSummaryObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCoverageForConnectApi",
+          "outcome": "Pass",
+          "run_time_ms": 55000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCreateFeedItemFailure",
+          "outcome": "Pass",
+          "run_time_ms": 81000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testCreateFeedItemWithMention",
+          "outcome": "Pass",
+          "run_time_ms": 86000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testGetFeedItems",
+          "outcome": "Pass",
+          "run_time_ms": 139000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testGetFeedItemsFailure",
+          "outcome": "Pass",
+          "run_time_ms": 82000
+        },
+        {
+          "class_name": "ChatterFeedControllerTest",
+          "message": null,
+          "method_name": "testLikeAndUnlikeFeedItem",
+          "outcome": "Pass",
+          "run_time_ms": 98000
+        },
+        {
+          "class_name": "ClassesIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 75000
+        },
+        {
+          "class_name": "ClassObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 97000
+        },
+        {
+          "class_name": "CommunitiesLandingControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesLandingController",
+          "outcome": "Pass",
+          "run_time_ms": 78000
+        },
+        {
+          "class_name": "CommunitiesLoginControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesLoginController",
+          "outcome": "Pass",
+          "run_time_ms": 85000
+        },
+        {
+          "class_name": "CommunitiesSelfRegConfirmControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesSelfRegConfirmController",
+          "outcome": "Pass",
+          "run_time_ms": 81000
+        },
+        {
+          "class_name": "CommunitiesSelfRegControllerTest",
+          "message": null,
+          "method_name": "testCommunitiesSelfRegController",
+          "outcome": "Pass",
+          "run_time_ms": 80000
+        },
+        {
+          "class_name": "CursorContactsTest",
+          "message": null,
+          "method_name": "testGetContacts",
+          "outcome": "Pass",
+          "run_time_ms": 146000
+        },
+        {
+          "class_name": "CursorContactsTest",
+          "message": null,
+          "method_name": "testGetTotalContacts",
+          "outcome": "Pass",
+          "run_time_ms": 108000
+        },
+        {
+          "class_name": "EisacEsccDevicesControllerTest",
+          "message": null,
+          "method_name": "testExportToCSV",
+          "outcome": "Pass",
+          "run_time_ms": 103000
+        },
+        {
+          "class_name": "EisacEsccDevicesControllerTest",
+          "message": null,
+          "method_name": "testGetDeviceData",
+          "outcome": "Pass",
+          "run_time_ms": 183000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetCSVData",
+          "outcome": "Pass",
+          "run_time_ms": 70000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetTotalCount",
+          "outcome": "Pass",
+          "run_time_ms": 116000
+        },
+        {
+          "class_name": "ESCCDeviceControllerPlusTest",
+          "message": null,
+          "method_name": "testGetTreeData",
+          "outcome": "Pass",
+          "run_time_ms": 137000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetCSVData",
+          "outcome": "Pass",
+          "run_time_ms": 56000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetTotalCount",
+          "outcome": "Pass",
+          "run_time_ms": 105000
+        },
+        {
+          "class_name": "ESCCDeviceControllerTest",
+          "message": null,
+          "method_name": "testGetTreeData",
+          "outcome": "Pass",
+          "run_time_ms": 129000
+        },
+        {
+          "class_name": "ForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testForgotPasswordController",
+          "outcome": "Pass",
+          "run_time_ms": 87000
+        },
+        {
+          "class_name": "getContactDataTableListTest",
+          "message": null,
+          "method_name": "testGetList",
+          "outcome": "Pass",
+          "run_time_ms": 49000
+        },
+        {
+          "class_name": "ItemMediaObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 87000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testFindArticleByUrlName",
+          "outcome": "Pass",
+          "run_time_ms": 104000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testFindArticleByUrlNameEmpty",
+          "outcome": "Pass",
+          "run_time_ms": 82000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testGetArticles",
+          "outcome": "Pass",
+          "run_time_ms": 95000
+        },
+        {
+          "class_name": "KnowledgeArticleControllerTest",
+          "message": null,
+          "method_name": "testNoAccess",
+          "outcome": "Pass",
+          "run_time_ms": 431000
+        },
+        {
+          "class_name": "KrakenDataTableConfigSelectorTest",
+          "message": null,
+          "method_name": "testSelector",
+          "outcome": "Pass",
+          "run_time_ms": 137000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testConfigSelectorPicklist",
+          "outcome": "Pass",
+          "run_time_ms": 31000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testDeleteConfig",
+          "outcome": "Pass",
+          "run_time_ms": 495000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetAllConfigs",
+          "outcome": "Pass",
+          "run_time_ms": 96000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetConfig",
+          "outcome": "Pass",
+          "run_time_ms": 98000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetFieldOptions",
+          "outcome": "Pass",
+          "run_time_ms": 401000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetObjectOptions",
+          "outcome": "Pass",
+          "run_time_ms": 776000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testGetRecords",
+          "outcome": "Pass",
+          "run_time_ms": 138000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testSaveConfig",
+          "outcome": "Pass",
+          "run_time_ms": 110000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testUpdateConfig",
+          "outcome": "Pass",
+          "run_time_ms": 122000
+        },
+        {
+          "class_name": "KrakenDataTableControllerTest",
+          "message": null,
+          "method_name": "testUpdateRecords",
+          "outcome": "Pass",
+          "run_time_ms": 322000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "LightningForgotPasswordControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 84000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testLightningForgotPasswordControllerInvalidUserName",
+          "outcome": "Pass",
+          "run_time_ms": 78000
+        },
+        {
+          "class_name": "LightningForgotPasswordControllerTest",
+          "message": null,
+          "method_name": "testLightningForgotPasswordControllerWithNullCheckEmailRef",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "LightningLoginFormControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 84000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testAuthConfig",
+          "outcome": "Pass",
+          "run_time_ms": 156000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testGetSelfRegistrationURL",
+          "outcome": "Pass",
+          "run_time_ms": 138000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testIsSelfRegistrationEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 149000
+        },
+        {
+          "class_name": "LightningLoginFormControllerTest",
+          "message": null,
+          "method_name": "testIsUsernamePasswordEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 144000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "LightningSelfRegisterControllerInstantiation",
+          "outcome": "Pass",
+          "run_time_ms": 76000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetExtraFieldsInSelfRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 82000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetNonEmptyExtraFields",
+          "outcome": "Pass",
+          "run_time_ms": 78000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testGetNullExtraFields",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testIsValidPassword",
+          "outcome": "Pass",
+          "run_time_ms": 89000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegisterWithCreatedAccount",
+          "outcome": "Pass",
+          "run_time_ms": 163000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegisterWithProperCredentials",
+          "outcome": "Pass",
+          "run_time_ms": 80000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSelfRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 86000
+        },
+        {
+          "class_name": "LightningSelfRegisterControllerTest",
+          "message": null,
+          "method_name": "testSiteAsContainerEnabled",
+          "outcome": "Pass",
+          "run_time_ms": 156000
+        },
+        {
+          "class_name": "MicrobatchSelfRegControllerTest",
+          "message": null,
+          "method_name": "testMicrobatchSelfRegController",
+          "outcome": "Pass",
+          "run_time_ms": 75000
+        },
+        {
+          "class_name": "MyProfilePageControllerTest",
+          "message": null,
+          "method_name": "testSave",
+          "outcome": "Pass",
+          "run_time_ms": 325000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountFail",
+          "outcome": "Pass",
+          "run_time_ms": 209000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountSuccess",
+          "outcome": "Pass",
+          "run_time_ms": 195000
+        },
+        {
+          "class_name": "PortalUserAccountsTest",
+          "message": null,
+          "method_name": "getAccountSuccessMultiple",
+          "outcome": "Pass",
+          "run_time_ms": 222000
+        },
+        {
+          "class_name": "RacesIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 91000
+        },
+        {
+          "class_name": "RealmIndexObjectTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 81000
+        },
+        {
+          "class_name": "SiteLoginControllerTest",
+          "message": null,
+          "method_name": "testSiteLoginController",
+          "outcome": "Pass",
+          "run_time_ms": 75000
+        },
+        {
+          "class_name": "SiteRegisterControllerTest",
+          "message": null,
+          "method_name": "testRegistration",
+          "outcome": "Pass",
+          "run_time_ms": 77000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalize",
+          "outcome": "Pass",
+          "run_time_ms": 83000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCapitalizeBlank",
+          "outcome": "Pass",
+          "run_time_ms": 83000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowels",
+          "outcome": "Pass",
+          "run_time_ms": 78000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testCountVowelsNone",
+          "outcome": "Pass",
+          "run_time_ms": 84000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseString",
+          "outcome": "Pass",
+          "run_time_ms": 82000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testReverseStringBlank",
+          "outcome": "Pass",
+          "run_time_ms": 80000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncate",
+          "outcome": "Pass",
+          "run_time_ms": 76000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateBlank",
+          "outcome": "Pass",
+          "run_time_ms": 80000
+        },
+        {
+          "class_name": "StringManipulatorTest",
+          "message": null,
+          "method_name": "testTruncateShortString",
+          "outcome": "Pass",
+          "run_time_ms": 84000
+        },
+        {
+          "class_name": "UtilityMethodsTest",
+          "message": null,
+          "method_name": "testCallRetryFailureThenSuccess",
+          "outcome": "Pass",
+          "run_time_ms": 93000
+        },
+        {
+          "class_name": "UtilityMethodsTest",
+          "message": null,
+          "method_name": "testCallRetrySuccess",
+          "outcome": "Pass",
+          "run_time_ms": 81000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsInvalidInputs",
+          "outcome": "Pass",
+          "run_time_ms": 43000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsPaged",
+          "outcome": "Pass",
+          "run_time_ms": 109000
+        },
+        {
+          "class_name": "VibeAccountTableControllerTest",
+          "message": null,
+          "method_name": "testGetAccountsWithSearch",
+          "outcome": "Pass",
+          "run_time_ms": 133000
+        },
+        {
+          "class_name": "WoWCharacterTest",
+          "message": null,
+          "method_name": "testCreateCharacterApplicantAndModel",
+          "outcome": "Pass",
+          "run_time_ms": 1381000
+        },
+        {
+          "class_name": "WoWCharacterTest",
+          "message": null,
+          "method_name": "testCreateCharacterLead",
+          "outcome": "Pass",
+          "run_time_ms": 239000
+        },
+        {
+          "class_name": "WoWDataAPITest",
+          "message": null,
+          "method_name": "testFetchMethods",
+          "outcome": "Pass",
+          "run_time_ms": 85000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterEquipmentSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 83000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterMediaSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 79000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testCharacterProfileSummaryObject",
+          "outcome": "Pass",
+          "run_time_ms": 82000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testClassObject",
+          "outcome": "Pass",
+          "run_time_ms": 79000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testClassesIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 94000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testItemMediaObject",
+          "outcome": "Pass",
+          "run_time_ms": 92000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testRacesIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 81000
+        },
+        {
+          "class_name": "WoWObjectsTest",
+          "message": null,
+          "method_name": "testRealmIndexObject",
+          "outcome": "Pass",
+          "run_time_ms": 79000
+        },
+        {
+          "class_name": "WoWPlayableClassesTest",
+          "message": null,
+          "method_name": "testCreatePlayableClassSpecs",
+          "outcome": "Pass",
+          "run_time_ms": 155000
+        },
+        {
+          "class_name": "WoWPlayableClassesTest",
+          "message": null,
+          "method_name": "testCreatePlayableClasses",
+          "outcome": "Pass",
+          "run_time_ms": 124000
+        },
+        {
+          "class_name": "WoWPlayableRaceClassCombinationTest",
+          "message": null,
+          "method_name": "testCreateCombinations",
+          "outcome": "Pass",
+          "run_time_ms": 199000
+        },
+        {
+          "class_name": "WoWPlayableRacesTest",
+          "message": null,
+          "method_name": "testCreatePlayableRaces",
+          "outcome": "Pass",
+          "run_time_ms": 293000
+        },
+        {
+          "class_name": "WoWPOJOTest",
+          "message": null,
+          "method_name": "testAll",
+          "outcome": "Pass",
+          "run_time_ms": 106000
+        },
+        {
+          "class_name": "WoWProfileAPITest",
+          "message": null,
+          "method_name": "testFetchMethods",
+          "outcome": "Pass",
+          "run_time_ms": 96000
+        },
+        {
+          "class_name": "WoWRealmsTest",
+          "message": null,
+          "method_name": "testCreateAllRealms",
+          "outcome": "Pass",
+          "run_time_ms": 135000
+        }
+      ]
+    },
+    "validation_id": null,
+    "created_by": "vmarquez",
+    "target_env_name": "DevVM",
+    "jira_issue_key": null
   }
 ]

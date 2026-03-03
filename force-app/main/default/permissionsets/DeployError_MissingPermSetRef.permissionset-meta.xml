@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    DEPLOY ERROR TEST: Missing permission set / profile
+
+    Expected errors:
+      - "Field Account.Nonexistent_PermSet_Field__c does not exist" (missing field in permset)
+      - "Record type not found: Account.Nonexistent_Record_Type" (missing record type)
+    Error categories: Missing permission set reference, Missing record type
+-->
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Deploy Error Missing PermSet References</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Nonexistent_PermSet_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <recordTypeVisibilities>
+        <recordType>Account.Nonexistent_Record_Type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>
